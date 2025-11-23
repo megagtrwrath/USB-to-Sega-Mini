@@ -4,7 +4,7 @@ A Controller adapter for the Sega Saturn, MegaDrive and Genesis!
 ***Built on [Sonik-br's](https://github.com/sonik-br) USB2RetroConsole firmware***
 Link to the firmware ***[HERE!](https://github.com/sonik-br/usb2retroconsole-fw)***
 
-![Project Image](/Images/ProPrj_SaturnAdapter_2025-11-23.png)
+![Project Image](/Images/PCB.png)
 
 ## About this project
 This github repo includes the source KICAD files for making modifications, and has it's GERBER, BOM and CPL in the releases tab. You may need to make modifications to find suitable parts
