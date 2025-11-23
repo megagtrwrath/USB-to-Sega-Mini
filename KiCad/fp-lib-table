@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "ProPrj_SaturnAdapter_2025-11-23")(type "KiCad")(uri "$(KIPRJMOD)/ProPrj_SaturnAdapter_2025-11-23.pretty")(options "")(descr ""))
+)
