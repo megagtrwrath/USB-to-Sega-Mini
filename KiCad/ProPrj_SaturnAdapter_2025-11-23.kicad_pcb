@@ -115,9 +115,9 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 0)
+			(drillshape 1)
 			(scaleselection 1)
-			(outputdirectory "/home/mega/Documents/REV04_ProductionFiles/")
+			(outputdirectory "")
 		)
 	)
 	(net 0 "")
@@ -2328,7 +2328,6 @@
 				)
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom dnp)
 		(fp_rect
 			(start -9.402 -1.5)
 			(end 9.402 1.5)
@@ -3939,7 +3938,7 @@
 		(uuid "7032821a-0736-4cbd-89e3-bd4d9387dbbd")
 		(at 159.784 112.733 -90)
 		(property "Reference" "U3"
-			(at -8.382 -12.446 90)
+			(at -8.382 -12.446 270)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "cee3ca6c-c77c-4e7f-8de5-22b7f9a0ae08")
@@ -3948,11 +3947,11 @@
 					(size 0.686 0.6285)
 					(thickness 0.1525)
 				)
-				(justify right top)
+				(justify left bottom)
 			)
 		)
 		(property "Value" ""
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "F.Fab")
 			(uuid "8419b26f-cf31-47c7-bcca-19130e95ed22")
 			(effects
@@ -3963,7 +3962,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "31ec67de-46ad-4027-a550-3a34f3172dab")
@@ -3975,7 +3974,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "6fdfaaf1-ce52-4ae0-9f10-89b2cad4ec0e")
@@ -3987,7 +3986,7 @@
 			)
 		)
 		(property "JLC_3DModel_Q" "1bf195d7909f494fad4041e03d39ea80|0819f05c4eef4c71ace90d822a990e87"
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "Cmts.User")
 			(hide yes)
 			(uuid "5d853f2c-9294-411f-80ae-4d526db297b7")
@@ -3999,7 +3998,7 @@
 			)
 		)
 		(property "JLC_3D_Size" "18.002 24.701"
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "Cmts.User")
 			(hide yes)
 			(uuid "4938d6dd-a93e-4ada-ae82-ead4024062bd")
@@ -4010,7 +4009,6 @@
 				)
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start -9 11.2)
 			(end -9 10.446)
@@ -4716,7 +4714,7 @@
 			(uuid "aab6cd73-aae9-4400-9fa6-07913c150d0a")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "F.Fab")
 			(uuid "f7a18cc6-4d18-44b7-ae15-669779d51b69")
 			(effects
@@ -5240,7 +5238,6 @@
 				)
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom dnp)
 		(fp_circle
 			(center -6.55 -2)
 			(end -6.3 -2)
@@ -9700,7 +9697,7 @@
 			(size 1 0.8)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 16 "GND")
-			(uuid "aac79d34-7633-410b-b455-86e3352688be")
+			(uuid "76690728-91fa-4983-9a7e-fb4fc066880a")
 		)
 		(pad "5" smd rect
 			(at 2.75 -0.75 180)
@@ -9714,7 +9711,7 @@
 			(size 1 0.8)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 16 "GND")
-			(uuid "bc8e3560-61f7-4da6-8e9c-2debda28fac9")
+			(uuid "e9f2ff10-65a8-47f8-ab8b-81e075197155")
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/ProPrj_SaturnAdapter_2025-11-23.3dshapes/SW-SMD_MSK12CO2.wrl"
