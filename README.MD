@@ -17,9 +17,11 @@ I have manually excluded the DB9 connector and Saturn connector as to freely all
 
 Changes to be made here:
 <ul>
-	<li>Move power USB port to somewhere more usable</li>
-	<li>Make trace curves more consistend</li>
+	<li>Move power USB port to somewhere more usable - Moved central to the board while reducing size</li>
+	<li>Make trace curves more consistent - Achieved</li>
 </ul>
+
+This branch is now feature frozen until a prototype has been tested
 
 ## Features:
 <ul>
