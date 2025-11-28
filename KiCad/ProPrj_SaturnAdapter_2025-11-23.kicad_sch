@@ -3013,8 +3013,8 @@
 		)
 	)
 	(rectangle
-		(start 147.32 67.31)
-		(end 212.09 138.43)
+		(start 167.64 83.82)
+		(end 232.41 154.94)
 		(stroke
 			(width 0)
 			(type default)
@@ -3025,8 +3025,8 @@
 		(uuid 9e5bba7c-5261-4b64-abcc-d63e78ce99d6)
 	)
 	(rectangle
-		(start 73.66 0)
-		(end 132.08 153.67)
+		(start 66.04 34.29)
+		(end 124.46 187.96)
 		(stroke
 			(width 0)
 			(type default)
@@ -3037,8 +3037,8 @@
 		(uuid a029c5be-1eed-437c-a8ce-1f5e50483f24)
 	)
 	(rectangle
-		(start 0 41.91)
-		(end 72.39 85.09)
+		(start 58.42 13.97)
+		(end 15.24 86.36)
 		(stroke
 			(width 0)
 			(type default)
@@ -3049,8 +3049,8 @@
 		(uuid a2c5eaa7-3941-4eb9-97bf-40b6fe5b56a1)
 	)
 	(rectangle
-		(start 134.62 0)
-		(end 245.11 52.07)
+		(start 132.08 20.2946)
+		(end 226.06 72.3646)
 		(stroke
 			(width 0)
 			(type default)
@@ -3062,7 +3062,7 @@
 	)
 	(text "RP-2040 pinout for the MD/Saturn"
 		(exclude_from_sim no)
-		(at 161.29 137.16 0)
+		(at 181.61 153.67 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3073,7 +3073,7 @@
 	)
 	(text "USB power in + Toggle between USB power or power from the Saturn for the RP-2040"
 		(exclude_from_sim no)
-		(at 143.51 49.53 0)
+		(at 136.398 70.3326 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3084,18 +3084,18 @@
 	)
 	(text "Saturn controller port"
 		(exclude_from_sim no)
-		(at 44.45 71.12 90)
+		(at 50.038 58.674 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "3a9de78d-69a1-4296-a355-6ff76b3bcfca")
 	)
 	(text "Controller ports for respective consoles"
 		(exclude_from_sim no)
-		(at 17.78 81.28 0)
+		(at 17.526 86.106 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3106,18 +3106,18 @@
 	)
 	(text "DB9/MD controller port"
 		(exclude_from_sim no)
-		(at 1.27 49.53 90)
+		(at 29.464 18.288 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right top)
+			(justify left top)
 		)
 		(uuid "5badd1d9-3329-4c82-ae26-351a41a31b0e")
 	)
 	(text "Logic Level shifter"
 		(exclude_from_sim no)
-		(at 92.71 151.13 0)
+		(at 85.09 185.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3127,38 +3127,38 @@
 		(uuid "821d06ae-1651-4d07-8c17-a2b6e84df6c2")
 	)
 	(junction
-		(at 6.35 68.58)
+		(at 31.75 20.32)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0c2474ef-8e8e-465e-b384-4bcf6511a445")
 	)
 	(junction
-		(at 52.07 71.12)
+		(at 29.21 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6319a124-1763-4e12-a6c7-510c2ca62af3")
 	)
 	(junction
-		(at 166.37 78.7654)
+		(at 186.69 95.2754)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6492389e-8284-44d8-b059-2262a12c0e37")
 	)
 	(junction
-		(at 24.13 71.12)
+		(at 29.21 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a297cf0b-1c25-40e1-b30e-0fc482ea6ced")
 	)
 	(junction
-		(at 199.39 27.9654)
+		(at 180.34 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ebf75018-a8c5-49af-9dc6-78c1dd4f700c")
 	)
 	(wire
 		(pts
-			(xy 204.47 36.8554) (xy 204.47 21.6154)
+			(xy 185.42 57.15) (xy 185.42 41.91)
 		)
 		(stroke
 			(width 0)
@@ -3168,7 +3168,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 71.12) (xy 24.13 71.12)
+			(xy 29.21 66.04) (xy 29.21 38.1)
 		)
 		(stroke
 			(width 0)
@@ -3178,7 +3178,7 @@
 	)
 	(polyline
 		(pts
-			(xy 101.6 77.47) (xy 101.6 80.01)
+			(xy 93.98 111.76) (xy 93.98 114.3)
 		)
 		(stroke
 			(width 0)
@@ -3188,7 +3188,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 21.6154) (xy 219.71 36.83)
+			(xy 200.66 41.91) (xy 200.66 57.1246)
 		)
 		(stroke
 			(width 0)
@@ -3198,7 +3198,7 @@
 	)
 	(polyline
 		(pts
-			(xy 101.6 16.51) (xy 101.6 19.05)
+			(xy 93.98 50.8) (xy 93.98 53.34)
 		)
 		(stroke
 			(width 0)
@@ -3208,7 +3208,7 @@
 	)
 	(polyline
 		(pts
-			(xy 101.6 36.83) (xy 101.6 39.37)
+			(xy 93.98 71.12) (xy 93.98 73.66)
 		)
 		(stroke
 			(width 0)
@@ -3218,7 +3218,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 86.36) (xy 160.02 86.36)
+			(xy 195.58 102.87) (xy 180.34 102.87)
 		)
 		(stroke
 			(width 0)
@@ -3228,7 +3228,7 @@
 	)
 	(polyline
 		(pts
-			(xy 101.6 39.37) (xy 106.68 39.37)
+			(xy 93.98 73.66) (xy 99.06 73.66)
 		)
 		(stroke
 			(width 0)
@@ -3238,7 +3238,7 @@
 	)
 	(wire
 		(pts
-			(xy 6.35 53.34) (xy 6.35 68.58)
+			(xy 46.99 20.32) (xy 31.75 20.32)
 		)
 		(stroke
 			(width 0)
@@ -3248,7 +3248,7 @@
 	)
 	(polyline
 		(pts
-			(xy 101.6 59.69) (xy 106.68 59.69)
+			(xy 93.98 93.98) (xy 99.06 93.98)
 		)
 		(stroke
 			(width 0)
@@ -3258,7 +3258,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 83.82) (xy 166.37 83.82)
+			(xy 195.58 100.33) (xy 186.69 100.33)
 		)
 		(stroke
 			(width 0)
@@ -3268,7 +3268,7 @@
 	)
 	(polyline
 		(pts
-			(xy 101.6 80.01) (xy 106.68 80.01)
+			(xy 93.98 114.3) (xy 99.06 114.3)
 		)
 		(stroke
 			(width 0)
@@ -3278,7 +3278,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 78.74) (xy 171.45 81.28)
+			(xy 191.77 95.25) (xy 191.77 97.79)
 		)
 		(stroke
 			(width 0)
@@ -3288,7 +3288,7 @@
 	)
 	(polyline
 		(pts
-			(xy 101.6 57.15) (xy 101.6 59.69)
+			(xy 93.98 91.44) (xy 93.98 93.98)
 		)
 		(stroke
 			(width 0)
@@ -3298,7 +3298,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 81.28) (xy 175.26 81.28)
+			(xy 191.77 97.79) (xy 195.58 97.79)
 		)
 		(stroke
 			(width 0)
@@ -3308,7 +3308,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 71.12) (xy 24.1046 71.12)
+			(xy 29.21 38.1) (xy 29.21 38.0746)
 		)
 		(stroke
 			(width 0)
@@ -3318,7 +3318,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 78.7654) (xy 166.37 78.74)
+			(xy 186.69 95.2754) (xy 186.69 95.25)
 		)
 		(stroke
 			(width 0)
@@ -3328,7 +3328,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 53.34) (xy 31.75 53.34)
+			(xy 46.99 38.1) (xy 46.99 45.72)
 		)
 		(stroke
 			(width 0)
@@ -3338,7 +3338,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 86.36) (xy 160.02 78.74)
+			(xy 180.34 102.87) (xy 180.34 95.25)
 		)
 		(stroke
 			(width 0)
@@ -3348,7 +3348,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 83.82) (xy 166.37 78.7654)
+			(xy 186.69 100.33) (xy 186.69 95.2754)
 		)
 		(stroke
 			(width 0)
@@ -3358,7 +3358,7 @@
 	)
 	(polyline
 		(pts
-			(xy 101.6 140.97) (xy 101.6 142.24)
+			(xy 93.98 175.26) (xy 93.98 176.53)
 		)
 		(stroke
 			(width 0)
@@ -3368,7 +3368,7 @@
 	)
 	(polyline
 		(pts
-			(xy 101.6 99.06) (xy 101.6 101.6)
+			(xy 93.98 133.35) (xy 93.98 135.89)
 		)
 		(stroke
 			(width 0)
@@ -3378,7 +3378,7 @@
 	)
 	(polyline
 		(pts
-			(xy 101.6 120.65) (xy 101.6 121.92)
+			(xy 93.98 154.94) (xy 93.98 156.21)
 		)
 		(stroke
 			(width 0)
@@ -3388,7 +3388,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 21.6154) (xy 222.25 27.9654)
+			(xy 203.2 41.91) (xy 203.2 48.26)
 		)
 		(stroke
 			(width 0)
@@ -3398,7 +3398,7 @@
 	)
 	(polyline
 		(pts
-			(xy 101.6 101.6) (xy 106.68 101.6)
+			(xy 93.98 135.89) (xy 99.06 135.89)
 		)
 		(stroke
 			(width 0)
@@ -3408,7 +3408,7 @@
 	)
 	(polyline
 		(pts
-			(xy 101.6 121.92) (xy 106.68 121.92)
+			(xy 93.98 156.21) (xy 99.06 156.21)
 		)
 		(stroke
 			(width 0)
@@ -3418,7 +3418,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 27.9654) (xy 199.39 27.9654)
+			(xy 203.2 48.26) (xy 180.34 48.26)
 		)
 		(stroke
 			(width 0)
@@ -3428,7 +3428,7 @@
 	)
 	(polyline
 		(pts
-			(xy 101.6 142.24) (xy 106.68 142.24)
+			(xy 93.98 176.53) (xy 99.06 176.53)
 		)
 		(stroke
 			(width 0)
@@ -3438,7 +3438,7 @@
 	)
 	(polyline
 		(pts
-			(xy 101.6 19.05) (xy 106.68 19.05)
+			(xy 93.98 53.34) (xy 99.06 53.34)
 		)
 		(stroke
 			(width 0)
@@ -3448,7 +3448,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 27.9654) (xy 199.39 21.6154)
+			(xy 180.34 48.26) (xy 180.34 41.91)
 		)
 		(stroke
 			(width 0)
@@ -3458,16 +3458,16 @@
 	)
 	(global_label "TH"
 		(shape bidirectional)
-		(at 24.13 58.42 0)
+		(at 41.91 38.1 270)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "00a4ab89-5e2e-46b9-8ebb-ba6fbc194468")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 24.13 58.42 0)
+			(at 41.91 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3478,7 +3478,7 @@
 	)
 	(global_label "LO_D2"
 		(shape input)
-		(at 175.26 93.98 180)
+		(at 195.58 110.49 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3487,7 +3487,7 @@
 		)
 		(uuid "00ebc128-8a66-42b0-ab5f-ac2e15e547c6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 175.26 93.98 0)
+			(at 195.58 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3498,16 +3498,16 @@
 	)
 	(global_label "TR"
 		(shape bidirectional)
-		(at 24.13 68.58 0)
+		(at 31.75 38.1 270)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "06195d08-a493-45d5-afd5-8cb0eca1a06f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 24.13 68.58 0)
+			(at 31.75 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3518,16 +3518,16 @@
 	)
 	(global_label "D3"
 		(shape output)
-		(at 24.13 66.04 0)
+		(at 34.29 38.1 270)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "12658fb5-99f4-421b-ab65-9230924a0994")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 24.13 66.04 0)
+			(at 34.29 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3538,7 +3538,7 @@
 	)
 	(global_label "TH"
 		(shape bidirectional)
-		(at 96.52 132.08 180)
+		(at 88.9 166.37 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3547,7 +3547,7 @@
 		)
 		(uuid "16673398-b78a-4763-9e90-256ad7944cd1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 96.52 132.08 0)
+			(at 88.9 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3558,7 +3558,7 @@
 	)
 	(global_label "LO_D0"
 		(shape output)
-		(at 106.68 8.89 0)
+		(at 99.06 43.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3567,7 +3567,7 @@
 		)
 		(uuid "1c148424-57bd-4c60-bb8a-1f1b8391bc1f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 106.68 8.89 0)
+			(at 99.06 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3578,16 +3578,16 @@
 	)
 	(global_label "D2"
 		(shape output)
-		(at 24.13 60.96 0)
+		(at 39.37 38.1 270)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "3a6bd3d8-e1d1-49a5-8e55-c4e3b1176ca2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 24.13 60.96 0)
+			(at 39.37 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3598,16 +3598,16 @@
 	)
 	(global_label "TH"
 		(shape bidirectional)
-		(at 52.07 63.5 0)
+		(at 36.83 66.04 270)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "46d7c764-7323-4167-8ae2-eebbfd1c46d3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 52.07 63.5 0)
+			(at 36.83 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3618,7 +3618,7 @@
 	)
 	(global_label "LO_D1"
 		(shape output)
-		(at 106.68 29.21 0)
+		(at 99.06 63.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3627,7 +3627,7 @@
 		)
 		(uuid "49ae8bb4-dfba-4667-aa9c-0b38f6627a0e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 106.68 29.21 0)
+			(at 99.06 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3638,16 +3638,16 @@
 	)
 	(global_label "D0"
 		(shape output)
-		(at 24.13 50.8 0)
+		(at 49.53 38.1 270)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "49c19449-6b81-4abf-94e1-229802763343")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 24.13 50.8 0)
+			(at 49.53 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3658,16 +3658,16 @@
 	)
 	(global_label "D1"
 		(shape output)
-		(at 24.13 55.88 0)
+		(at 44.45 38.1 270)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "502bb618-a4c0-4bad-8030-b6fcdea79e34")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 24.13 55.88 0)
+			(at 44.45 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3678,16 +3678,16 @@
 	)
 	(global_label "TR"
 		(shape bidirectional)
-		(at 52.07 60.96 0)
+		(at 39.37 66.04 270)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "5a962c31-6f8d-4d83-8ff7-fb3518ac98b7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 52.07 60.96 0)
+			(at 39.37 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3698,16 +3698,16 @@
 	)
 	(global_label "D1"
 		(shape output)
-		(at 52.07 68.58 0)
+		(at 31.75 66.04 270)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "61777c51-8e6e-4cbe-be87-30e6ced146b5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 52.07 68.58 0)
+			(at 31.75 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3718,7 +3718,7 @@
 	)
 	(global_label "TR"
 		(shape bidirectional)
-		(at 96.52 111.76 180)
+		(at 88.9 146.05 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3727,7 +3727,7 @@
 		)
 		(uuid "63b1ae8a-965f-4f7c-babc-73dea2338da9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 96.52 111.76 0)
+			(at 88.9 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3738,7 +3738,7 @@
 	)
 	(global_label "LO_D2"
 		(shape output)
-		(at 106.68 49.53 0)
+		(at 99.06 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3747,7 +3747,7 @@
 		)
 		(uuid "710f0ba7-e63d-4296-9cc5-658312ba2d11")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 106.68 49.53 0)
+			(at 99.06 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3758,7 +3758,7 @@
 	)
 	(global_label "LO_TR"
 		(shape bidirectional)
-		(at 175.26 101.6 180)
+		(at 195.58 118.11 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3767,7 +3767,7 @@
 		)
 		(uuid "71561f88-21b5-4265-b3d7-5e1701bca3ca")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 175.26 101.6 0)
+			(at 195.58 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3778,7 +3778,7 @@
 	)
 	(global_label "TL"
 		(shape bidirectional)
-		(at 96.52 91.44 180)
+		(at 88.9 125.73 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3787,7 +3787,7 @@
 		)
 		(uuid "77452e4b-bf87-486e-afd9-7be946a06844")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 96.52 91.44 0)
+			(at 88.9 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3798,7 +3798,7 @@
 	)
 	(global_label "LO_TL"
 		(shape bidirectional)
-		(at 106.68 91.44 0)
+		(at 99.06 125.73 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3807,7 +3807,7 @@
 		)
 		(uuid "7acd86f9-75fd-4a63-b4df-74eb04a3c969")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 106.68 91.44 0)
+			(at 99.06 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3818,7 +3818,7 @@
 	)
 	(global_label "LO_D1"
 		(shape input)
-		(at 175.26 91.44 180)
+		(at 195.58 107.95 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3827,7 +3827,7 @@
 		)
 		(uuid "7f9bcba8-8b99-4a5f-973c-91cacdcbd9e5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 175.26 91.44 0)
+			(at 195.58 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3838,16 +3838,16 @@
 	)
 	(global_label "D0"
 		(shape output)
-		(at 52.07 66.04 0)
+		(at 34.29 66.04 270)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "802b3b8b-1d82-4539-a7c5-87fe38131fb7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 52.07 66.04 0)
+			(at 34.29 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3858,7 +3858,7 @@
 	)
 	(global_label "LO_D0"
 		(shape input)
-		(at 175.26 88.9 180)
+		(at 195.58 105.41 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3867,7 +3867,7 @@
 		)
 		(uuid "8dcbedb7-6f2c-4e23-bc8b-3a3c1ddc4f73")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 175.26 88.9 0)
+			(at 195.58 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3878,7 +3878,7 @@
 	)
 	(global_label "LO_TR"
 		(shape bidirectional)
-		(at 106.68 111.76 0)
+		(at 99.06 146.05 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3887,7 +3887,7 @@
 		)
 		(uuid "90c094dd-c940-43a4-a3e2-4b68ad2819a0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 106.68 111.76 0)
+			(at 99.06 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3898,16 +3898,16 @@
 	)
 	(global_label "D2"
 		(shape output)
-		(at 52.07 53.34 0)
+		(at 46.99 66.04 270)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "92ee37c6-f485-4c5f-9965-4a7ff5b32352")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 52.07 53.34 0)
+			(at 46.99 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3918,16 +3918,16 @@
 	)
 	(global_label "D3"
 		(shape output)
-		(at 52.07 55.88 0)
+		(at 44.45 66.04 270)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "984fcef3-970d-4103-ab8d-f03c71355adc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 52.07 55.88 0)
+			(at 44.45 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3938,7 +3938,7 @@
 	)
 	(global_label "D3"
 		(shape input)
-		(at 96.52 69.85 180)
+		(at 88.9 104.14 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3947,7 +3947,7 @@
 		)
 		(uuid "a568b2f0-1f74-4f4d-af94-61f85a07705a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 96.52 69.85 0)
+			(at 88.9 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3958,7 +3958,7 @@
 	)
 	(global_label "LO_D3"
 		(shape output)
-		(at 106.68 69.85 0)
+		(at 99.06 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3967,7 +3967,7 @@
 		)
 		(uuid "ab77200c-841c-48b9-9573-83cebe3a30fa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 106.68 69.85 0)
+			(at 99.06 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3978,7 +3978,7 @@
 	)
 	(global_label "LO_TH"
 		(shape bidirectional)
-		(at 106.68 132.08 0)
+		(at 99.06 166.37 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3987,7 +3987,7 @@
 		)
 		(uuid "b1367ddf-1929-4d0a-a73d-2977249fc95f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 106.68 132.08 0)
+			(at 99.06 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3998,7 +3998,7 @@
 	)
 	(global_label "D2"
 		(shape input)
-		(at 96.52 49.53 180)
+		(at 88.9 83.82 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4007,7 +4007,7 @@
 		)
 		(uuid "b51eb7f0-7a5c-4b28-a142-ff194b0427bf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 96.52 49.53 0)
+			(at 88.9 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4018,7 +4018,7 @@
 	)
 	(global_label "D1"
 		(shape input)
-		(at 96.52 29.21 180)
+		(at 88.9 63.5 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4027,7 +4027,7 @@
 		)
 		(uuid "b877cdac-3024-4a37-9015-f6d8f5ab3ad2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 96.52 29.21 0)
+			(at 88.9 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4038,7 +4038,7 @@
 	)
 	(global_label "LO_TH"
 		(shape bidirectional)
-		(at 185.42 113.03 270)
+		(at 205.74 129.54 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4047,7 +4047,7 @@
 		)
 		(uuid "c1289349-ce88-4529-8bf0-5df12aff4a54")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 185.42 113.03 0)
+			(at 205.74 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4058,16 +4058,16 @@
 	)
 	(global_label "TL"
 		(shape bidirectional)
-		(at 24.13 63.5 0)
+		(at 36.83 38.1 270)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "c4ae0862-f730-4239-aab5-50f54d267023")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 24.13 63.5 0)
+			(at 36.83 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4078,7 +4078,7 @@
 	)
 	(global_label "D0"
 		(shape input)
-		(at 96.52 8.89 180)
+		(at 88.9 43.18 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4087,7 +4087,7 @@
 		)
 		(uuid "c62dee09-06ba-4415-adbb-9ea153c35508")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 96.52 8.89 0)
+			(at 88.9 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4098,16 +4098,16 @@
 	)
 	(global_label "TL"
 		(shape bidirectional)
-		(at 52.07 58.42 0)
+		(at 41.91 66.04 270)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "d40dd0c4-e914-40ee-be1b-b8f091bc89c5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 52.07 58.42 0)
+			(at 41.91 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4118,7 +4118,7 @@
 	)
 	(global_label "LO_D3"
 		(shape input)
-		(at 175.26 96.52 180)
+		(at 195.58 113.03 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4127,7 +4127,7 @@
 		)
 		(uuid "e2596f17-0217-429d-9637-435f7043427a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 175.26 96.52 0)
+			(at 195.58 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4138,7 +4138,7 @@
 	)
 	(global_label "LO_TL"
 		(shape bidirectional)
-		(at 175.26 99.06 180)
+		(at 195.58 115.57 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4147,7 +4147,7 @@
 		)
 		(uuid "e4716386-9ae0-44a3-bd81-0099a7a0403b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 175.26 99.06 0)
+			(at 195.58 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4158,7 +4158,7 @@
 	)
 	(symbol
 		(lib_id "ProPrj_Sat-easyedapro:Ground-GND")
-		(at 229.87 36.8554 90)
+		(at 210.82 57.15 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4166,7 +4166,7 @@
 		(dnp no)
 		(uuid "0312db06-688c-4777-9a76-1845b91444e6")
 		(property "Reference" "#PWR?"
-			(at 229.87 36.8554 0)
+			(at 210.82 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4175,7 +4175,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 236.22 36.8554 90)
+			(at 217.17 57.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4183,7 +4183,7 @@
 			)
 		)
 		(property "Footprint" "ProPrj_Sat-easyedapro:"
-			(at 229.87 36.8554 0)
+			(at 210.82 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4192,7 +4192,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 229.87 36.8554 0)
+			(at 210.82 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4201,7 +4201,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 229.87 36.8554 0)
+			(at 210.82 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4223,7 +4223,7 @@
 	)
 	(symbol
 		(lib_id "ProPrj_Sat-easyedapro:Res")
-		(at 96.52 137.16 90)
+		(at 88.9 171.45 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4231,7 +4231,7 @@
 		(dnp no)
 		(uuid "08b740f4-a1c5-4ade-aedb-51bcf2ef6e1a")
 		(property "Reference" "R13"
-			(at 99.06 137.16 90)
+			(at 91.44 171.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4239,7 +4239,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 99.06 139.7 90)
+			(at 91.44 173.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4248,7 +4248,7 @@
 			)
 		)
 		(property "Footprint" "ProPrj_Sat-easyedapro:R0603"
-			(at 96.52 137.16 0)
+			(at 88.9 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4257,7 +4257,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 137.16 0)
+			(at 88.9 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4266,7 +4266,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 96.52 137.16 0)
+			(at 88.9 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4291,7 +4291,7 @@
 	)
 	(symbol
 		(lib_id "ProPrj_Sat-easyedapro:Power-5V")
-		(at 189.23 27.9654 90)
+		(at 170.18 48.26 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4300,7 +4300,7 @@
 		(dnp no)
 		(uuid "0f429cda-d0e4-4d1d-a58b-3ec55c928190")
 		(property "Reference" "#PWR?"
-			(at 189.23 27.9654 0)
+			(at 170.18 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4309,7 +4309,7 @@
 			)
 		)
 		(property "Value" "EXT+5V"
-			(at 181.61 27.94 90)
+			(at 162.56 48.2346 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4317,7 +4317,7 @@
 			)
 		)
 		(property "Footprint" "ProPrj_Sat-easyedapro:"
-			(at 189.23 27.9654 0)
+			(at 170.18 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4326,7 +4326,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 189.23 27.9654 0)
+			(at 170.18 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4335,7 +4335,7 @@
 			)
 		)
 		(property "Description" "Power-5V"
-			(at 189.23 27.9654 0)
+			(at 170.18 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4357,7 +4357,7 @@
 	)
 	(symbol
 		(lib_id "ProPrj_Sat-easyedapro:Res")
-		(at 96.52 116.84 90)
+		(at 88.9 151.13 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4365,7 +4365,7 @@
 		(dnp no)
 		(uuid "1152f1e1-b696-4904-a07c-7747c51fe5e6")
 		(property "Reference" "R11"
-			(at 99.06 116.84 90)
+			(at 91.44 151.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4373,7 +4373,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 99.06 119.38 90)
+			(at 91.44 153.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4382,7 +4382,7 @@
 			)
 		)
 		(property "Footprint" "ProPrj_Sat-easyedapro:R0603"
-			(at 96.52 116.84 0)
+			(at 88.9 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4391,7 +4391,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 116.84 0)
+			(at 88.9 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4400,7 +4400,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 96.52 116.84 0)
+			(at 88.9 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4425,7 +4425,7 @@
 	)
 	(symbol
 		(lib_id "ProPrj_Sat-easyedapro:T491A106K006AT")
-		(at 194.31 27.9654 90)
+		(at 175.26 48.26 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4433,7 +4433,7 @@
 		(dnp no)
 		(uuid "162df790-6076-40b7-905c-75aaa49f4b24")
 		(property "Reference" "C2"
-			(at 198.12 31.7754 90)
+			(at 179.07 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4441,7 +4441,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 191.77 33.0454 90)
+			(at 172.72 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4450,7 +4450,7 @@
 			)
 		)
 		(property "Footprint" "ProPrj_Sat-easyedapro:CASE-A_3216"
-			(at 194.31 27.9654 0)
+			(at 175.26 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4459,7 +4459,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/T491A106K006AT/123529.html"
-			(at 194.31 27.9654 0)
+			(at 175.26 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4468,7 +4468,7 @@
 			)
 		)
 		(property "Description" "Capacitance:10uF Tolerance:±10% Tolerance:±10% Voltage Rating:6.3V Equivalent Series Resistance(ESR):4Ω@100kHz Operating Temperature:-55°C~+125°C Operating Temperature:-55°C~+125°C"
-			(at 194.31 27.9654 0)
+			(at 175.26 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4477,7 +4477,7 @@
 			)
 		)
 		(property "Manufacturer Part" "T491A106K006AT"
-			(at 194.31 27.9654 0)
+			(at 175.26 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4486,7 +4486,7 @@
 			)
 		)
 		(property "Manufacturer" "KEMET(基美)"
-			(at 194.31 27.9654 0)
+			(at 175.26 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4495,7 +4495,7 @@
 			)
 		)
 		(property "Supplier Part" "C122260"
-			(at 194.31 27.9654 0)
+			(at 175.26 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4504,7 +4504,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 194.31 27.9654 0)
+			(at 175.26 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4513,7 +4513,7 @@
 			)
 		)
 		(property "LCSC Part Name" "10uF ±10% 6.3V"
-			(at 194.31 27.9654 0)
+			(at 175.26 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4538,7 +4538,7 @@
 	)
 	(symbol
 		(lib_id "ProPrj_Sat-easyedapro:Res")
-		(at 96.52 96.52 90)
+		(at 88.9 130.81 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4546,7 +4546,7 @@
 		(dnp no)
 		(uuid "16638480-322e-4196-b962-ef5752cc173c")
 		(property "Reference" "R9"
-			(at 99.06 96.52 90)
+			(at 91.44 130.81 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4554,7 +4554,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 99.06 99.06 90)
+			(at 91.44 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4563,7 +4563,7 @@
 			)
 		)
 		(property "Footprint" "ProPrj_Sat-easyedapro:R0603"
-			(at 96.52 96.52 0)
+			(at 88.9 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4572,7 +4572,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 96.52 0)
+			(at 88.9 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4581,7 +4581,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 96.52 96.52 0)
+			(at 88.9 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4606,7 +4606,7 @@
 	)
 	(symbol
 		(lib_id "ProPrj_Sat-easyedapro:FRC0603F5101TS")
-		(at 224.79 36.8554 180)
+		(at 205.74 57.15 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4614,7 +4614,7 @@
 		(dnp no)
 		(uuid "18392d94-5aa6-4a62-939f-42608501334e")
 		(property "Reference" "R15"
-			(at 222.25 35.56 0)
+			(at 203.2 55.8546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4622,7 +4622,7 @@
 			)
 		)
 		(property "Value" "5.1kΩ"
-			(at 222.25 41.91 0)
+			(at 203.2 62.2046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4631,7 +4631,7 @@
 			)
 		)
 		(property "Footprint" "ProPrj_Sat-easyedapro:R0603"
-			(at 224.79 36.8554 0)
+			(at 205.74 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4640,7 +4640,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 224.79 36.8554 0)
+			(at 205.74 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4649,7 +4649,7 @@
 			)
 		)
 		(property "Description" "Type:Thick Film Resistor Resistance:5.1kΩ Tolerance:±1% Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±100ppm/°C Temperature Coefficient:±100ppm/°C Operating Temperature:-55°C~+155°C Operating Temperature:-55°C~+155°C"
-			(at 224.79 36.8554 0)
+			(at 205.74 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4658,7 +4658,7 @@
 			)
 		)
 		(property "Manufacturer Part" "FRC0603F5101TS"
-			(at 224.79 36.8554 0)
+			(at 205.74 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4667,7 +4667,7 @@
 			)
 		)
 		(property "Manufacturer" "FOJAN(富捷)"
-			(at 224.79 36.8554 0)
+			(at 205.74 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4676,7 +4676,7 @@
 			)
 		)
 		(property "Supplier Part" "C2907044"
-			(at 224.79 36.8554 0)
+			(at 205.74 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4685,7 +4685,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 224.79 36.8554 0)
+			(at 205.74 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4694,7 +4694,7 @@
 			)
 		)
 		(property "LCSC Part Name" "5.1kΩ ±1% 100mW 厚膜电阻"
-			(at 224.79 36.8554 0)
+			(at 205.74 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4719,7 +4719,7 @@
 	)
 	(symbol
 		(lib_id "ProPrj_Sat-easyedapro:Power-5V")
-		(at 96.52 39.37 90)
+		(at 88.9 73.66 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4727,7 +4727,7 @@
 		(dnp no)
 		(uuid "205eb40b-da76-4647-ad05-09195efeb22f")
 		(property "Reference" "#PWR?"
-			(at 96.52 39.37 0)
+			(at 88.9 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4736,7 +4736,7 @@
 			)
 		)
 		(property "Value" "C+5V"
-			(at 90.17 39.37 90)
+			(at 82.55 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4744,7 +4744,7 @@
 			)
 		)
 		(property "Footprint" "ProPrj_Sat-easyedapro:"
-			(at 96.52 39.37 0)
+			(at 88.9 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4753,7 +4753,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 39.37 0)
+			(at 88.9 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4762,7 +4762,7 @@
 			)
 		)
 		(property "Description" "Power-5V"
-			(at 96.52 39.37 0)
+			(at 88.9 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4784,7 +4784,7 @@
 	)
 	(symbol
 		(lib_id "ProPrj_Sat-easyedapro:Power-VCC")
-		(at 160.02 78.74 0)
+		(at 180.34 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4792,7 +4792,7 @@
 		(dnp no)
 		(uuid "2f606a6a-e571-4854-a219-485d922dc75f")
 		(property "Reference" "#PWR?"
-			(at 160.02 78.74 0)
+			(at 180.34 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4801,7 +4801,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 160.02 74.93 0)
+			(at 180.34 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4809,7 +4809,7 @@
 			)
 		)
 		(property "Footprint" "ProPrj_Sat-easyedapro:"
-			(at 160.02 78.74 0)
+			(at 180.34 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4818,7 +4818,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 78.74 0)
+			(at 180.34 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4827,7 +4827,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 160.02 78.74 0)
+			(at 180.34 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4849,7 +4849,7 @@
 	)
 	(symbol
 		(lib_id "ProPrj_Sat-easyedapro:Power-5V")
-		(at 151.13 21.59 90)
+		(at 143.51 40.6146 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4857,7 +4857,7 @@
 		(dnp no)
 		(uuid "2f758237-5f37-4e8f-8981-924a9003cd00")
 		(property "Reference" "#PWR?"
-			(at 151.13 21.59 0)
+			(at 143.51 40.6146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4866,7 +4866,7 @@
 			)
 		)
 		(property "Value" "C+5V"
-			(at 144.78 21.59 90)
+			(at 137.16 40.6146 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4874,7 +4874,7 @@
 			)
 		)
 		(property "Footprint" "ProPrj_Sat-easyedapro:"
-			(at 151.13 21.59 0)
+			(at 143.51 40.6146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4883,7 +4883,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 151.13 21.59 0)
+			(at 143.51 40.6146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4892,7 +4892,7 @@
 			)
 		)
 		(property "Description" "Power-5V"
-			(at 151.13 21.59 0)
+			(at 143.51 40.6146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4914,7 +4914,7 @@
 	)
 	(symbol
 		(lib_id "ProPrj_Sat-easyedapro:Power-VCC")
-		(at 106.68 19.05 270)
+		(at 99.06 53.34 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4922,7 +4922,7 @@
 		(dnp no)
 		(uuid "3747cfe9-7cc1-45a3-83bb-3ffdc6afcfc4")
 		(property "Reference" "#PWR?"
-			(at 106.68 19.05 0)
+			(at 99.06 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4931,7 +4931,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 111.76 19.05 90)
+			(at 104.14 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4939,7 +4939,7 @@
 			)
 		)
 		(property "Footprint" "ProPrj_Sat-easyedapro:"
-			(at 106.68 19.05 0)
+			(at 99.06 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4948,7 +4948,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 19.05 0)
+			(at 99.06 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4957,7 +4957,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 106.68 19.05 0)
+			(at 99.06 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4979,7 +4979,7 @@
 	)
 	(symbol
 		(lib_id "ProPrj_Sat-easyedapro:Ground-GND")
-		(at 194.31 36.8554 270)
+		(at 175.26 57.15 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4987,7 +4987,7 @@
 		(dnp no)
 		(uuid "39a217f2-4243-4581-826d-358d8e5e2a49")
 		(property "Reference" "#PWR?"
-			(at 194.31 36.8554 0)
+			(at 175.26 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4996,7 +4996,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 187.96 36.8554 90)
+			(at 168.91 57.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5004,7 +5004,7 @@
 			)
 		)
 		(property "Footprint" "ProPrj_Sat-easyedapro:"
-			(at 194.31 36.8554 0)
+			(at 175.26 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5013,7 +5013,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 194.31 36.8554 0)
+			(at 175.26 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5022,7 +5022,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 194.31 36.8554 0)
+			(at 175.26 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5044,7 +5044,7 @@
 	)
 	(symbol
 		(lib_id "ProPrj_Sat-easyedapro:Res")
-		(at 106.68 137.16 90)
+		(at 99.06 171.45 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5052,7 +5052,7 @@
 		(dnp no)
 		(uuid "39e8d310-df06-407f-b80b-64a6c6a67c85")
 		(property "Reference" "R14"
-			(at 109.22 137.16 90)
+			(at 101.6 171.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5060,7 +5060,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 109.22 139.7 90)
+			(at 101.6 173.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5069,7 +5069,7 @@
 			)
 		)
 		(property "Footprint" "ProPrj_Sat-easyedapro:R0603"
-			(at 106.68 137.16 0)
+			(at 99.06 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5078,7 +5078,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 137.16 0)
+			(at 99.06 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5087,7 +5087,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 106.68 137.16 0)
+			(at 99.06 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5112,7 +5112,7 @@
 	)
 	(symbol
 		(lib_id "ProPrj_Sat-easyedapro:Res")
-		(at 106.68 54.61 90)
+		(at 99.06 88.9 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5120,7 +5120,7 @@
 		(dnp no)
 		(uuid "3a4dc7a1-5748-4766-b2b0-a212115440ac")
 		(property "Reference" "R5"
-			(at 109.22 54.61 90)
+			(at 101.6 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5128,7 +5128,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 109.22 57.15 90)
+			(at 101.6 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5137,7 +5137,7 @@
 			)
 		)
 		(property "Footprint" "ProPrj_Sat-easyedapro:R0603"
-			(at 106.68 54.61 0)
+			(at 99.06 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5146,7 +5146,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 54.61 0)
+			(at 99.06 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5155,7 +5155,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 106.68 54.61 0)
+			(at 99.06 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5180,7 +5180,7 @@
 	)
 	(symbol
 		(lib_id "ProPrj_Sat-easyedapro:Power-VCC")
-		(at 106.68 142.24 270)
+		(at 99.06 176.53 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5188,7 +5188,7 @@
 		(dnp no)
 		(uuid "3c537e4e-5a95-4254-8145-cca8c9e79602")
 		(property "Reference" "#PWR?"
-			(at 106.68 142.24 0)
+			(at 99.06 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5197,7 +5197,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 111.76 142.24 90)
+			(at 104.14 176.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5205,7 +5205,7 @@
 			)
 		)
 		(property "Footprint" "ProPrj_Sat-easyedapro:"
-			(at 106.68 142.24 0)
+			(at 99.06 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5214,7 +5214,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 142.24 0)
+			(at 99.06 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5223,7 +5223,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 106.68 142.24 0)
+			(at 99.06 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5245,7 +5245,7 @@
 	)
 	(symbol
 		(lib_id "ProPrj_Sat-easyedapro:Res")
-		(at 106.68 116.84 90)
+		(at 99.06 151.13 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5253,7 +5253,7 @@
 		(dnp no)
 		(uuid "3e6d9fc1-b40a-4270-a22c-ba33fa930053")
 		(property "Reference" "R12"
-			(at 109.22 116.84 90)
+			(at 101.6 151.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5261,7 +5261,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 109.22 119.38 90)
+			(at 101.6 153.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5270,7 +5270,7 @@
 			)
 		)
 		(property "Footprint" "ProPrj_Sat-easyedapro:R0603"
-			(at 106.68 116.84 0)
+			(at 99.06 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5279,7 +5279,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 116.84 0)
+			(at 99.06 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5288,7 +5288,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 106.68 116.84 0)
+			(at 99.06 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5313,7 +5313,7 @@
 	)
 	(symbol
 		(lib_id "ProPrj_Sat-easyedapro:saturn_connector")
-		(at 49.53 68.58 0)
+		(at 31.75 63.5 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5321,7 +5321,7 @@
 		(dnp no)
 		(uuid "3ff87886-d1ae-4ab5-aa76-798aba932d76")
 		(property "Reference" "U2"
-			(at 49.53 49.53 0)
+			(at 50.8 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5329,7 +5329,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 49.53 68.58 0)
+			(at 31.75 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5337,7 +5337,7 @@
 			)
 		)
 		(property "Footprint" "ProPrj_Sat-easyedapro:SATURN CONNECTOR"
-			(at 49.53 68.58 0)
+			(at 31.75 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5346,7 +5346,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 68.58 0)
+			(at 31.75 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5355,7 +5355,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 49.53 68.58 0)
+			(at 31.75 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5401,7 +5401,7 @@
 	)
 	(symbol
 		(lib_id "ProPrj_Sat-easyedapro:Res")
-		(at 106.68 96.52 90)
+		(at 99.06 130.81 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5409,7 +5409,7 @@
 		(dnp no)
 		(uuid "4536453b-f7ec-47c0-9bb6-c36c347a8bcc")
 		(property "Reference" "R10"
-			(at 109.22 96.52 90)
+			(at 101.6 130.81 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5417,7 +5417,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 109.22 99.06 90)
+			(at 101.6 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5426,7 +5426,7 @@
 			)
 		)
 		(property "Footprint" "ProPrj_Sat-easyedapro:R0603"
-			(at 106.68 96.52 0)
+			(at 99.06 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5435,7 +5435,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 96.52 0)
+			(at 99.06 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5444,7 +5444,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 106.68 96.52 0)
+			(at 99.06 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5469,7 +5469,7 @@
 	)
 	(symbol
 		(lib_id "ProPrj_Sat-easyedapro:Ground-GND")
-		(at 166.37 78.7654 180)
+		(at 186.69 95.2754 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5477,7 +5477,7 @@
 		(dnp no)
 		(uuid "4818eaa6-9d03-43e7-84fe-1897e003ef21")
 		(property "Reference" "#PWR?"
-			(at 166.37 78.7654 0)
+			(at 186.69 95.2754 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5486,7 +5486,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 166.37 72.4154 0)
+			(at 186.69 88.9254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5494,7 +5494,7 @@
 			)
 		)
 		(property "Footprint" "ProPrj_Sat-easyedapro:"
-			(at 166.37 78.7654 0)
+			(at 186.69 95.2754 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5503,7 +5503,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 166.37 78.7654 0)
+			(at 186.69 95.2754 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5512,7 +5512,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 166.37 78.7654 0)
+			(at 186.69 95.2754 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5534,7 +5534,7 @@
 	)
 	(symbol
 		(lib_id "ProPrj_Sat-easyedapro:Power-5V")
-		(at 153.67 21.59 180)
+		(at 146.05 40.6146 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5542,7 +5542,7 @@
 		(dnp no)
 		(uuid "5009eb90-a16d-467c-9b7e-04c7c57c0a36")
 		(property "Reference" "#PWR?"
-			(at 153.67 21.59 0)
+			(at 146.05 40.6146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5551,7 +5551,7 @@
 			)
 		)
 		(property "Value" "MINI+5V"
-			(at 153.67 25.4 0)
+			(at 146.05 44.4246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5559,7 +5559,7 @@
 			)
 		)
 		(property "Footprint" "ProPrj_Sat-easyedapro:"
-			(at 153.67 21.59 0)
+			(at 146.05 40.6146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5568,7 +5568,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 153.67 21.59 0)
+			(at 146.05 40.6146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5577,7 +5577,7 @@
 			)
 		)
 		(property "Description" "Power-5V"
-			(at 153.67 21.59 0)
+			(at 146.05 40.6146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5599,7 +5599,7 @@
 	)
 	(symbol
 		(lib_id "ProPrj_Sat-easyedapro:Res")
-		(at 96.52 74.93 90)
+		(at 88.9 109.22 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5607,7 +5607,7 @@
 		(dnp no)
 		(uuid "51206c15-e88d-4fb4-b6b5-c0e9a9f67d74")
 		(property "Reference" "R8"
-			(at 99.06 74.93 90)
+			(at 91.44 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5615,7 +5615,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 99.06 77.47 90)
+			(at 91.44 111.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5624,7 +5624,7 @@
 			)
 		)
 		(property "Footprint" "ProPrj_Sat-easyedapro:R0603"
-			(at 96.52 74.93 0)
+			(at 88.9 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5633,7 +5633,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 74.93 0)
+			(at 88.9 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5642,7 +5642,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 96.52 74.93 0)
+			(at 88.9 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5667,7 +5667,7 @@
 	)
 	(symbol
 		(lib_id "ProPrj_Sat-easyedapro:Power-5V")
-		(at 96.52 59.69 90)
+		(at 88.9 93.98 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5675,7 +5675,7 @@
 		(dnp no)
 		(uuid "56269933-5616-49c1-91a5-8779862cca4b")
 		(property "Reference" "#PWR?"
-			(at 96.52 59.69 0)
+			(at 88.9 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5684,7 +5684,7 @@
 			)
 		)
 		(property "Value" "C+5V"
-			(at 90.17 59.69 90)
+			(at 82.55 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5692,7 +5692,7 @@
 			)
 		)
 		(property "Footprint" "ProPrj_Sat-easyedapro:"
-			(at 96.52 59.69 0)
+			(at 88.9 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5701,7 +5701,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 59.69 0)
+			(at 88.9 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5710,7 +5710,7 @@
 			)
 		)
 		(property "Description" "Power-5V"
-			(at 96.52 59.69 0)
+			(at 88.9 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5732,7 +5732,7 @@
 	)
 	(symbol
 		(lib_id "ProPrj_Sat-easyedapro:T491A106K006AT")
-		(at 57.15 71.12 270)
+		(at 29.21 71.12 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5741,7 +5741,7 @@
 		(dnp no)
 		(uuid "57009421-3a7a-4070-8315-45c2823712dc")
 		(property "Reference" "C1"
-			(at 50.8 74.93 90)
+			(at 25.4 64.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5749,7 +5749,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 55.88 76.2 90)
+			(at 24.13 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5758,7 +5758,7 @@
 			)
 		)
 		(property "Footprint" "ProPrj_Sat-easyedapro:CASE-A_3216"
-			(at 57.15 71.12 0)
+			(at 29.21 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5767,7 +5767,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/T491A106K006AT/123529.html"
-			(at 57.15 71.12 0)
+			(at 29.21 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5776,7 +5776,7 @@
 			)
 		)
 		(property "Description" "Capacitance:10uF Tolerance:±10% Tolerance:±10% Voltage Rating:6.3V Equivalent Series Resistance(ESR):4Ω@100kHz Operating Temperature:-55°C~+125°C Operating Temperature:-55°C~+125°C"
-			(at 57.15 71.12 0)
+			(at 29.21 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5785,7 +5785,7 @@
 			)
 		)
 		(property "Manufacturer Part" "T491A106K006AT"
-			(at 57.15 71.12 0)
+			(at 29.21 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5794,7 +5794,7 @@
 			)
 		)
 		(property "Manufacturer" "KEMET(基美)"
-			(at 57.15 71.12 0)
+			(at 29.21 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5803,7 +5803,7 @@
 			)
 		)
 		(property "Supplier Part" "C122260"
-			(at 57.15 71.12 0)
+			(at 29.21 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5812,7 +5812,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 57.15 71.12 0)
+			(at 29.21 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5821,7 +5821,7 @@
 			)
 		)
 		(property "LCSC Part Name" "10uF ±10% 6.3V"
-			(at 57.15 71.12 0)
+			(at 29.21 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5846,7 +5846,7 @@
 	)
 	(symbol
 		(lib_id "ProPrj_Sat-easyedapro:RP2040-ZERO")
-		(at 190.5 95.25 0)
+		(at 210.82 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5854,7 +5854,7 @@
 		(dnp no)
 		(uuid "5843e37c-5654-4b32-870b-7d5eae50899f")
 		(property "Reference" "U3"
-			(at 177.8 77.47 0)
+			(at 198.12 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5862,7 +5862,7 @@
 			)
 		)
 		(property "Value" "RP2040-Zero"
-			(at 182.88 81.28 0)
+			(at 203.2 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5870,7 +5870,7 @@
 			)
 		)
 		(property "Footprint" "ProPrj_Sat-easyedapro:COMM-SMD_RP2040-ZERO"
-			(at 190.5 95.25 0)
+			(at 210.82 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5879,7 +5879,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/RP2040-Zero/6136910.html"
-			(at 190.5 95.25 0)
+			(at 210.82 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5888,7 +5888,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 190.5 95.25 0)
+			(at 210.82 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5897,7 +5897,7 @@
 			)
 		)
 		(property "Manufacturer Part" "RP2040-Zero"
-			(at 190.5 95.25 0)
+			(at 210.82 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5906,7 +5906,7 @@
 			)
 		)
 		(property "Manufacturer" "Waveshare(微雪电子)"
-			(at 190.5 95.25 0)
+			(at 210.82 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5915,7 +5915,7 @@
 			)
 		)
 		(property "Supplier Part" "C5350143"
-			(at 190.5 95.25 0)
+			(at 210.82 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5924,7 +5924,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 190.5 95.25 0)
+			(at 210.82 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5933,7 +5933,7 @@
 			)
 		)
 		(property "LCSC Part Name" "微雪 树莓派RP2040-Zero微控制器 PICO开发板 RP2040双核处理器"
-			(at 190.5 95.25 0)
+			(at 210.82 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6021,7 +6021,7 @@
 	)
 	(symbol
 		(lib_id "ProPrj_Sat-easyedapro:Res")
-		(at 106.68 34.29 90)
+		(at 99.06 68.58 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6029,7 +6029,7 @@
 		(dnp no)
 		(uuid "5b6a031c-d356-42ed-b2d8-85b717f7154b")
 		(property "Reference" "R3"
-			(at 109.22 34.29 90)
+			(at 101.6 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6037,7 +6037,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 109.22 36.83 90)
+			(at 101.6 71.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6046,7 +6046,7 @@
 			)
 		)
 		(property "Footprint" "ProPrj_Sat-easyedapro:R0603"
-			(at 106.68 34.29 0)
+			(at 99.06 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6055,7 +6055,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 34.29 0)
+			(at 99.06 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6064,7 +6064,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 106.68 34.29 0)
+			(at 99.06 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6089,7 +6089,7 @@
 	)
 	(symbol
 		(lib_id "ProPrj_Sat-easyedapro:Power-VCC")
-		(at 106.68 59.69 270)
+		(at 99.06 93.98 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6097,7 +6097,7 @@
 		(dnp no)
 		(uuid "60778d3e-547a-4516-b1ce-766be94b3517")
 		(property "Reference" "#PWR?"
-			(at 106.68 59.69 0)
+			(at 99.06 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6106,7 +6106,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 111.76 59.69 90)
+			(at 104.14 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6114,7 +6114,7 @@
 			)
 		)
 		(property "Footprint" "ProPrj_Sat-easyedapro:"
-			(at 106.68 59.69 0)
+			(at 99.06 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6123,7 +6123,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 59.69 0)
+			(at 99.06 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6132,7 +6132,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 106.68 59.69 0)
+			(at 99.06 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6154,7 +6154,7 @@
 	)
 	(symbol
 		(lib_id "ProPrj_Sat-easyedapro:BSS138B")
-		(at 101.6 72.39 90)
+		(at 93.98 106.68 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6162,7 +6162,7 @@
 		(dnp no)
 		(uuid "63aaee83-9682-4439-849b-fe1b050d860a")
 		(property "Reference" "Q4"
-			(at 99.06 66.04 90)
+			(at 91.44 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6170,7 +6170,7 @@
 			)
 		)
 		(property "Value" "BSS138B"
-			(at 102.87 64.77 90)
+			(at 95.25 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6178,7 +6178,7 @@
 			)
 		)
 		(property "Footprint" "ProPrj_Sat-easyedapro:SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR"
-			(at 101.6 72.39 0)
+			(at 93.98 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6187,7 +6187,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/BSS138B/21940665.html"
-			(at 101.6 72.39 0)
+			(at 93.98 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6196,7 +6196,7 @@
 			)
 		)
 		(property "Description" "Drain to Source Voltage:50V Current - Continuous Drain(Id):600mA RDS(on):1.2Ω@4.5V Gate Threshold Voltage (Vgs(th)):1.6V@250uA Type:N-Channel"
-			(at 101.6 72.39 0)
+			(at 93.98 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6205,7 +6205,7 @@
 			)
 		)
 		(property "Manufacturer Part" "BSS138B"
-			(at 101.6 72.39 0)
+			(at 93.98 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6214,7 +6214,7 @@
 			)
 		)
 		(property "Manufacturer" "YANGJIE(扬杰)"
-			(at 101.6 72.39 0)
+			(at 93.98 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6223,7 +6223,7 @@
 			)
 		)
 		(property "Supplier Part" "C20599939"
-			(at 101.6 72.39 0)
+			(at 93.98 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6232,7 +6232,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 101.6 72.39 0)
+			(at 93.98 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6241,7 +6241,7 @@
 			)
 		)
 		(property "LCSC Part Name" "BSS138B"
-			(at 101.6 72.39 0)
+			(at 93.98 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6269,7 +6269,7 @@
 	)
 	(symbol
 		(lib_id "ProPrj_Sat-easyedapro:Power-VCC")
-		(at 106.68 80.01 270)
+		(at 99.06 114.3 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6277,7 +6277,7 @@
 		(dnp no)
 		(uuid "69ccc476-72be-40ba-901c-90602a9f9ab0")
 		(property "Reference" "#PWR?"
-			(at 106.68 80.01 0)
+			(at 99.06 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6286,7 +6286,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 111.76 80.01 90)
+			(at 104.14 114.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6294,7 +6294,7 @@
 			)
 		)
 		(property "Footprint" "ProPrj_Sat-easyedapro:"
-			(at 106.68 80.01 0)
+			(at 99.06 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6303,7 +6303,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 80.01 0)
+			(at 99.06 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6312,7 +6312,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 106.68 80.01 0)
+			(at 99.06 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6334,7 +6334,7 @@
 	)
 	(symbol
 		(lib_id "ProPrj_Sat-easyedapro:Power-VCC")
-		(at 106.68 121.92 270)
+		(at 99.06 156.21 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6342,7 +6342,7 @@
 		(dnp no)
 		(uuid "769ecc2e-9ae3-4901-ac4b-98014fdc1125")
 		(property "Reference" "#PWR?"
-			(at 106.68 121.92 0)
+			(at 99.06 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6351,7 +6351,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 111.76 121.92 90)
+			(at 104.14 156.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6359,7 +6359,7 @@
 			)
 		)
 		(property "Footprint" "ProPrj_Sat-easyedapro:"
-			(at 106.68 121.92 0)
+			(at 99.06 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6368,7 +6368,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 121.92 0)
+			(at 99.06 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6377,7 +6377,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 106.68 121.92 0)
+			(at 99.06 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6399,7 +6399,7 @@
 	)
 	(symbol
 		(lib_id "ProPrj_Sat-easyedapro:Ground-GND")
-		(at 52.07 50.8 180)
+		(at 49.53 66.04 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6407,7 +6407,7 @@
 		(dnp no)
 		(uuid "77ba255f-7d9a-4578-910f-e63114ebbfad")
 		(property "Reference" "#PWR?"
-			(at 52.07 50.8 0)
+			(at 49.53 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6416,7 +6416,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 52.07 44.45 0)
+			(at 55.88 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6424,7 +6424,7 @@
 			)
 		)
 		(property "Footprint" "ProPrj_Sat-easyedapro:"
-			(at 52.07 50.8 0)
+			(at 49.53 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6433,7 +6433,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.07 50.8 0)
+			(at 49.53 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6442,7 +6442,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 52.07 50.8 0)
+			(at 49.53 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6464,7 +6464,7 @@
 	)
 	(symbol
 		(lib_id "ProPrj_Sat-easyedapro:FRC0603F5101TS")
-		(at 199.39 36.8554 0)
+		(at 180.34 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6472,7 +6472,7 @@
 		(dnp no)
 		(uuid "7a59fe19-e836-4133-814a-3b3637229983")
 		(property "Reference" "R16"
-			(at 196.85 35.5854 0)
+			(at 177.8 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6480,7 +6480,7 @@
 			)
 		)
 		(property "Value" "5.1kΩ"
-			(at 196.85 40.6654 0)
+			(at 177.8 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6489,7 +6489,7 @@
 			)
 		)
 		(property "Footprint" "ProPrj_Sat-easyedapro:R0603"
-			(at 199.39 36.8554 0)
+			(at 180.34 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6498,7 +6498,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 199.39 36.8554 0)
+			(at 180.34 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6507,7 +6507,7 @@
 			)
 		)
 		(property "Description" "Type:Thick Film Resistor Resistance:5.1kΩ Tolerance:±1% Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±100ppm/°C Temperature Coefficient:±100ppm/°C Operating Temperature:-55°C~+155°C Operating Temperature:-55°C~+155°C"
-			(at 199.39 36.8554 0)
+			(at 180.34 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6516,7 +6516,7 @@
 			)
 		)
 		(property "Manufacturer Part" "FRC0603F5101TS"
-			(at 199.39 36.8554 0)
+			(at 180.34 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6525,7 +6525,7 @@
 			)
 		)
 		(property "Manufacturer" "FOJAN(富捷)"
-			(at 199.39 36.8554 0)
+			(at 180.34 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6534,7 +6534,7 @@
 			)
 		)
 		(property "Supplier Part" "C2907044"
-			(at 199.39 36.8554 0)
+			(at 180.34 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6543,7 +6543,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 199.39 36.8554 0)
+			(at 180.34 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6552,7 +6552,7 @@
 			)
 		)
 		(property "LCSC Part Name" "5.1kΩ ±1% 100mW 厚膜电阻"
-			(at 199.39 36.8554 0)
+			(at 180.34 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6577,7 +6577,7 @@
 	)
 	(symbol
 		(lib_id "ProPrj_Sat-easyedapro:Res")
-		(at 106.68 74.93 90)
+		(at 99.06 109.22 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6585,7 +6585,7 @@
 		(dnp no)
 		(uuid "8098fdd8-d595-4a1f-b988-04c46ad2756e")
 		(property "Reference" "R7"
-			(at 109.22 74.93 90)
+			(at 101.6 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6593,7 +6593,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 109.22 77.47 90)
+			(at 101.6 111.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6602,7 +6602,7 @@
 			)
 		)
 		(property "Footprint" "ProPrj_Sat-easyedapro:R0603"
-			(at 106.68 74.93 0)
+			(at 99.06 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6611,7 +6611,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 74.93 0)
+			(at 99.06 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6620,7 +6620,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 106.68 74.93 0)
+			(at 99.06 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6645,7 +6645,7 @@
 	)
 	(symbol
 		(lib_id "ProPrj_Sat-easyedapro:BSS138B")
-		(at 101.6 31.75 90)
+		(at 93.98 66.04 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6653,7 +6653,7 @@
 		(dnp no)
 		(uuid "821a1cdf-2e0d-4d59-bc44-0ac5c880506e")
 		(property "Reference" "Q2"
-			(at 99.06 25.4 90)
+			(at 91.44 59.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6661,7 +6661,7 @@
 			)
 		)
 		(property "Value" "BSS138B"
-			(at 102.87 24.13 90)
+			(at 95.25 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6669,7 +6669,7 @@
 			)
 		)
 		(property "Footprint" "ProPrj_Sat-easyedapro:SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR"
-			(at 101.6 31.75 0)
+			(at 93.98 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6678,7 +6678,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/BSS138B/21940665.html"
-			(at 101.6 31.75 0)
+			(at 93.98 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6687,7 +6687,7 @@
 			)
 		)
 		(property "Description" "Drain to Source Voltage:50V Current - Continuous Drain(Id):600mA RDS(on):1.2Ω@4.5V Gate Threshold Voltage (Vgs(th)):1.6V@250uA Type:N-Channel"
-			(at 101.6 31.75 0)
+			(at 93.98 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6696,7 +6696,7 @@
 			)
 		)
 		(property "Manufacturer Part" "BSS138B"
-			(at 101.6 31.75 0)
+			(at 93.98 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6705,7 +6705,7 @@
 			)
 		)
 		(property "Manufacturer" "YANGJIE(扬杰)"
-			(at 101.6 31.75 0)
+			(at 93.98 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6714,7 +6714,7 @@
 			)
 		)
 		(property "Supplier Part" "C20599939"
-			(at 101.6 31.75 0)
+			(at 93.98 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6723,7 +6723,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 101.6 31.75 0)
+			(at 93.98 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6732,7 +6732,7 @@
 			)
 		)
 		(property "LCSC Part Name" "BSS138B"
-			(at 101.6 31.75 0)
+			(at 93.98 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6760,7 +6760,7 @@
 	)
 	(symbol
 		(lib_id "ProPrj_Sat-easyedapro:Res")
-		(at 106.68 13.97 90)
+		(at 99.06 48.26 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6768,7 +6768,7 @@
 		(dnp no)
 		(uuid "842337e7-4d00-4d80-a8b9-627cc0c5f0e9")
 		(property "Reference" "R1"
-			(at 109.22 13.97 90)
+			(at 101.6 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6776,7 +6776,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 109.22 16.51 90)
+			(at 101.6 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6785,7 +6785,7 @@
 			)
 		)
 		(property "Footprint" "ProPrj_Sat-easyedapro:R0603"
-			(at 106.68 13.97 0)
+			(at 99.06 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6794,7 +6794,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 13.97 0)
+			(at 99.06 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6803,7 +6803,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 106.68 13.97 0)
+			(at 99.06 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6828,7 +6828,7 @@
 	)
 	(symbol
 		(lib_id "ProPrj_Sat-easyedapro:BSS138B")
-		(at 101.6 93.98 90)
+		(at 93.98 128.27 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6836,7 +6836,7 @@
 		(dnp no)
 		(uuid "976f935b-2583-492a-8deb-024c38fb2d6d")
 		(property "Reference" "Q5"
-			(at 99.06 87.63 90)
+			(at 91.44 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6844,7 +6844,7 @@
 			)
 		)
 		(property "Value" "BSS138B"
-			(at 102.87 86.36 90)
+			(at 95.25 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6852,7 +6852,7 @@
 			)
 		)
 		(property "Footprint" "ProPrj_Sat-easyedapro:SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR"
-			(at 101.6 93.98 0)
+			(at 93.98 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6861,7 +6861,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/BSS138B/21940665.html"
-			(at 101.6 93.98 0)
+			(at 93.98 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6870,7 +6870,7 @@
 			)
 		)
 		(property "Description" "Drain to Source Voltage:50V Current - Continuous Drain(Id):600mA RDS(on):1.2Ω@4.5V Gate Threshold Voltage (Vgs(th)):1.6V@250uA Type:N-Channel"
-			(at 101.6 93.98 0)
+			(at 93.98 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6879,7 +6879,7 @@
 			)
 		)
 		(property "Manufacturer Part" "BSS138B"
-			(at 101.6 93.98 0)
+			(at 93.98 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6888,7 +6888,7 @@
 			)
 		)
 		(property "Manufacturer" "YANGJIE(扬杰)"
-			(at 101.6 93.98 0)
+			(at 93.98 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6897,7 +6897,7 @@
 			)
 		)
 		(property "Supplier Part" "C20599939"
-			(at 101.6 93.98 0)
+			(at 93.98 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6906,7 +6906,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 101.6 93.98 0)
+			(at 93.98 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6915,7 +6915,7 @@
 			)
 		)
 		(property "LCSC Part Name" "BSS138B"
-			(at 101.6 93.98 0)
+			(at 93.98 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6943,7 +6943,7 @@
 	)
 	(symbol
 		(lib_id "ProPrj_Sat-easyedapro:Power-5V")
-		(at 156.21 21.59 270)
+		(at 148.59 40.6146 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6951,7 +6951,7 @@
 		(dnp no)
 		(uuid "9808829e-c225-4db8-abb1-29c9166a52e1")
 		(property "Reference" "#PWR?"
-			(at 156.21 21.59 0)
+			(at 148.59 40.6146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6960,7 +6960,7 @@
 			)
 		)
 		(property "Value" "EXT+5V"
-			(at 163.83 21.59 90)
+			(at 156.21 40.6146 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6968,7 +6968,7 @@
 			)
 		)
 		(property "Footprint" "ProPrj_Sat-easyedapro:"
-			(at 156.21 21.59 0)
+			(at 148.59 40.6146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6977,7 +6977,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.21 21.59 0)
+			(at 148.59 40.6146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6986,7 +6986,7 @@
 			)
 		)
 		(property "Description" "Power-5V"
-			(at 156.21 21.59 0)
+			(at 148.59 40.6146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7008,7 +7008,7 @@
 	)
 	(symbol
 		(lib_id "ProPrj_Sat-easyedapro:Res")
-		(at 96.52 34.29 90)
+		(at 88.9 68.58 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7016,7 +7016,7 @@
 		(dnp no)
 		(uuid "9b9ea78d-c249-48c0-9c3a-81d0034dae62")
 		(property "Reference" "R4"
-			(at 99.06 34.29 90)
+			(at 91.44 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7024,7 +7024,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 99.06 36.83 90)
+			(at 91.44 71.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7033,7 +7033,7 @@
 			)
 		)
 		(property "Footprint" "ProPrj_Sat-easyedapro:R0603"
-			(at 96.52 34.29 0)
+			(at 88.9 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7042,7 +7042,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 34.29 0)
+			(at 88.9 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7051,7 +7051,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 96.52 34.29 0)
+			(at 88.9 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7076,7 +7076,7 @@
 	)
 	(symbol
 		(lib_id "ProPrj_Sat-easyedapro:Ground-GND")
-		(at 6.35 68.58 0)
+		(at 31.75 20.32 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7084,7 +7084,7 @@
 		(dnp no)
 		(uuid "a8262744-c3ec-43b8-ad18-dc95cfcf4326")
 		(property "Reference" "#PWR?"
-			(at 6.35 68.58 0)
+			(at 31.75 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7093,7 +7093,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 6.35 74.93 0)
+			(at 25.4 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7101,7 +7101,7 @@
 			)
 		)
 		(property "Footprint" "ProPrj_Sat-easyedapro:"
-			(at 6.35 68.58 0)
+			(at 31.75 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7110,7 +7110,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 6.35 68.58 0)
+			(at 31.75 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7119,7 +7119,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 6.35 68.58 0)
+			(at 31.75 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7141,7 +7141,7 @@
 	)
 	(symbol
 		(lib_id "ProPrj_Sat-easyedapro:Power-VCC")
-		(at 106.68 39.37 270)
+		(at 99.06 73.66 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7149,7 +7149,7 @@
 		(dnp no)
 		(uuid "abed31d6-ea59-43dc-a7b6-5e0deb87b212")
 		(property "Reference" "#PWR?"
-			(at 106.68 39.37 0)
+			(at 99.06 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7158,7 +7158,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 111.76 39.37 90)
+			(at 104.14 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7166,7 +7166,7 @@
 			)
 		)
 		(property "Footprint" "ProPrj_Sat-easyedapro:"
-			(at 106.68 39.37 0)
+			(at 99.06 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7175,7 +7175,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 39.37 0)
+			(at 99.06 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7184,7 +7184,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 106.68 39.37 0)
+			(at 99.06 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7206,7 +7206,7 @@
 	)
 	(symbol
 		(lib_id "ProPrj_Sat-easyedapro:Ground-GND")
-		(at 196.85 21.6154 270)
+		(at 177.8 41.91 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7214,7 +7214,7 @@
 		(dnp no)
 		(uuid "acdf2eb5-fcc1-43ce-b122-2e8c323328bb")
 		(property "Reference" "#PWR?"
-			(at 196.85 21.6154 0)
+			(at 177.8 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7223,7 +7223,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 190.5 21.6154 90)
+			(at 171.45 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7231,7 +7231,7 @@
 			)
 		)
 		(property "Footprint" "ProPrj_Sat-easyedapro:"
-			(at 196.85 21.6154 0)
+			(at 177.8 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7240,7 +7240,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 196.85 21.6154 0)
+			(at 177.8 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7249,7 +7249,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 196.85 21.6154 0)
+			(at 177.8 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7271,7 +7271,7 @@
 	)
 	(symbol
 		(lib_id "ProPrj_Sat-easyedapro:Power-VCC")
-		(at 106.68 101.6 270)
+		(at 99.06 135.89 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7279,7 +7279,7 @@
 		(dnp no)
 		(uuid "adef31bf-df9a-4083-9c1f-2095570861a2")
 		(property "Reference" "#PWR?"
-			(at 106.68 101.6 0)
+			(at 99.06 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7288,7 +7288,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 111.76 101.6 90)
+			(at 104.14 135.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7296,7 +7296,7 @@
 			)
 		)
 		(property "Footprint" "ProPrj_Sat-easyedapro:"
-			(at 106.68 101.6 0)
+			(at 99.06 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7305,7 +7305,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 101.6 0)
+			(at 99.06 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7314,7 +7314,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 106.68 101.6 0)
+			(at 99.06 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7336,7 +7336,7 @@
 	)
 	(symbol
 		(lib_id "ProPrj_Sat-easyedapro:BSS138B")
-		(at 101.6 134.62 90)
+		(at 93.98 168.91 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7344,7 +7344,7 @@
 		(dnp no)
 		(uuid "b14d6347-9fc1-4998-9665-cd3ef92e3b4a")
 		(property "Reference" "Q7"
-			(at 99.06 128.27 90)
+			(at 91.44 162.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7352,7 +7352,7 @@
 			)
 		)
 		(property "Value" "BSS138B"
-			(at 102.87 127 90)
+			(at 95.25 161.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7360,7 +7360,7 @@
 			)
 		)
 		(property "Footprint" "ProPrj_Sat-easyedapro:SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR"
-			(at 101.6 134.62 0)
+			(at 93.98 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7369,7 +7369,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/BSS138B/21940665.html"
-			(at 101.6 134.62 0)
+			(at 93.98 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7378,7 +7378,7 @@
 			)
 		)
 		(property "Description" "Drain to Source Voltage:50V Current - Continuous Drain(Id):600mA RDS(on):1.2Ω@4.5V Gate Threshold Voltage (Vgs(th)):1.6V@250uA Type:N-Channel"
-			(at 101.6 134.62 0)
+			(at 93.98 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7387,7 +7387,7 @@
 			)
 		)
 		(property "Manufacturer Part" "BSS138B"
-			(at 101.6 134.62 0)
+			(at 93.98 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7396,7 +7396,7 @@
 			)
 		)
 		(property "Manufacturer" "YANGJIE(扬杰)"
-			(at 101.6 134.62 0)
+			(at 93.98 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7405,7 +7405,7 @@
 			)
 		)
 		(property "Supplier Part" "C20599939"
-			(at 101.6 134.62 0)
+			(at 93.98 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7414,7 +7414,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 101.6 134.62 0)
+			(at 93.98 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7423,7 +7423,7 @@
 			)
 		)
 		(property "LCSC Part Name" "BSS138B"
-			(at 101.6 134.62 0)
+			(at 93.98 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7451,7 +7451,7 @@
 	)
 	(symbol
 		(lib_id "ProPrj_Sat-easyedapro:Res")
-		(at 96.52 54.61 90)
+		(at 88.9 88.9 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7459,7 +7459,7 @@
 		(dnp no)
 		(uuid "b2752cb9-1db7-41e8-868e-3c34f1d77def")
 		(property "Reference" "R6"
-			(at 99.06 54.61 90)
+			(at 91.44 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7467,7 +7467,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 99.06 57.15 90)
+			(at 91.44 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7476,7 +7476,7 @@
 			)
 		)
 		(property "Footprint" "ProPrj_Sat-easyedapro:R0603"
-			(at 96.52 54.61 0)
+			(at 88.9 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7485,7 +7485,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 54.61 0)
+			(at 88.9 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7494,7 +7494,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 96.52 54.61 0)
+			(at 88.9 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7519,7 +7519,7 @@
 	)
 	(symbol
 		(lib_id "ProPrj_Sat-easyedapro:Ground-GND")
-		(at 161.29 11.43 90)
+		(at 153.67 30.4546 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7527,7 +7527,7 @@
 		(dnp no)
 		(uuid "b32e3302-04d1-4793-9696-ad75a284e8c7")
 		(property "Reference" "#PWR?"
-			(at 161.29 11.43 0)
+			(at 153.67 30.4546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7536,7 +7536,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 167.64 11.43 90)
+			(at 160.02 30.4546 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7544,7 +7544,7 @@
 			)
 		)
 		(property "Footprint" "ProPrj_Sat-easyedapro:"
-			(at 161.29 11.43 0)
+			(at 153.67 30.4546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7553,7 +7553,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 161.29 11.43 0)
+			(at 153.67 30.4546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7562,7 +7562,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 161.29 11.43 0)
+			(at 153.67 30.4546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7584,7 +7584,7 @@
 	)
 	(symbol
 		(lib_id "ProPrj_Sat-easyedapro:Res")
-		(at 96.52 13.97 90)
+		(at 88.9 48.26 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7592,7 +7592,7 @@
 		(dnp no)
 		(uuid "b457731b-9c70-4c45-8058-7a91648ec90f")
 		(property "Reference" "R2"
-			(at 99.06 13.97 90)
+			(at 91.44 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7600,7 +7600,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 99.06 16.51 90)
+			(at 91.44 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7609,7 +7609,7 @@
 			)
 		)
 		(property "Footprint" "ProPrj_Sat-easyedapro:R0603"
-			(at 96.52 13.97 0)
+			(at 88.9 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7618,7 +7618,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 13.97 0)
+			(at 88.9 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7627,7 +7627,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 96.52 13.97 0)
+			(at 88.9 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7652,7 +7652,7 @@
 	)
 	(symbol
 		(lib_id "ProPrj_Sat-easyedapro:Power-5V")
-		(at 96.52 142.24 90)
+		(at 88.9 176.53 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7660,7 +7660,7 @@
 		(dnp no)
 		(uuid "b585bff3-dd5e-4062-913e-da7055bdc8ca")
 		(property "Reference" "#PWR?"
-			(at 96.52 142.24 0)
+			(at 88.9 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7669,7 +7669,7 @@
 			)
 		)
 		(property "Value" "C+5V"
-			(at 90.17 142.24 90)
+			(at 82.55 176.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7677,7 +7677,7 @@
 			)
 		)
 		(property "Footprint" "ProPrj_Sat-easyedapro:"
-			(at 96.52 142.24 0)
+			(at 88.9 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7686,7 +7686,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 142.24 0)
+			(at 88.9 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7695,7 +7695,7 @@
 			)
 		)
 		(property "Description" "Power-5V"
-			(at 96.52 142.24 0)
+			(at 88.9 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7717,7 +7717,7 @@
 	)
 	(symbol
 		(lib_id "ProPrj_Sat-easyedapro:MINI MSK12CO2")
-		(at 153.67 13.97 180)
+		(at 146.05 32.9946 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7725,7 +7725,7 @@
 		(dnp no)
 		(uuid "bda6425c-9fd6-4b92-90be-f5e4e2a98636")
 		(property "Reference" "SW1"
-			(at 148.59 6.35 0)
+			(at 140.97 25.3746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7733,7 +7733,7 @@
 			)
 		)
 		(property "Value" "MINI MSK12CO2"
-			(at 158.75 17.78 0)
+			(at 151.13 36.8046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7741,7 +7741,7 @@
 			)
 		)
 		(property "Footprint" "ProPrj_Sat-easyedapro:SW-SMD_MSK12CO2"
-			(at 153.67 13.97 0)
+			(at 146.05 32.9946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7750,7 +7750,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/MINI%2520MSK12CO2/2774913.html"
-			(at 153.67 13.97 0)
+			(at 146.05 32.9946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7759,7 +7759,7 @@
 			)
 		)
 		(property "Description" "Circuit:SPDT Actuator Style:Rectangular Columnar Termination Style:SMD(SMT) Tab Length:5mm Width:2.75mm Switch Height:1.4mm Mounting Type:Surface Mount, Right Angle Actuator Color:White Current Rating:50mA Voltage Rating:12V Life:10,000 Cycles Operating T"
-			(at 153.67 13.97 0)
+			(at 146.05 32.9946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7768,7 +7768,7 @@
 			)
 		)
 		(property "Manufacturer Part" "MINI MSK12CO2"
-			(at 153.67 13.97 0)
+			(at 146.05 32.9946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7777,7 +7777,7 @@
 			)
 		)
 		(property "Manufacturer" "SHOU HAN(首韩)"
-			(at 153.67 13.97 0)
+			(at 146.05 32.9946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7786,7 +7786,7 @@
 			)
 		)
 		(property "Supplier Part" "C2681570"
-			(at 153.67 13.97 0)
+			(at 146.05 32.9946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7795,7 +7795,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 153.67 13.97 0)
+			(at 146.05 32.9946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7804,7 +7804,7 @@
 			)
 		)
 		(property "LCSC Part Name" "迷你七脚两档侧拨拨动 mini七7脚 微型拨动"
-			(at 153.67 13.97 0)
+			(at 146.05 32.9946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7838,7 +7838,7 @@
 	)
 	(symbol
 		(lib_id "ProPrj_Sat-easyedapro:D-SUB-DR-9PCM-CB")
-		(at 13.97 60.96 180)
+		(at 39.37 27.94 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7846,7 +7846,7 @@
 		(dnp no)
 		(uuid "bf2205e3-ebda-4aec-9b8e-29b694a5fbe4")
 		(property "Reference" "U4"
-			(at 11.43 46.99 0)
+			(at 53.34 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7854,15 +7854,16 @@
 			)
 		)
 		(property "Value" "D-SUB-DR-9PCM-CB"
-			(at 11.43 76.2 0)
+			(at 24.13 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "ProPrj_Sat-easyedapro:DB9-TH_D-SUB-DR-9PCM-CB"
-			(at 13.97 60.96 0)
+			(at 39.37 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7871,7 +7872,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/D-SUB-DR-9PCM-CB/20275081.html"
-			(at 13.97 60.96 0)
+			(at 39.37 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7880,7 +7881,7 @@
 			)
 		)
 		(property "Description" "Gender:Female Number of Pins:9P Mounting Type:Right Angle Number of Rows:2 Current Rating-Signal:3A Color:Black Operating Temperature:-50°C~+105°C Operating Temperature:-50°C~+105°C"
-			(at 13.97 60.96 0)
+			(at 39.37 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7889,7 +7890,7 @@
 			)
 		)
 		(property "Manufacturer Part" "D-SUB-DR-9PCM-CB"
-			(at 13.97 60.96 0)
+			(at 39.37 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7898,7 +7899,7 @@
 			)
 		)
 		(property "Manufacturer" "XUNPU(讯普)"
-			(at 13.97 60.96 0)
+			(at 39.37 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7907,7 +7908,7 @@
 			)
 		)
 		(property "Supplier Part" "C19077337"
-			(at 13.97 60.96 0)
+			(at 39.37 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7916,7 +7917,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 13.97 60.96 0)
+			(at 39.37 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7925,7 +7926,7 @@
 			)
 		)
 		(property "LCSC Part Name" "母 P数:9P"
-			(at 13.97 60.96 0)
+			(at 39.37 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7977,7 +7978,7 @@
 	)
 	(symbol
 		(lib_id "ProPrj_Sat-easyedapro:Ground-GND")
-		(at 224.79 21.6154 90)
+		(at 205.74 41.91 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7985,7 +7986,7 @@
 		(dnp no)
 		(uuid "c5897e41-1649-47cf-b90c-dbc7eb02b178")
 		(property "Reference" "#PWR?"
-			(at 224.79 21.6154 0)
+			(at 205.74 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7994,7 +7995,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 231.14 21.6154 90)
+			(at 212.09 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8002,7 +8003,7 @@
 			)
 		)
 		(property "Footprint" "ProPrj_Sat-easyedapro:"
-			(at 224.79 21.6154 0)
+			(at 205.74 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8011,7 +8012,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 224.79 21.6154 0)
+			(at 205.74 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8020,7 +8021,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 224.79 21.6154 0)
+			(at 205.74 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8042,7 +8043,7 @@
 	)
 	(symbol
 		(lib_id "ProPrj_Sat-easyedapro:Power-5V")
-		(at 96.52 121.92 90)
+		(at 88.9 156.21 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8050,7 +8051,7 @@
 		(dnp no)
 		(uuid "cd4f6b1b-68d2-4d6c-8508-ec1b113b4bb5")
 		(property "Reference" "#PWR?"
-			(at 96.52 121.92 0)
+			(at 88.9 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8059,7 +8060,7 @@
 			)
 		)
 		(property "Value" "C+5V"
-			(at 90.17 121.92 90)
+			(at 82.55 156.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8067,7 +8068,7 @@
 			)
 		)
 		(property "Footprint" "ProPrj_Sat-easyedapro:"
-			(at 96.52 121.92 0)
+			(at 88.9 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8076,7 +8077,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 121.92 0)
+			(at 88.9 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8085,7 +8086,7 @@
 			)
 		)
 		(property "Description" "Power-5V"
-			(at 96.52 121.92 0)
+			(at 88.9 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8107,7 +8108,7 @@
 	)
 	(symbol
 		(lib_id "ProPrj_Sat-easyedapro:Ground-GND")
-		(at 146.05 11.43 270)
+		(at 138.43 30.4546 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8115,7 +8116,7 @@
 		(dnp no)
 		(uuid "cfc076a1-9b28-4a51-98bf-047718805aea")
 		(property "Reference" "#PWR?"
-			(at 146.05 11.43 0)
+			(at 138.43 30.4546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8124,7 +8125,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 139.7 11.43 90)
+			(at 132.08 30.4546 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8132,7 +8133,7 @@
 			)
 		)
 		(property "Footprint" "ProPrj_Sat-easyedapro:"
-			(at 146.05 11.43 0)
+			(at 138.43 30.4546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8141,7 +8142,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 11.43 0)
+			(at 138.43 30.4546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8150,7 +8151,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 146.05 11.43 0)
+			(at 138.43 30.4546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8172,7 +8173,7 @@
 	)
 	(symbol
 		(lib_id "ProPrj_Sat-easyedapro:BSS138B")
-		(at 101.6 52.07 90)
+		(at 93.98 86.36 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8180,7 +8181,7 @@
 		(dnp no)
 		(uuid "d31b4f9f-f9f5-4149-9d15-762e0014cab5")
 		(property "Reference" "Q3"
-			(at 99.06 45.72 90)
+			(at 91.44 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8188,7 +8189,7 @@
 			)
 		)
 		(property "Value" "BSS138B"
-			(at 102.87 44.45 90)
+			(at 95.25 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8196,7 +8197,7 @@
 			)
 		)
 		(property "Footprint" "ProPrj_Sat-easyedapro:SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR"
-			(at 101.6 52.07 0)
+			(at 93.98 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8205,7 +8206,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/BSS138B/21940665.html"
-			(at 101.6 52.07 0)
+			(at 93.98 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8214,7 +8215,7 @@
 			)
 		)
 		(property "Description" "Drain to Source Voltage:50V Current - Continuous Drain(Id):600mA RDS(on):1.2Ω@4.5V Gate Threshold Voltage (Vgs(th)):1.6V@250uA Type:N-Channel"
-			(at 101.6 52.07 0)
+			(at 93.98 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8223,7 +8224,7 @@
 			)
 		)
 		(property "Manufacturer Part" "BSS138B"
-			(at 101.6 52.07 0)
+			(at 93.98 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8232,7 +8233,7 @@
 			)
 		)
 		(property "Manufacturer" "YANGJIE(扬杰)"
-			(at 101.6 52.07 0)
+			(at 93.98 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8241,7 +8242,7 @@
 			)
 		)
 		(property "Supplier Part" "C20599939"
-			(at 101.6 52.07 0)
+			(at 93.98 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8250,7 +8251,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 101.6 52.07 0)
+			(at 93.98 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8259,7 +8260,7 @@
 			)
 		)
 		(property "LCSC Part Name" "BSS138B"
-			(at 101.6 52.07 0)
+			(at 93.98 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8287,7 +8288,7 @@
 	)
 	(symbol
 		(lib_id "ProPrj_Sat-easyedapro:BSS138B")
-		(at 101.6 114.3 90)
+		(at 93.98 148.59 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8295,7 +8296,7 @@
 		(dnp no)
 		(uuid "d3d7f1d2-cab1-41c6-b7ff-2f595669e1dd")
 		(property "Reference" "Q6"
-			(at 99.06 107.95 90)
+			(at 91.44 142.24 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8303,7 +8304,7 @@
 			)
 		)
 		(property "Value" "BSS138B"
-			(at 102.87 106.68 90)
+			(at 95.25 140.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8311,7 +8312,7 @@
 			)
 		)
 		(property "Footprint" "ProPrj_Sat-easyedapro:SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR"
-			(at 101.6 114.3 0)
+			(at 93.98 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8320,7 +8321,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/BSS138B/21940665.html"
-			(at 101.6 114.3 0)
+			(at 93.98 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8329,7 +8330,7 @@
 			)
 		)
 		(property "Description" "Drain to Source Voltage:50V Current - Continuous Drain(Id):600mA RDS(on):1.2Ω@4.5V Gate Threshold Voltage (Vgs(th)):1.6V@250uA Type:N-Channel"
-			(at 101.6 114.3 0)
+			(at 93.98 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8338,7 +8339,7 @@
 			)
 		)
 		(property "Manufacturer Part" "BSS138B"
-			(at 101.6 114.3 0)
+			(at 93.98 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8347,7 +8348,7 @@
 			)
 		)
 		(property "Manufacturer" "YANGJIE(扬杰)"
-			(at 101.6 114.3 0)
+			(at 93.98 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8356,7 +8357,7 @@
 			)
 		)
 		(property "Supplier Part" "C20599939"
-			(at 101.6 114.3 0)
+			(at 93.98 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8365,7 +8366,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 101.6 114.3 0)
+			(at 93.98 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8374,7 +8375,7 @@
 			)
 		)
 		(property "LCSC Part Name" "BSS138B"
-			(at 101.6 114.3 0)
+			(at 93.98 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8402,7 +8403,7 @@
 	)
 	(symbol
 		(lib_id "ProPrj_Sat-easyedapro:TYPE-C-31-M-12")
-		(at 210.82 12.7254 90)
+		(at 191.77 33.02 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8410,7 +8411,7 @@
 		(dnp no)
 		(uuid "d49afe7f-fc2a-456a-8544-0ac14463b476")
 		(property "Reference" "USBC1"
-			(at 186.69 5.1054 90)
+			(at 167.64 25.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8418,7 +8419,7 @@
 			)
 		)
 		(property "Value" "TYPE-C-31-M-12"
-			(at 195.58 10.1854 90)
+			(at 176.53 30.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8426,7 +8427,7 @@
 			)
 		)
 		(property "Footprint" "ProPrj_Sat-easyedapro:USB-C_SMD-TYPE-C-31-M-12_1"
-			(at 210.82 12.7254 0)
+			(at 191.77 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8435,7 +8436,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/TYPE-C-31-M-12/177331.html"
-			(at 210.82 12.7254 0)
+			(at 191.77 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8444,7 +8445,7 @@
 			)
 		)
 		(property "Description" "Connector Type:Type-C Protocol Standard:- Gender:Female Mounting Type:- Number of Contacts:16P Number of Ports:1 Current Rating-Power:5A Operating Temperature:- Operating Temperature:-"
-			(at 210.82 12.7254 0)
+			(at 191.77 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8453,7 +8454,7 @@
 			)
 		)
 		(property "Manufacturer Part" "TYPE-C-31-M-12"
-			(at 210.82 12.7254 0)
+			(at 191.77 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8462,7 +8463,7 @@
 			)
 		)
 		(property "Manufacturer" "韩国韩荣"
-			(at 210.82 12.7254 0)
+			(at 191.77 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8471,7 +8472,7 @@
 			)
 		)
 		(property "Supplier Part" "C165948"
-			(at 210.82 12.7254 0)
+			(at 191.77 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8480,7 +8481,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 210.82 12.7254 0)
+			(at 191.77 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8489,7 +8490,7 @@
 			)
 		)
 		(property "LCSC Part Name" "Type-C 母"
-			(at 210.82 12.7254 0)
+			(at 191.77 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8556,7 +8557,7 @@
 	)
 	(symbol
 		(lib_id "ProPrj_Sat-easyedapro:BSS138B")
-		(at 101.6 11.43 90)
+		(at 93.98 45.72 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8564,7 +8565,7 @@
 		(dnp no)
 		(uuid "d624b02e-14e7-4a48-a5b4-3b7f33d094ae")
 		(property "Reference" "Q1"
-			(at 99.06 5.08 90)
+			(at 91.44 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8572,7 +8573,7 @@
 			)
 		)
 		(property "Value" "BSS138B"
-			(at 102.87 3.81 90)
+			(at 95.25 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8580,7 +8581,7 @@
 			)
 		)
 		(property "Footprint" "ProPrj_Sat-easyedapro:SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR"
-			(at 101.6 11.43 0)
+			(at 93.98 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8589,7 +8590,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/BSS138B/21940665.html"
-			(at 101.6 11.43 0)
+			(at 93.98 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8598,7 +8599,7 @@
 			)
 		)
 		(property "Description" "Drain to Source Voltage:50V Current - Continuous Drain(Id):600mA RDS(on):1.2Ω@4.5V Gate Threshold Voltage (Vgs(th)):1.6V@250uA Type:N-Channel"
-			(at 101.6 11.43 0)
+			(at 93.98 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8607,7 +8608,7 @@
 			)
 		)
 		(property "Manufacturer Part" "BSS138B"
-			(at 101.6 11.43 0)
+			(at 93.98 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8616,7 +8617,7 @@
 			)
 		)
 		(property "Manufacturer" "YANGJIE(扬杰)"
-			(at 101.6 11.43 0)
+			(at 93.98 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8625,7 +8626,7 @@
 			)
 		)
 		(property "Supplier Part" "C20599939"
-			(at 101.6 11.43 0)
+			(at 93.98 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8634,7 +8635,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 101.6 11.43 0)
+			(at 93.98 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8643,7 +8644,7 @@
 			)
 		)
 		(property "LCSC Part Name" "BSS138B"
-			(at 101.6 11.43 0)
+			(at 93.98 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8671,7 +8672,7 @@
 	)
 	(symbol
 		(lib_id "ProPrj_Sat-easyedapro:Power-5V")
-		(at 96.52 101.6 90)
+		(at 88.9 135.89 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8679,7 +8680,7 @@
 		(dnp no)
 		(uuid "e6d3f82b-7354-43c1-af82-c12378af9fed")
 		(property "Reference" "#PWR?"
-			(at 96.52 101.6 0)
+			(at 88.9 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8688,7 +8689,7 @@
 			)
 		)
 		(property "Value" "C+5V"
-			(at 90.17 101.6 90)
+			(at 82.55 135.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8696,7 +8697,7 @@
 			)
 		)
 		(property "Footprint" "ProPrj_Sat-easyedapro:"
-			(at 96.52 101.6 0)
+			(at 88.9 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8705,7 +8706,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 101.6 0)
+			(at 88.9 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8714,7 +8715,7 @@
 			)
 		)
 		(property "Description" "Power-5V"
-			(at 96.52 101.6 0)
+			(at 88.9 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8736,7 +8737,7 @@
 	)
 	(symbol
 		(lib_id "ProPrj_Sat-easyedapro:Power-5V")
-		(at 96.52 80.01 90)
+		(at 88.9 114.3 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8744,7 +8745,7 @@
 		(dnp no)
 		(uuid "ea0d9d14-b475-4b5f-a9d4-9e73682c1139")
 		(property "Reference" "#PWR?"
-			(at 96.52 80.01 0)
+			(at 88.9 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8753,7 +8754,7 @@
 			)
 		)
 		(property "Value" "C+5V"
-			(at 90.17 80.01 90)
+			(at 82.55 114.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8761,7 +8762,7 @@
 			)
 		)
 		(property "Footprint" "ProPrj_Sat-easyedapro:"
-			(at 96.52 80.01 0)
+			(at 88.9 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8770,7 +8771,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 80.01 0)
+			(at 88.9 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8779,7 +8780,7 @@
 			)
 		)
 		(property "Description" "Power-5V"
-			(at 96.52 80.01 0)
+			(at 88.9 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8801,7 +8802,7 @@
 	)
 	(symbol
 		(lib_id "ProPrj_Sat-easyedapro:Power-5V")
-		(at 62.23 71.12 270)
+		(at 29.21 76.2 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8809,7 +8810,7 @@
 		(dnp no)
 		(uuid "f6770bc9-f026-43fe-b9da-aa31fb849824")
 		(property "Reference" "#PWR?"
-			(at 62.23 71.12 0)
+			(at 29.21 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8818,7 +8819,7 @@
 			)
 		)
 		(property "Value" "C+5V"
-			(at 68.58 71.12 90)
+			(at 29.21 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8826,7 +8827,7 @@
 			)
 		)
 		(property "Footprint" "ProPrj_Sat-easyedapro:"
-			(at 62.23 71.12 0)
+			(at 29.21 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8835,7 +8836,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 71.12 0)
+			(at 29.21 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8844,7 +8845,7 @@
 			)
 		)
 		(property "Description" "Power-5V"
-			(at 62.23 71.12 0)
+			(at 29.21 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8866,7 +8867,7 @@
 	)
 	(symbol
 		(lib_id "ProPrj_Sat-easyedapro:Power-5V")
-		(at 96.52 19.05 90)
+		(at 88.9 53.34 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8874,7 +8875,7 @@
 		(dnp no)
 		(uuid "f80d8157-0c6b-41e3-ab6d-c99c8dc632d9")
 		(property "Reference" "#PWR?"
-			(at 96.52 19.05 0)
+			(at 88.9 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8883,7 +8884,7 @@
 			)
 		)
 		(property "Value" "C+5V"
-			(at 90.17 19.05 90)
+			(at 82.55 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8891,7 +8892,7 @@
 			)
 		)
 		(property "Footprint" "ProPrj_Sat-easyedapro:"
-			(at 96.52 19.05 0)
+			(at 88.9 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8900,7 +8901,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 19.05 0)
+			(at 88.9 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8909,7 +8910,7 @@
 			)
 		)
 		(property "Description" "Power-5V"
-			(at 96.52 19.05 0)
+			(at 88.9 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8931,7 +8932,7 @@
 	)
 	(symbol
 		(lib_id "ProPrj_Sat-easyedapro:Power-5V")
-		(at 171.45 78.74 0)
+		(at 191.77 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8939,7 +8940,7 @@
 		(dnp no)
 		(uuid "fd1565c2-4a15-4ce9-9090-bde4773ffbcb")
 		(property "Reference" "#PWR?"
-			(at 171.45 78.74 0)
+			(at 191.77 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8948,7 +8949,7 @@
 			)
 		)
 		(property "Value" "MINI+5V"
-			(at 173.99 74.93 0)
+			(at 194.31 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8956,7 +8957,7 @@
 			)
 		)
 		(property "Footprint" "ProPrj_Sat-easyedapro:"
-			(at 171.45 78.74 0)
+			(at 191.77 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8965,7 +8966,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 171.45 78.74 0)
+			(at 191.77 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8974,7 +8975,7 @@
 			)
 		)
 		(property "Description" "Power-5V"
-			(at 171.45 78.74 0)
+			(at 191.77 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8996,7 +8997,7 @@
 	)
 	(symbol
 		(lib_id "ProPrj_Sat-easyedapro:Ground-GND")
-		(at 31.75 53.34 90)
+		(at 46.99 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9004,7 +9005,7 @@
 		(dnp no)
 		(uuid "fdf51706-d3b2-4bee-9443-de5be8418415")
 		(property "Reference" "#PWR?"
-			(at 31.75 53.34 0)
+			(at 46.99 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9013,7 +9014,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 39.37 53.34 90)
+			(at 46.99 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9021,7 +9022,7 @@
 			)
 		)
 		(property "Footprint" "ProPrj_Sat-easyedapro:"
-			(at 31.75 53.34 0)
+			(at 46.99 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9030,7 +9031,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.75 53.34 0)
+			(at 46.99 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9039,7 +9040,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 31.75 53.34 0)
+			(at 46.99 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)

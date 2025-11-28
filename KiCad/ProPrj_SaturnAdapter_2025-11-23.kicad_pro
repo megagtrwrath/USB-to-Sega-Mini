@@ -38,7 +38,7 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.8,
-          "height": 1.8,
+          "height": 2.0,
           "width": 1.2
         },
         "silk_line_width": 0.1,

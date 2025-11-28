@@ -13,6 +13,15 @@ You can get a pre-built copy of the firmware for this board [here!](https://cdn.
 This github repo includes the source KICAD files for making modifications, and has it's GERBER, BOM and CPL in the releases tab. You may need to make modifications to find suitable parts
 I have manually excluded the DB9 connector and Saturn connector as to freely allow installation of whichever you choose.
 
+## This is the REV 0.5 Dev branch
+
+Changes to be made here:
+<ul>
+	<li>Move power USB port to somewhere more usable - Moved central to the board while reducing size</li>
+	<li>Make trace curves more consistent - Achieved</li>
+</ul>
+
+This branch is now feature frozen until a prototype has been tested
 
 ## Features:
 <ul>
