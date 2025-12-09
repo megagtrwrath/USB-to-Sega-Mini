@@ -3133,10 +3133,16 @@
 		(uuid "0c2474ef-8e8e-465e-b384-4bcf6511a445")
 	)
 	(junction
-		(at 29.21 66.04)
+		(at 29.21 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6319a124-1763-4e12-a6c7-510c2ca62af3")
+		(uuid "304861ba-329a-4f4b-abfc-13d2df78e4c5")
+	)
+	(junction
+		(at 33.02 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5df861bd-8ba9-42e4-920e-13193b2a7e43")
 	)
 	(junction
 		(at 186.69 95.2754)
@@ -3145,36 +3151,42 @@
 		(uuid "6492389e-8284-44d8-b059-2262a12c0e37")
 	)
 	(junction
-		(at 29.21 38.1)
+		(at 210.82 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a297cf0b-1c25-40e1-b30e-0fc482ea6ced")
+		(uuid "7ee63541-1ed2-4f92-b430-77a25c175a23")
 	)
 	(junction
 		(at 180.34 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ebf75018-a8c5-49af-9dc6-78c1dd4f700c")
+		(uuid "c676f348-2a5b-40fb-af14-48ed95e0343c")
+	)
+	(junction
+		(at 43.18 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d95ff7b5-9ed2-4478-a95d-82c06da8b14e")
 	)
 	(wire
 		(pts
-			(xy 185.42 57.15) (xy 185.42 41.91)
+			(xy 29.21 38.1) (xy 29.21 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "012cb031-276f-4b97-8e24-e8197abdb267")
+		(uuid "084c338b-c3fe-4208-8f4a-7a6e9d720f3d")
 	)
 	(wire
 		(pts
-			(xy 29.21 66.04) (xy 29.21 38.1)
+			(xy 46.99 48.26) (xy 46.99 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0f1d6065-53d9-4914-8f19-2eafc9f486ea")
+		(uuid "098ab1d1-8e9c-4977-877e-88fe82c1ddd6")
 	)
 	(polyline
 		(pts
@@ -3246,6 +3258,16 @@
 		)
 		(uuid "464aa947-e5d4-48ec-a3f9-0b7f4d410f72")
 	)
+	(wire
+		(pts
+			(xy 180.34 48.26) (xy 203.2 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a3d0980-0d60-467d-a27a-86680e9a6aa1")
+	)
 	(polyline
 		(pts
 			(xy 93.98 93.98) (xy 99.06 93.98)
@@ -3278,6 +3300,26 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 62.23) (xy 185.42 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67aa8997-335c-4ddf-9584-93bd052bd2f9")
+	)
+	(wire
+		(pts
+			(xy 214.63 59.69) (xy 210.82 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f815e2d-00e5-4a6b-aebf-993d1078a518")
+	)
+	(wire
+		(pts
 			(xy 191.77 95.25) (xy 191.77 97.79)
 		)
 		(stroke
@@ -3285,6 +3327,36 @@
 			(type default)
 		)
 		(uuid "78473763-8a0a-4e1e-bf1c-092d02fda456")
+	)
+	(wire
+		(pts
+			(xy 29.21 48.26) (xy 33.02 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f8c9896-e7ad-43b6-98e0-0a1d687859f1")
+	)
+	(wire
+		(pts
+			(xy 170.18 48.26) (xy 180.34 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "850fb5a7-1da1-4876-a6d1-18920a713c3f")
+	)
+	(wire
+		(pts
+			(xy 210.82 59.69) (xy 210.82 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89193cdd-df14-4622-9f72-9767dc41d98e")
 	)
 	(polyline
 		(pts
@@ -3328,16 +3400,6 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 38.1) (xy 46.99 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "94f9abd9-1000-4ea6-8beb-6ade64f3191e")
-	)
-	(wire
-		(pts
 			(xy 180.34 102.87) (xy 180.34 95.25)
 		)
 		(stroke
@@ -3355,6 +3417,16 @@
 			(type default)
 		)
 		(uuid "9d6f46e8-02e5-4414-bb64-83a142618e8c")
+	)
+	(wire
+		(pts
+			(xy 43.18 48.26) (xy 46.99 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e2d70c0-80e6-42a4-a778-02a9405fbd7b")
 	)
 	(polyline
 		(pts
@@ -3416,16 +3488,6 @@
 		)
 		(uuid "bda0b8f7-ec59-47f0-a5e1-21921a86bb01")
 	)
-	(wire
-		(pts
-			(xy 203.2 48.26) (xy 180.34 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cf94c2d6-c16b-41b5-86cf-fc86b0bae842")
-	)
 	(polyline
 		(pts
 			(xy 93.98 176.53) (xy 99.06 176.53)
@@ -3435,6 +3497,16 @@
 			(type default)
 		)
 		(uuid "d89c72bf-fa65-4a1e-8b4d-4e2b81ca5a6d")
+	)
+	(wire
+		(pts
+			(xy 210.82 59.69) (xy 210.82 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dee522fc-b47f-4c56-b4b8-80b44bb88b69")
 	)
 	(polyline
 		(pts
@@ -3455,6 +3527,16 @@
 			(type default)
 		)
 		(uuid "f0558ac0-4fb1-4cc0-80b8-fe160c59c02e")
+	)
+	(wire
+		(pts
+			(xy 185.42 41.91) (xy 185.42 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe781057-1291-4ff2-8d99-bbdc668abea3")
 	)
 	(global_label "TH"
 		(shape bidirectional)
@@ -4158,7 +4240,7 @@
 	)
 	(symbol
 		(lib_id "ProPrj_Sat-easyedapro:Ground-GND")
-		(at 210.82 57.15 90)
+		(at 214.63 59.69 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4166,7 +4248,7 @@
 		(dnp no)
 		(uuid "0312db06-688c-4777-9a76-1845b91444e6")
 		(property "Reference" "#PWR?"
-			(at 210.82 57.15 0)
+			(at 214.63 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4175,7 +4257,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 217.17 57.15 90)
+			(at 220.98 59.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4183,7 +4265,7 @@
 			)
 		)
 		(property "Footprint" "ProPrj_Sat-easyedapro:"
-			(at 210.82 57.15 0)
+			(at 214.63 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4192,7 +4274,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 210.82 57.15 0)
+			(at 214.63 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4201,7 +4283,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 210.82 57.15 0)
+			(at 214.63 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4425,7 +4507,7 @@
 	)
 	(symbol
 		(lib_id "ProPrj_Sat-easyedapro:T491A106K006AT")
-		(at 175.26 48.26 90)
+		(at 180.34 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4433,7 +4515,7 @@
 		(dnp no)
 		(uuid "162df790-6076-40b7-905c-75aaa49f4b24")
 		(property "Reference" "C2"
-			(at 179.07 52.07 90)
+			(at 176.53 57.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4441,7 +4523,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 172.72 53.34 90)
+			(at 175.26 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4450,7 +4532,7 @@
 			)
 		)
 		(property "Footprint" "ProPrj_Sat-easyedapro:CASE-A_3216"
-			(at 175.26 48.26 0)
+			(at 180.34 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4459,7 +4541,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/T491A106K006AT/123529.html"
-			(at 175.26 48.26 0)
+			(at 180.34 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4468,7 +4550,7 @@
 			)
 		)
 		(property "Description" "Capacitance:10uF Tolerance:±10% Tolerance:±10% Voltage Rating:6.3V Equivalent Series Resistance(ESR):4Ω@100kHz Operating Temperature:-55°C~+125°C Operating Temperature:-55°C~+125°C"
-			(at 175.26 48.26 0)
+			(at 180.34 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4477,7 +4559,7 @@
 			)
 		)
 		(property "Manufacturer Part" "T491A106K006AT"
-			(at 175.26 48.26 0)
+			(at 180.34 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4486,7 +4568,7 @@
 			)
 		)
 		(property "Manufacturer" "KEMET(基美)"
-			(at 175.26 48.26 0)
+			(at 180.34 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4495,7 +4577,7 @@
 			)
 		)
 		(property "Supplier Part" "C122260"
-			(at 175.26 48.26 0)
+			(at 180.34 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4504,7 +4586,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 175.26 48.26 0)
+			(at 180.34 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4513,7 +4595,7 @@
 			)
 		)
 		(property "LCSC Part Name" "10uF ±10% 6.3V"
-			(at 175.26 48.26 0)
+			(at 180.34 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4614,7 +4696,7 @@
 		(dnp no)
 		(uuid "18392d94-5aa6-4a62-939f-42608501334e")
 		(property "Reference" "R15"
-			(at 203.2 55.8546 0)
+			(at 205.994 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4967,71 +5049,6 @@
 		)
 		(pin "1"
 			(uuid "e2b87cb8-a9ea-4aa4-9b39-cd371f54cc67")
-		)
-		(instances
-			(project ""
-				(path "/b3b3cc32-0348-4f06-bce4-46286ef022c1"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ProPrj_Sat-easyedapro:Ground-GND")
-		(at 175.26 57.15 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "39a217f2-4243-4581-826d-358d8e5e2a49")
-		(property "Reference" "#PWR?"
-			(at 175.26 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 168.91 57.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "ProPrj_Sat-easyedapro:"
-			(at 175.26 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 175.26 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 175.26 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f802b8db-1944-4e3b-ab56-cb59fa584191")
 		)
 		(instances
 			(project ""
@@ -5732,7 +5749,7 @@
 	)
 	(symbol
 		(lib_id "ProPrj_Sat-easyedapro:T491A106K006AT")
-		(at 29.21 71.12 0)
+		(at 38.1 48.26 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5741,7 +5758,7 @@
 		(dnp no)
 		(uuid "57009421-3a7a-4070-8315-45c2823712dc")
 		(property "Reference" "C1"
-			(at 25.4 64.77 90)
+			(at 44.45 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5749,7 +5766,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 24.13 69.85 90)
+			(at 39.37 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5758,7 +5775,7 @@
 			)
 		)
 		(property "Footprint" "ProPrj_Sat-easyedapro:CASE-A_3216"
-			(at 29.21 71.12 0)
+			(at 38.1 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5767,7 +5784,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/T491A106K006AT/123529.html"
-			(at 29.21 71.12 0)
+			(at 38.1 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5776,7 +5793,7 @@
 			)
 		)
 		(property "Description" "Capacitance:10uF Tolerance:±10% Tolerance:±10% Voltage Rating:6.3V Equivalent Series Resistance(ESR):4Ω@100kHz Operating Temperature:-55°C~+125°C Operating Temperature:-55°C~+125°C"
-			(at 29.21 71.12 0)
+			(at 38.1 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5785,7 +5802,7 @@
 			)
 		)
 		(property "Manufacturer Part" "T491A106K006AT"
-			(at 29.21 71.12 0)
+			(at 38.1 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5794,7 +5811,7 @@
 			)
 		)
 		(property "Manufacturer" "KEMET(基美)"
-			(at 29.21 71.12 0)
+			(at 38.1 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5803,7 +5820,7 @@
 			)
 		)
 		(property "Supplier Part" "C122260"
-			(at 29.21 71.12 0)
+			(at 38.1 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5812,7 +5829,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 29.21 71.12 0)
+			(at 38.1 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5821,7 +5838,7 @@
 			)
 		)
 		(property "LCSC Part Name" "10uF ±10% 6.3V"
-			(at 29.21 71.12 0)
+			(at 38.1 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6464,7 +6481,7 @@
 	)
 	(symbol
 		(lib_id "ProPrj_Sat-easyedapro:FRC0603F5101TS")
-		(at 180.34 57.15 0)
+		(at 205.74 62.23 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6472,7 +6489,7 @@
 		(dnp no)
 		(uuid "7a59fe19-e836-4133-814a-3b3637229983")
 		(property "Reference" "R16"
-			(at 177.8 55.88 0)
+			(at 205.74 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6480,7 +6497,7 @@
 			)
 		)
 		(property "Value" "5.1kΩ"
-			(at 177.8 60.96 0)
+			(at 208.28 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6489,7 +6506,7 @@
 			)
 		)
 		(property "Footprint" "ProPrj_Sat-easyedapro:R0603"
-			(at 180.34 57.15 0)
+			(at 205.74 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6498,7 +6515,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 180.34 57.15 0)
+			(at 205.74 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6507,7 +6524,7 @@
 			)
 		)
 		(property "Description" "Type:Thick Film Resistor Resistance:5.1kΩ Tolerance:±1% Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±100ppm/°C Temperature Coefficient:±100ppm/°C Operating Temperature:-55°C~+155°C Operating Temperature:-55°C~+155°C"
-			(at 180.34 57.15 0)
+			(at 205.74 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6516,7 +6533,7 @@
 			)
 		)
 		(property "Manufacturer Part" "FRC0603F5101TS"
-			(at 180.34 57.15 0)
+			(at 205.74 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6525,7 +6542,7 @@
 			)
 		)
 		(property "Manufacturer" "FOJAN(富捷)"
-			(at 180.34 57.15 0)
+			(at 205.74 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6534,7 +6551,7 @@
 			)
 		)
 		(property "Supplier Part" "C2907044"
-			(at 180.34 57.15 0)
+			(at 205.74 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6543,7 +6560,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 180.34 57.15 0)
+			(at 205.74 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6552,7 +6569,7 @@
 			)
 		)
 		(property "LCSC Part Name" "5.1kΩ ±1% 100mW 厚膜电阻"
-			(at 180.34 57.15 0)
+			(at 205.74 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8802,7 +8819,7 @@
 	)
 	(symbol
 		(lib_id "ProPrj_Sat-easyedapro:Power-5V")
-		(at 29.21 76.2 180)
+		(at 33.02 48.26 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8810,7 +8827,7 @@
 		(dnp no)
 		(uuid "f6770bc9-f026-43fe-b9da-aa31fb849824")
 		(property "Reference" "#PWR?"
-			(at 29.21 76.2 0)
+			(at 33.02 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8819,7 +8836,7 @@
 			)
 		)
 		(property "Value" "C+5V"
-			(at 29.21 82.55 90)
+			(at 33.02 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8827,7 +8844,7 @@
 			)
 		)
 		(property "Footprint" "ProPrj_Sat-easyedapro:"
-			(at 29.21 76.2 0)
+			(at 33.02 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8836,7 +8853,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 29.21 76.2 0)
+			(at 33.02 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8845,7 +8862,7 @@
 			)
 		)
 		(property "Description" "Power-5V"
-			(at 29.21 76.2 0)
+			(at 33.02 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8997,7 +9014,7 @@
 	)
 	(symbol
 		(lib_id "ProPrj_Sat-easyedapro:Ground-GND")
-		(at 46.99 45.72 0)
+		(at 43.18 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9005,7 +9022,7 @@
 		(dnp no)
 		(uuid "fdf51706-d3b2-4bee-9443-de5be8418415")
 		(property "Reference" "#PWR?"
-			(at 46.99 45.72 0)
+			(at 43.18 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9014,7 +9031,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 46.99 53.34 90)
+			(at 43.18 55.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9022,7 +9039,7 @@
 			)
 		)
 		(property "Footprint" "ProPrj_Sat-easyedapro:"
-			(at 46.99 45.72 0)
+			(at 43.18 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9031,7 +9048,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 46.99 45.72 0)
+			(at 43.18 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9040,7 +9057,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 46.99 45.72 0)
+			(at 43.18 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
