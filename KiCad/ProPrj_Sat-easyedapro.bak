@@ -8709,7 +8709,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C9900026744"
+		(property "Supplier Part" "C9900026744"
 			(at 0 0 0)
 			(effects
 				(font

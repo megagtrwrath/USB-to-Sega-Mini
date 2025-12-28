@@ -70,7 +70,7 @@
 					(hide yes)
 				)
 			)
-			(property "Supplier Part" "C20599939"
+			(property "MPN" "C20599939"
 				(at 0 0 0)
 				(effects
 					(font
@@ -354,7 +354,7 @@
 					(hide yes)
 				)
 			)
-			(property "Supplier Part" "C19077337"
+			(property "MPN" "C19077337"
 				(at 0 0 0)
 				(effects
 					(font
@@ -978,7 +978,7 @@
 					(hide yes)
 				)
 			)
-			(property "Supplier Part" "C2907044"
+			(property "MPN" "C2907044"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1163,7 +1163,7 @@
 				(pin power_in line
 					(at 0 0 270)
 					(length 2.54)
-					(name "GND"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1246,7 +1246,7 @@
 					(hide yes)
 				)
 			)
-			(property "Supplier Part" "C2681570"
+			(property "MPN" "C2681570"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1473,7 +1473,7 @@
 				(pin power_in line
 					(at 0 0 90)
 					(length 1.27)
-					(name "C+5V"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1612,7 +1612,7 @@
 					)
 				)
 			)
-			(property "Footprint" "ProPrj_Sat-easyedapro:COMM-SMD_RP2040-ZERO"
+			(property "Footprint" "ProPrj_Sat-easyedapro:RP2040-ZERO DIP"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1621,7 +1621,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://item.szlcsc.com/datasheet/RP2040-Zero/6136910.html"
+			(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20230328/F7ADB41143C3623278858A7E8047DBCD.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1686,8 +1686,8 @@
 			)
 			(symbol "RP2040-ZERO_1_0"
 				(rectangle
-					(start -12.7 17.78)
-					(end 11.43 -15.24)
+					(start -12.7 -15.24)
+					(end 11.43 17.78)
 					(stroke
 						(width 0)
 						(type default)
@@ -1696,7 +1696,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at -15.24 13.97 0)
 					(length 2.54)
 					(name "5V"
@@ -1714,7 +1714,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at -15.24 11.43 0)
 					(length 2.54)
 					(name "GND"
@@ -1732,7 +1732,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at -15.24 8.89 0)
 					(length 2.54)
 					(name "3V3"
@@ -1750,7 +1750,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at -15.24 6.35 0)
 					(length 2.54)
 					(name "GP29"
@@ -1768,7 +1768,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at -15.24 3.81 0)
 					(length 2.54)
 					(name "GP28"
@@ -1786,7 +1786,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at -15.24 1.27 0)
 					(length 2.54)
 					(name "GP27"
@@ -1804,7 +1804,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at -15.24 -1.27 0)
 					(length 2.54)
 					(name "GP26"
@@ -1822,7 +1822,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at -15.24 -3.81 0)
 					(length 2.54)
 					(name "GP15"
@@ -1840,7 +1840,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at -15.24 -6.35 0)
 					(length 2.54)
 					(name "GP14"
@@ -1858,7 +1858,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at -5.08 -17.78 90)
 					(length 2.54)
 					(name "GP13"
@@ -1876,7 +1876,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at -2.54 -17.78 90)
 					(length 2.54)
 					(name "GP12"
@@ -1894,7 +1894,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at 0 -17.78 90)
 					(length 2.54)
 					(name "GP11"
@@ -1912,7 +1912,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at 2.54 -17.78 90)
 					(length 2.54)
 					(name "GP10"
@@ -1930,7 +1930,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at 5.08 -17.78 90)
 					(length 2.54)
 					(name "GP9"
@@ -1948,7 +1948,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at 13.97 13.97 180)
 					(length 2.54)
 					(name "GP0"
@@ -1966,7 +1966,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at 13.97 11.43 180)
 					(length 2.54)
 					(name "GP1"
@@ -1984,7 +1984,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at 13.97 8.89 180)
 					(length 2.54)
 					(name "GP2"
@@ -2002,7 +2002,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at 13.97 6.35 180)
 					(length 2.54)
 					(name "GP3"
@@ -2020,7 +2020,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at 13.97 3.81 180)
 					(length 2.54)
 					(name "GP4"
@@ -2038,7 +2038,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at 13.97 1.27 180)
 					(length 2.54)
 					(name "GP5"
@@ -2056,7 +2056,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at 13.97 -1.27 180)
 					(length 2.54)
 					(name "GP6"
@@ -2074,7 +2074,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at 13.97 -3.81 180)
 					(length 2.54)
 					(name "GP7"
@@ -2092,7 +2092,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at 13.97 -6.35 180)
 					(length 2.54)
 					(name "GP8"
@@ -2278,7 +2278,7 @@
 					(hide yes)
 				)
 			)
-			(property "Supplier Part" "C122260"
+			(property "MPN" "C122260"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2468,7 +2468,7 @@
 					(hide yes)
 				)
 			)
-			(property "Supplier Part" "C165948"
+			(property "MPN" "C165948"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4603,6 +4603,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C122260"
+			(at 180.34 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a4ca72ec-eb0c-408d-b5d1-d03a9f3bd3a8")
 		)
@@ -4776,6 +4785,15 @@
 			)
 		)
 		(property "LCSC Part Name" "5.1kΩ ±1% 100mW 厚膜电阻"
+			(at 205.74 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C2907044"
 			(at 205.74 57.15 0)
 			(effects
 				(font
@@ -5846,6 +5864,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C122260"
+			(at 38.1 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1ed332a8-f6c6-47a2-b4d5-a5e7b41e8e39")
 		)
@@ -5886,7 +5913,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ProPrj_Sat-easyedapro:COMM-SMD_RP2040-ZERO"
+		(property "Footprint" "ProPrj_Sat-easyedapro:RP2040-ZERO DIP"
 			(at 210.82 111.76 0)
 			(effects
 				(font
@@ -5895,7 +5922,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/RP2040-Zero/6136910.html"
+		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20230328/F7ADB41143C3623278858A7E8047DBCD.pdf"
 			(at 210.82 111.76 0)
 			(effects
 				(font
@@ -6266,6 +6293,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C20599939"
+			(at 93.98 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f2a025b7-caab-43da-b338-45db4649a0c1")
 		)
@@ -6577,6 +6613,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C2907044"
+			(at 205.74 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3634688f-c37e-4e42-b755-823cfa32f63d")
 		)
@@ -6749,6 +6794,15 @@
 			)
 		)
 		(property "LCSC Part Name" "BSS138B"
+			(at 93.98 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C20599939"
 			(at 93.98 66.04 0)
 			(effects
 				(font
@@ -6932,6 +6986,15 @@
 			)
 		)
 		(property "LCSC Part Name" "BSS138B"
+			(at 93.98 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C20599939"
 			(at 93.98 128.27 0)
 			(effects
 				(font
@@ -7448,6 +7511,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C20599939"
+			(at 93.98 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4292d0d1-1050-4261-ba8f-6296991fa138")
 		)
@@ -7829,6 +7901,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C2681570"
+			(at 146.05 32.9946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "477ad800-cf6d-4615-b2d4-b89decc53aff")
 		)
@@ -7943,6 +8024,15 @@
 			)
 		)
 		(property "LCSC Part Name" "母 P数:9P"
+			(at 39.37 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C19077337"
 			(at 39.37 27.94 0)
 			(effects
 				(font
@@ -8285,6 +8375,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C20599939"
+			(at 93.98 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "20770def-c402-4d4a-a0b7-e6525c679e49")
 		)
@@ -8400,6 +8499,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C20599939"
+			(at 93.98 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d58a706d-f71d-434b-ba23-a7bae0212c45")
 		)
@@ -8507,6 +8615,15 @@
 			)
 		)
 		(property "LCSC Part Name" "Type-C 母"
+			(at 191.77 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C165948"
 			(at 191.77 33.02 0)
 			(effects
 				(font
@@ -8661,6 +8778,15 @@
 			)
 		)
 		(property "LCSC Part Name" "BSS138B"
+			(at 93.98 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C20599939"
 			(at 93.98 45.72 0)
 			(effects
 				(font

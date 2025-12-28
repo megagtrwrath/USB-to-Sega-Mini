@@ -73,6 +73,29 @@
 			)
 		)
 	)
+	(property "MPN" "C1953792"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "0e7e3168-02d0-445c-9e37-09075e3c6f56")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Supplier" "LCSC"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "67c9de28-60ba-4087-90f2-6a9a3b333e15")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
 	(fp_line
 		(start -1.6 -1.143)
 		(end -1.6 -0.931)
