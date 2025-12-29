@@ -5,6 +5,294 @@
 	(uuid "b3b3cc32-0348-4f06-bce4-46286ef022c1")
 	(paper "User" 245.11 199.695)
 	(lib_symbols
+		(symbol "Device:C_Polarized_Small_US"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Polarized_Small_US"
+				(at 0.254 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Polarized capacitor, small US symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Polarized_Small_US_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.524) (xy -0.762 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.27) (xy -1.016 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.524 -0.762)
+					(mid 0 -0.3734)
+					(end 1.524 -0.762)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Polarized_Small_US_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "ProPrj_Sat-easyedapro:BSS138B"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -912,275 +1200,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "ProPrj_Sat-easyedapro:FRC0603F5101TS"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "5.1kΩ"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "ProPrj_Sat-easyedapro:R0603"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Type:Thick Film Resistor Resistance:5.1kΩ Tolerance:±1% Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±100ppm/°C Temperature Coefficient:±100ppm/°C Operating Temperature:-55°C~+155°C Operating Temperature:-55°C~+155°C"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer Part" "FRC0603F5101TS"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "FOJAN(富捷)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" "C2907044"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier" "LCSC"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part Name" "5.1kΩ ±1% 100mW 厚膜电阻"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "FRC0603F5101TS_1_0"
-				(rectangle
-					(start -2.54 -1.27)
-					(end 2.54 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "ProPrj_Sat-easyedapro:Ground-GND"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "ProPrj_Sat-easyedapro:"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Ground-GND_1_0"
-				(polyline
-					(pts
-						(xy -2.54 -2.54) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -3.302) (xy 1.778 -3.302)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 -4.064) (xy 1.016 -4.064)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.254 -4.826) (xy 0.254 -4.826)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at 0 0 270)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "ProPrj_Sat-easyedapro:MINI MSK12CO2"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1383,208 +1402,6 @@
 						(effects
 							(font
 								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "ProPrj_Sat-easyedapro:Power-5V"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" ""
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "ProPrj_Sat-easyedapro:"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power-5V"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Power-5V_1_0"
-				(polyline
-					(pts
-						(xy -1.27 2.54) (xy 1.27 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at 0 0 90)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "ProPrj_Sat-easyedapro:Power-VCC"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" ""
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "ProPrj_Sat-easyedapro:"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Power-VCC_1_0"
-				(polyline
-					(pts
-						(xy -1.27 2.54) (xy 1.27 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at 0 0 90)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0.0254 0.0254)
 							)
 						)
 					)
@@ -2106,296 +1923,6 @@
 						(effects
 							(font
 								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "ProPrj_Sat-easyedapro:Res"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "10K"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "ProPrj_Sat-easyedapro:R0603"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Res_1_0"
-				(rectangle
-					(start -2.54 1.016)
-					(end 2.54 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "ProPrj_Sat-easyedapro:T491A106K006AT"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "10uF"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "ProPrj_Sat-easyedapro:CASE-A_3216"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://item.szlcsc.com/datasheet/T491A106K006AT/123529.html"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Capacitance:10uF Tolerance:±10% Tolerance:±10% Voltage Rating:6.3V Equivalent Series Resistance(ESR):4Ω@100kHz Operating Temperature:-55°C~+125°C Operating Temperature:-55°C~+125°C"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer Part" "T491A106K006AT"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "KEMET(基美)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" "C122260"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier" "LCSC"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part Name" "10uF ±10% 6.3V"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "T491A106K006AT_1_0"
-				(rectangle
-					(start -2.54 1.4986)
-					(end -1.524 1.524)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 0.762) (xy 2.54 0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -2.032 1.016)
-					(end -2.0066 2.032)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.54 -1.016)
-					(mid -1.3208 -0.4064)
-					(end 0 -0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -0.254)
-					(mid 1.3208 -0.4064)
-					(end 2.54 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at 0 5.08 270)
-					(length 4.318)
-					(name "1"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -5.08 90)
-					(length 4.826)
-					(name "2"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0.0254 0.0254)
 							)
 						)
 					)
@@ -3011,6 +2538,232 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:VCC"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VCC"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VCC\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VCC_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VCC_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(rectangle
 		(start 167.64 83.82)
@@ -3127,28 +2880,64 @@
 		(uuid "821d06ae-1651-4d07-8c17-a2b6e84df6c2")
 	)
 	(junction
-		(at 31.75 20.32)
+		(at 99.06 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0c2474ef-8e8e-465e-b384-4bcf6511a445")
+		(uuid "0022b901-12dd-47b1-8375-93296e6a5095")
 	)
 	(junction
-		(at 29.21 38.1)
+		(at 99.06 166.37)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "304861ba-329a-4f4b-abfc-13d2df78e4c5")
+		(uuid "0327179f-6760-4893-9ebd-38fd3973b4dd")
 	)
 	(junction
-		(at 33.02 48.26)
+		(at 99.06 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5df861bd-8ba9-42e4-920e-13193b2a7e43")
+		(uuid "03dee043-6583-4330-b104-d6a8662cf5a1")
 	)
 	(junction
-		(at 186.69 95.2754)
+		(at 99.06 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6492389e-8284-44d8-b059-2262a12c0e37")
+		(uuid "159c1667-25da-4fd2-82e3-2c63f96dda44")
+	)
+	(junction
+		(at 29.21 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1a769b90-f03d-4dc2-8ce1-8bac4fac16f4")
+	)
+	(junction
+		(at 99.06 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "213c50f8-1520-4198-9a18-924e115bdb31")
+	)
+	(junction
+		(at 99.06 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3bfa3b14-d459-49ed-88c0-2460db4e96bf")
+	)
+	(junction
+		(at 99.06 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3f0ed55c-6cd2-44b7-bde3-fb882c10fa58")
+	)
+	(junction
+		(at 99.06 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "47620b6f-8619-48ef-8cde-0692487d4ea6")
+	)
+	(junction
+		(at 29.21 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4e0d5d42-9e81-4469-b6fb-4298173ba258")
 	)
 	(junction
 		(at 210.82 59.69)
@@ -3157,68 +2946,182 @@
 		(uuid "7ee63541-1ed2-4f92-b430-77a25c175a23")
 	)
 	(junction
+		(at 99.06 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "80216ab9-a0fc-4990-916d-b6ef00aa875e")
+	)
+	(junction
+		(at 99.06 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9172c70c-72b5-4948-8049-691b7236b42a")
+	)
+	(junction
+		(at 29.21 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a7e857cb-1a5d-482f-ab71-bff28252e910")
+	)
+	(junction
+		(at 99.06 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ad8850a0-3b89-4758-9db9-ccb25e4355cf")
+	)
+	(junction
+		(at 99.06 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b5d6ffcd-8284-4140-a37f-fa4c75943023")
+	)
+	(junction
+		(at 99.06 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b69f45b1-fbd1-4877-9382-5318ef950cf0")
+	)
+	(junction
+		(at 99.06 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c591899c-f06c-45b9-8e3e-075d9f0aafb7")
+	)
+	(junction
 		(at 180.34 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c676f348-2a5b-40fb-af14-48ed95e0343c")
 	)
 	(junction
-		(at 43.18 48.26)
+		(at 31.75 20.32)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d95ff7b5-9ed2-4478-a95d-82c06da8b14e")
+		(uuid "d57e789f-d638-4940-b5b3-90acf69cd5ff")
+	)
+	(no_connect
+		(at 205.74 41.91)
+		(uuid "0ed5ae71-51e5-47b3-8f28-dbca7ddc92e8")
+	)
+	(no_connect
+		(at 177.8 41.91)
+		(uuid "244a63dc-f6cc-4d21-b6fd-e6654d8075eb")
+	)
+	(no_connect
+		(at 187.96 41.91)
+		(uuid "304adf5c-f3f1-423e-8516-6169a39775d0")
+	)
+	(no_connect
+		(at 195.58 41.91)
+		(uuid "38103d88-be99-4d2e-8143-ebbf901054d2")
+	)
+	(no_connect
+		(at 198.12 41.91)
+		(uuid "6b12940e-6f99-4301-b507-ddd6a09d17fc")
+	)
+	(no_connect
+		(at 190.5 41.91)
+		(uuid "7f3c57d0-add1-46e8-8d30-c521df16ac57")
+	)
+	(no_connect
+		(at 193.04 41.91)
+		(uuid "8c6ce026-3e20-4b62-ae38-ba38368a85c4")
+	)
+	(no_connect
+		(at 182.88 41.91)
+		(uuid "8e2d14f8-e14d-4d1a-aeeb-cb77d4a8f48b")
 	)
 	(wire
 		(pts
-			(xy 29.21 38.1) (xy 29.21 48.26)
+			(xy 99.06 175.26) (xy 99.06 176.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "084c338b-c3fe-4208-8f4a-7a6e9d720f3d")
+		(uuid "06135c6d-208a-4d16-9975-a1e0aafb2bc5")
 	)
 	(wire
 		(pts
-			(xy 46.99 48.26) (xy 46.99 38.1)
+			(xy 88.9 63.5) (xy 88.9 64.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "098ab1d1-8e9c-4977-877e-88fe82c1ddd6")
-	)
-	(polyline
-		(pts
-			(xy 93.98 111.76) (xy 93.98 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15ffb4e9-9b4c-4843-8ac0-87da8c0b79c9")
+		(uuid "0a864389-32bb-4d13-b8e0-e892d19dd720")
 	)
 	(wire
 		(pts
-			(xy 200.66 41.91) (xy 200.66 57.1246)
+			(xy 88.9 83.82) (xy 88.9 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1a3bbaae-1b10-43b2-9e9c-dd380ac3a6c3")
+		(uuid "0d15fb89-90d7-46be-83c1-cf97d34c207e")
 	)
-	(polyline
+	(wire
 		(pts
-			(xy 93.98 50.8) (xy 93.98 53.34)
+			(xy 88.9 146.05) (xy 88.9 147.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "28288900-eb8d-42f9-abcb-9448c947f25a")
+		(uuid "0e3bbe0c-bb1c-4fd6-8a01-284d44e04f20")
 	)
-	(polyline
+	(wire
+		(pts
+			(xy 99.06 104.14) (xy 99.06 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f276bb8-e4d0-46d5-b0aa-b17a43f2dfbe")
+	)
+	(wire
+		(pts
+			(xy 99.06 52.07) (xy 99.06 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f5d84c3-5625-463c-b644-10e83b10f706")
+	)
+	(wire
+		(pts
+			(xy 93.98 91.44) (xy 93.98 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1830a36c-03b0-4d99-87b3-8f616bab10f8")
+	)
+	(wire
+		(pts
+			(xy 88.9 92.71) (xy 88.9 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18602e58-d214-4422-a871-fae458ad048b")
+	)
+	(wire
+		(pts
+			(xy 88.9 166.37) (xy 88.9 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19fb6a0d-bd0a-4c59-b176-f29ec9d3d771")
+	)
+	(wire
 		(pts
 			(xy 93.98 71.12) (xy 93.98 73.66)
 		)
@@ -3226,7 +3129,77 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "2ecf2af0-1e6a-4d2b-96b2-df51720c178e")
+		(uuid "1f107aa4-845c-4cc4-b53f-56528da38d62")
+	)
+	(wire
+		(pts
+			(xy 93.98 111.76) (xy 93.98 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20a68717-d8a9-49aa-8be3-aa47f6746b38")
+	)
+	(wire
+		(pts
+			(xy 93.98 114.3) (xy 99.06 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22be377e-42ee-49c0-95f0-1b075532b2cf")
+	)
+	(wire
+		(pts
+			(xy 99.06 113.03) (xy 99.06 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "270d8d96-0172-440b-ad68-ca133de8392d")
+	)
+	(wire
+		(pts
+			(xy 99.06 92.71) (xy 99.06 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cd70596-96ca-4733-bd98-35dafaf0573a")
+	)
+	(wire
+		(pts
+			(xy 93.98 133.35) (xy 93.98 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3369dafd-d8cc-460f-b704-8710b429160e")
+	)
+	(wire
+		(pts
+			(xy 100.33 146.05) (xy 99.06 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "339b39a9-511d-4e67-9634-0102aeba63b3")
+	)
+	(wire
+		(pts
+			(xy 29.21 69.85) (xy 29.21 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a78925f-aca1-43a4-bc85-13c28a443a0d")
 	)
 	(wire
 		(pts
@@ -3238,15 +3211,45 @@
 		)
 		(uuid "3adf30ca-740b-4c2e-b651-d977a9da382b")
 	)
-	(polyline
+	(wire
 		(pts
-			(xy 93.98 73.66) (xy 99.06 73.66)
+			(xy 100.33 125.73) (xy 99.06 125.73)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "400c1456-6c23-4ce0-8b96-84ee870f448d")
+		(uuid "3ef4131f-3c2f-4d88-ad87-9d9bfe71cc51")
+	)
+	(wire
+		(pts
+			(xy 93.98 93.98) (xy 99.06 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fccbb6b-fb8c-4a8a-bf80-d337fc09983e")
+	)
+	(wire
+		(pts
+			(xy 100.33 43.18) (xy 99.06 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fd2fe3d-f6ef-4ff9-99e2-423d7496c1ae")
+	)
+	(wire
+		(pts
+			(xy 100.33 83.82) (xy 100.33 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "426281b8-4f10-47c5-a556-e5ca47a1c374")
 	)
 	(wire
 		(pts
@@ -3260,6 +3263,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 83.82) (xy 100.33 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47a7076b-4166-4f95-b258-564064b7f2c4")
+	)
+	(wire
+		(pts
 			(xy 180.34 48.26) (xy 203.2 48.26)
 		)
 		(stroke
@@ -3268,15 +3281,45 @@
 		)
 		(uuid "4a3d0980-0d60-467d-a27a-86680e9a6aa1")
 	)
-	(polyline
+	(wire
 		(pts
-			(xy 93.98 93.98) (xy 99.06 93.98)
+			(xy 88.9 104.14) (xy 88.9 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4c509bfe-4750-4ad0-bc01-104f77a7557c")
+		(uuid "4c21bd0a-ec30-4471-bdd7-e49ef48933f4")
+	)
+	(wire
+		(pts
+			(xy 100.33 104.14) (xy 99.06 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "525902d5-63e3-4fc8-9df7-3a23dc2474d6")
+	)
+	(wire
+		(pts
+			(xy 99.06 125.73) (xy 99.06 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a958057-485a-45c1-b844-fc81b955c7b5")
+	)
+	(wire
+		(pts
+			(xy 100.33 63.5) (xy 100.33 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d2c5a7c-360b-4a80-b739-12dca6226134")
 	)
 	(wire
 		(pts
@@ -3288,25 +3331,55 @@
 		)
 		(uuid "5d7b2fe8-cba8-4060-8ebf-4dd72bf11b14")
 	)
-	(polyline
+	(wire
 		(pts
-			(xy 93.98 114.3) (xy 99.06 114.3)
+			(xy 29.21 38.1) (xy 29.21 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "64197dcd-3a11-4a66-9c65-a23901e83ceb")
+		(uuid "5d975632-2b35-49a4-ba47-1429f6db5fef")
 	)
 	(wire
 		(pts
-			(xy 200.66 62.23) (xy 185.42 62.23)
+			(xy 185.42 62.23) (xy 201.93 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "67aa8997-335c-4ddf-9584-93bd052bd2f9")
+	)
+	(wire
+		(pts
+			(xy 99.06 146.05) (xy 99.06 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6828677a-0552-4682-9c8d-c8ea27f505fa")
+	)
+	(wire
+		(pts
+			(xy 99.06 154.94) (xy 99.06 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c59b45f-3209-4528-a3c0-249da0ee7fd9")
+	)
+	(wire
+		(pts
+			(xy 88.9 113.03) (xy 88.9 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c5e1839-7e25-46e0-bf4d-883645516f85")
 	)
 	(wire
 		(pts
@@ -3320,6 +3393,26 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 135.89) (xy 99.06 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7275d9b8-ead2-4fc8-becc-e7116f74d112")
+	)
+	(wire
+		(pts
+			(xy 99.06 156.21) (xy 93.98 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78381cc7-15c8-4b74-babd-6bd06e3afb2e")
+	)
+	(wire
+		(pts
 			(xy 191.77 95.25) (xy 191.77 97.79)
 		)
 		(stroke
@@ -3330,13 +3423,33 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 48.26) (xy 33.02 48.26)
+			(xy 100.33 63.5) (xy 99.06 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7f8c9896-e7ad-43b6-98e0-0a1d687859f1")
+		(uuid "797b9be5-29ed-418c-a546-b7bfd9167079")
+	)
+	(wire
+		(pts
+			(xy 29.21 66.04) (xy 29.21 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e1759cf-a436-414a-9dd3-da4d188c692f")
+	)
+	(wire
+		(pts
+			(xy 99.06 72.39) (xy 99.06 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8481e82f-fef4-48a0-aede-3417e2ecc16a")
 	)
 	(wire
 		(pts
@@ -3350,6 +3463,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 83.82) (xy 99.06 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86882ee7-4dae-4a11-8aa8-5608778f9018")
+	)
+	(wire
+		(pts
 			(xy 210.82 59.69) (xy 210.82 62.23)
 		)
 		(stroke
@@ -3357,16 +3480,6 @@
 			(type default)
 		)
 		(uuid "89193cdd-df14-4622-9f72-9767dc41d98e")
-	)
-	(polyline
-		(pts
-			(xy 93.98 91.44) (xy 93.98 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "897a723d-9f56-4e11-b3d2-8d33a5d97fd7")
 	)
 	(wire
 		(pts
@@ -3390,7 +3503,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 95.2754) (xy 186.69 95.25)
+			(xy 186.69 95.25) (xy 186.69 100.33)
 		)
 		(stroke
 			(width 0)
@@ -3410,53 +3523,83 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 100.33) (xy 186.69 95.2754)
+			(xy 88.9 52.07) (xy 88.9 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9d6f46e8-02e5-4414-bb64-83a142618e8c")
+		(uuid "96c535b1-d095-4957-89c1-11e4f89e0d20")
 	)
 	(wire
 		(pts
-			(xy 43.18 48.26) (xy 46.99 48.26)
+			(xy 200.66 57.15) (xy 201.93 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9e2d70c0-80e6-42a4-a778-02a9405fbd7b")
+		(uuid "96c64fbb-8f83-4e43-85a6-9decc0e939f0")
 	)
-	(polyline
+	(wire
 		(pts
-			(xy 93.98 175.26) (xy 93.98 176.53)
+			(xy 93.98 53.34) (xy 99.06 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9ef518a3-3de6-45c3-8370-79ad11be1625")
+		(uuid "979fd946-4e31-428c-839a-ca8357af6ddf")
 	)
-	(polyline
+	(wire
 		(pts
-			(xy 93.98 133.35) (xy 93.98 135.89)
+			(xy 88.9 72.39) (xy 88.9 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a597395a-c159-4167-ac5c-c68a1e57a783")
+		(uuid "9cd00dff-f6da-4c8f-95a5-cde02b750ab5")
 	)
-	(polyline
+	(wire
 		(pts
-			(xy 93.98 154.94) (xy 93.98 156.21)
+			(xy 99.06 63.5) (xy 99.06 64.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a6af118d-8b7b-4776-8396-a59bc029e150")
+		(uuid "a129bf8b-5acd-4d38-9b4f-7e2308ce0d79")
+	)
+	(wire
+		(pts
+			(xy 93.98 73.66) (xy 99.06 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a21b2689-1497-40f2-98da-40b2e160c832")
+	)
+	(wire
+		(pts
+			(xy 209.55 62.23) (xy 210.82 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5f1028d-2a47-4d1c-904d-47421a7f021f")
+	)
+	(wire
+		(pts
+			(xy 99.06 166.37) (xy 99.06 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afeb54c9-e61f-43fb-b201-cfe1793ead84")
 	)
 	(wire
 		(pts
@@ -3468,27 +3611,17 @@
 		)
 		(uuid "b232b9a9-6eb3-441c-8a41-667998f2d4f1")
 	)
-	(polyline
+	(wire
 		(pts
-			(xy 93.98 135.89) (xy 99.06 135.89)
+			(xy 88.9 43.18) (xy 88.9 44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bb1ca7cd-c909-40f3-aee6-66d60e5f4634")
+		(uuid "b27f3229-6f75-44eb-8205-748c6d12a946")
 	)
-	(polyline
-		(pts
-			(xy 93.98 156.21) (xy 99.06 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bda0b8f7-ec59-47f0-a5e1-21921a86bb01")
-	)
-	(polyline
+	(wire
 		(pts
 			(xy 93.98 176.53) (xy 99.06 176.53)
 		)
@@ -3496,7 +3629,67 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "d89c72bf-fa65-4a1e-8b4d-4e2b81ca5a6d")
+		(uuid "b5a77b3e-58a5-4689-a13d-add184c17b09")
+	)
+	(wire
+		(pts
+			(xy 88.9 125.73) (xy 88.9 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6737b3b-d1a5-4f61-b6b1-92e612d5f924")
+	)
+	(wire
+		(pts
+			(xy 200.66 41.91) (xy 200.66 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc3cdb0b-ed69-441e-aa51-16ccf4a72b8e")
+	)
+	(wire
+		(pts
+			(xy 88.9 134.62) (xy 88.9 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd80c05a-5cfa-4435-97f8-2994e0984e41")
+	)
+	(wire
+		(pts
+			(xy 88.9 154.94) (xy 88.9 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c89f8928-1f12-4995-a320-a76fc459498d")
+	)
+	(wire
+		(pts
+			(xy 88.9 175.26) (xy 88.9 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce6de74e-91c4-4e3c-9314-93c92fa81302")
+	)
+	(wire
+		(pts
+			(xy 93.98 173.99) (xy 93.98 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d28f2cbb-a1ba-41fc-ac63-7e58ba55058f")
 	)
 	(wire
 		(pts
@@ -3508,15 +3701,45 @@
 		)
 		(uuid "dee522fc-b47f-4c56-b4b8-80b44bb88b69")
 	)
-	(polyline
+	(wire
 		(pts
-			(xy 93.98 53.34) (xy 99.06 53.34)
+			(xy 209.55 57.15) (xy 210.82 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e67860fb-143c-48dc-949b-f28ff3a3e3d0")
+		(uuid "dfc10b56-ec37-4f47-af94-a9c3e6ef0d63")
+	)
+	(wire
+		(pts
+			(xy 100.33 166.37) (xy 99.06 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e487fd59-fe02-4497-b5bb-6d0bbf3f7860")
+	)
+	(wire
+		(pts
+			(xy 93.98 156.21) (xy 93.98 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e496f7bd-ed7c-4395-90d0-d9d1e865d2e1")
+	)
+	(wire
+		(pts
+			(xy 93.98 50.8) (xy 93.98 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8bd2a6a-f2c8-4ef7-8632-cb4056fa2d93")
 	)
 	(wire
 		(pts
@@ -3527,6 +3750,26 @@
 			(type default)
 		)
 		(uuid "f0558ac0-4fb1-4cc0-80b8-fe160c59c02e")
+	)
+	(wire
+		(pts
+			(xy 99.06 43.18) (xy 99.06 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0d24c17-e383-459e-be6d-7808ccedf12b")
+	)
+	(wire
+		(pts
+			(xy 99.06 134.62) (xy 99.06 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f692abcf-05b8-47b7-bdb9-dd06cf9408a6")
 	)
 	(wire
 		(pts
@@ -3598,6 +3841,26 @@
 			)
 		)
 	)
+	(global_label "C+5V"
+		(shape passive)
+		(at 88.9 114.3 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0e6b2a02-857d-4ef1-a1a3-371b04194ff5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 88.9 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "D3"
 		(shape output)
 		(at 34.29 38.1 270)
@@ -3640,7 +3903,7 @@
 	)
 	(global_label "LO_D0"
 		(shape output)
-		(at 99.06 43.18 0)
+		(at 100.33 43.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3649,7 +3912,27 @@
 		)
 		(uuid "1c148424-57bd-4c60-bb8a-1f1b8391bc1f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 99.06 43.18 0)
+			(at 100.33 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C+5V"
+		(shape passive)
+		(at 29.21 73.66 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "286a72bd-0e44-45a0-abf1-42938778a092")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 29.21 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3700,7 +3983,7 @@
 	)
 	(global_label "LO_D1"
 		(shape output)
-		(at 99.06 63.5 0)
+		(at 100.33 63.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3709,7 +3992,7 @@
 		)
 		(uuid "49ae8bb4-dfba-4667-aa9c-0b38f6627a0e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 99.06 63.5 0)
+			(at 100.33 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3730,6 +4013,26 @@
 		(uuid "49c19449-6b81-4abf-94e1-229802763343")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 49.53 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C+5V"
+		(shape passive)
+		(at 88.9 176.53 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4c0b88bd-aade-46c1-8e51-07cf32ad6c6a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 88.9 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3818,9 +4121,29 @@
 			)
 		)
 	)
+	(global_label "C+5V"
+		(shape passive)
+		(at 143.51 40.64 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6629f792-57f8-49f1-9664-7322160bc1bd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 143.51 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "LO_D2"
 		(shape output)
-		(at 99.06 83.82 0)
+		(at 100.33 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3829,7 +4152,7 @@
 		)
 		(uuid "710f0ba7-e63d-4296-9cc5-658312ba2d11")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 99.06 83.82 0)
+			(at 100.33 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3878,9 +4201,29 @@
 			)
 		)
 	)
+	(global_label "C+5V"
+		(shape passive)
+		(at 88.9 156.21 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "793f7a0c-34fc-46dc-a2ff-03fddeba3646")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 88.9 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "LO_TL"
 		(shape bidirectional)
-		(at 99.06 125.73 0)
+		(at 100.33 125.73 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3889,7 +4232,7 @@
 		)
 		(uuid "7acd86f9-75fd-4a63-b4df-74eb04a3c969")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 99.06 125.73 0)
+			(at 100.33 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3960,7 +4303,7 @@
 	)
 	(global_label "LO_TR"
 		(shape bidirectional)
-		(at 99.06 146.05 0)
+		(at 100.33 146.05 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3969,7 +4312,27 @@
 		)
 		(uuid "90c094dd-c940-43a4-a3e2-4b68ad2819a0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 99.06 146.05 0)
+			(at 100.33 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "EXT5V"
+		(shape passive)
+		(at 170.18 48.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "91751ef2-5ec1-48ea-8d34-34b348889805")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 170.18 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3990,6 +4353,26 @@
 		(uuid "92ee37c6-f485-4c5f-9965-4a7ff5b32352")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 46.99 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C+5V"
+		(shape passive)
+		(at 88.9 73.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "965e12a0-920e-4edc-a28b-6e1918344da4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 88.9 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4040,7 +4423,7 @@
 	)
 	(global_label "LO_D3"
 		(shape output)
-		(at 99.06 104.14 0)
+		(at 100.33 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4049,7 +4432,7 @@
 		)
 		(uuid "ab77200c-841c-48b9-9573-83cebe3a30fa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 99.06 104.14 0)
+			(at 100.33 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4060,7 +4443,7 @@
 	)
 	(global_label "LO_TH"
 		(shape bidirectional)
-		(at 99.06 166.37 0)
+		(at 100.33 166.37 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4069,7 +4452,7 @@
 		)
 		(uuid "b1367ddf-1929-4d0a-a73d-2977249fc95f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 99.06 166.37 0)
+			(at 100.33 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4178,6 +4561,46 @@
 			)
 		)
 	)
+	(global_label "MINI+5V"
+		(shape passive)
+		(at 146.05 40.64 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c6cf23ed-e0a5-46f7-869e-31fefd163427")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 146.05 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C+5V"
+		(shape passive)
+		(at 88.9 53.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d3d67142-f429-495c-8606-3115da23ad6c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 88.9 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "TL"
 		(shape bidirectional)
 		(at 41.91 66.04 270)
@@ -4218,6 +4641,26 @@
 			)
 		)
 	)
+	(global_label "EXT5V"
+		(shape passive)
+		(at 148.59 40.64 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e2cd3f6e-fef5-4f0b-8e40-bea3a48e2aae")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 148.59 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "LO_TL"
 		(shape bidirectional)
 		(at 195.58 115.57 180)
@@ -4238,17 +4681,18 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "ProPrj_Sat-easyedapro:Ground-GND")
-		(at 214.63 59.69 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0312db06-688c-4777-9a76-1845b91444e6")
-		(property "Reference" "#PWR?"
-			(at 214.63 59.69 0)
+	(global_label "C+5V"
+		(shape passive)
+		(at 88.9 135.89 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ebe25d7b-fc72-45fa-b73e-3dcfba2dc2d1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 88.9 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4256,25 +4700,19 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 220.98 59.69 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+	)
+	(global_label "C+5V"
+		(shape passive)
+		(at 88.9 93.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify right)
 		)
-		(property "Footprint" "ProPrj_Sat-easyedapro:"
-			(at 214.63 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 214.63 59.69 0)
+		(uuid "fbdd5f79-e98c-4497-90b1-6207ac240c00")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 88.9 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4282,388 +4720,57 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 214.63 59.69 0)
+	)
+	(global_label "MINI+5V"
+		(shape passive)
+		(at 191.77 95.25 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fc18ea9e-fe8e-45f8-b5c6-3de21ef422fa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 191.77 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5c4a1c72-4260-430d-93fd-306d1b638541")
-		)
-		(instances
-			(project ""
-				(path "/b3b3cc32-0348-4f06-bce4-46286ef022c1"
-					(reference "#PWR?")
-					(unit 1)
-				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "ProPrj_Sat-easyedapro:Res")
-		(at 88.9 171.45 90)
+		(lib_id "Device:R")
+		(at 99.06 130.81 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "08b740f4-a1c5-4ade-aedb-51bcf2ef6e1a")
-		(property "Reference" "R13"
-			(at 91.44 171.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10K"
-			(at 91.44 173.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "ProPrj_Sat-easyedapro:R0603"
-			(at 88.9 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 88.9 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 88.9 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "fa737001-7e68-44ed-800c-4da9a1affcad")
-		)
-		(pin "1"
-			(uuid "8b9190c1-0094-4321-a388-784eb6621230")
-		)
-		(instances
-			(project ""
-				(path "/b3b3cc32-0348-4f06-bce4-46286ef022c1"
-					(reference "R13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ProPrj_Sat-easyedapro:Power-5V")
-		(at 170.18 48.26 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0f429cda-d0e4-4d1d-a58b-3ec55c928190")
-		(property "Reference" "#PWR?"
-			(at 170.18 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "EXT+5V"
-			(at 162.56 48.2346 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "ProPrj_Sat-easyedapro:"
-			(at 170.18 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 170.18 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power-5V"
-			(at 170.18 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "12153493-9718-4a89-967d-8fc49878ee24")
-		)
-		(instances
-			(project ""
-				(path "/b3b3cc32-0348-4f06-bce4-46286ef022c1"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ProPrj_Sat-easyedapro:Res")
-		(at 88.9 151.13 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1152f1e1-b696-4904-a07c-7747c51fe5e6")
-		(property "Reference" "R11"
-			(at 91.44 151.13 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10K"
-			(at 91.44 153.67 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "ProPrj_Sat-easyedapro:R0603"
-			(at 88.9 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 88.9 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 88.9 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8b74b653-165e-4126-aafc-83fff4a8154a")
-		)
-		(pin "2"
-			(uuid "e992e384-abc4-4bce-9e8d-5dabf923e6dc")
-		)
-		(instances
-			(project ""
-				(path "/b3b3cc32-0348-4f06-bce4-46286ef022c1"
-					(reference "R11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ProPrj_Sat-easyedapro:T491A106K006AT")
-		(at 180.34 53.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "162df790-6076-40b7-905c-75aaa49f4b24")
-		(property "Reference" "C2"
-			(at 176.53 57.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10uF"
-			(at 175.26 50.8 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "ProPrj_Sat-easyedapro:CASE-A_3216"
-			(at 180.34 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/T491A106K006AT/123529.html"
-			(at 180.34 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Capacitance:10uF Tolerance:±10% Tolerance:±10% Voltage Rating:6.3V Equivalent Series Resistance(ESR):4Ω@100kHz Operating Temperature:-55°C~+125°C Operating Temperature:-55°C~+125°C"
-			(at 180.34 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" "T491A106K006AT"
-			(at 180.34 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "KEMET(基美)"
-			(at 180.34 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" "C122260"
-			(at 180.34 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 180.34 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Name" "10uF ±10% 6.3V"
-			(at 180.34 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "C122260"
-			(at 180.34 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a4ca72ec-eb0c-408d-b5d1-d03a9f3bd3a8")
-		)
-		(pin "1"
-			(uuid "58082f7d-bc9d-4655-84a3-4b107aa3aa52")
-		)
-		(instances
-			(project ""
-				(path "/b3b3cc32-0348-4f06-bce4-46286ef022c1"
-					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ProPrj_Sat-easyedapro:Res")
-		(at 88.9 130.81 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "16638480-322e-4196-b962-ef5752cc173c")
+		(uuid "0966e245-6593-477e-a8e9-891731288064")
 		(property "Reference" "R9"
-			(at 91.44 130.81 90)
+			(at 103.124 129.032 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "10K"
-			(at 91.44 133.35 90)
+		(property "Value" "10k"
+			(at 104.14 132.334 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
-		(property "Footprint" "ProPrj_Sat-easyedapro:R0603"
-			(at 88.9 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 88.9 130.81 0)
+		(property "Footprint" "R0603"
+			(at 100.838 130.81 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4671,8 +4778,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 88.9 130.81 0)
+		(property "Datasheet" "~"
+			(at 99.06 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4680,14 +4787,32 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "71c7251b-892f-4519-a0f2-291996f31271")
+		(property "Description" "Resistor"
+			(at 99.06 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C25804"
+			(at 99.06 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "7093d13e-4712-41b4-81c0-9c4d6ba40724")
+			(uuid "540b0f37-54e2-4073-824d-c28895f39f6b")
+		)
+		(pin "2"
+			(uuid "ef9e0a17-cac5-45bd-8970-05c5af2244a8")
 		)
 		(instances
-			(project ""
+			(project "ProPrj_SaturnAdapter_2025-11-23"
 				(path "/b3b3cc32-0348-4f06-bce4-46286ef022c1"
 					(reference "R9")
 					(unit 1)
@@ -4696,24 +4821,35 @@
 		)
 	)
 	(symbol
-		(lib_id "ProPrj_Sat-easyedapro:FRC0603F5101TS")
-		(at 205.74 57.15 180)
+		(lib_id "Device:R")
+		(at 99.06 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "18392d94-5aa6-4a62-939f-42608501334e")
-		(property "Reference" "R15"
-			(at 205.994 57.15 0)
+		(fields_autoplaced yes)
+		(uuid "16325bd6-c4fe-49c7-a9c0-480528a08fd5")
+		(property "Reference" "R1"
+			(at 101.6 46.9899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "5.1kΩ"
-			(at 203.2 62.2046 0)
+		(property "Value" "10k"
+			(at 101.6 49.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "R0603"
+			(at 97.282 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4721,8 +4857,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ProPrj_Sat-easyedapro:R0603"
-			(at 205.74 57.15 0)
+		(property "Datasheet" "~"
+			(at 99.06 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4730,8 +4866,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 205.74 57.15 0)
+		(property "Description" "Resistor"
+			(at 99.06 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4739,8 +4875,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Type:Thick Film Resistor Resistance:5.1kΩ Tolerance:±1% Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±100ppm/°C Temperature Coefficient:±100ppm/°C Operating Temperature:-55°C~+155°C Operating Temperature:-55°C~+155°C"
-			(at 205.74 57.15 0)
+		(property "MPN" "C25804"
+			(at 99.06 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4748,151 +4884,33 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "FRC0603F5101TS"
-			(at 205.74 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "FOJAN(富捷)"
-			(at 205.74 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" "C2907044"
-			(at 205.74 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 205.74 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Name" "5.1kΩ ±1% 100mW 厚膜电阻"
-			(at 205.74 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "C2907044"
-			(at 205.74 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(pin "1"
+			(uuid "c386e5e1-6a92-4e46-a73f-76f8007cfd39")
 		)
 		(pin "2"
-			(uuid "3e8e95bd-5426-461d-ba03-565c1a22b975")
-		)
-		(pin "1"
-			(uuid "9168b432-dd9a-4d17-a991-d17f92eb0735")
+			(uuid "3bfab154-041b-42cf-a4e5-b0faa08bdbc3")
 		)
 		(instances
 			(project ""
 				(path "/b3b3cc32-0348-4f06-bce4-46286ef022c1"
-					(reference "R15")
+					(reference "R1")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "ProPrj_Sat-easyedapro:Power-5V")
-		(at 88.9 73.66 90)
+		(lib_id "power:VCC")
+		(at 99.06 114.3 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "205eb40b-da76-4647-ad05-09195efeb22f")
-		(property "Reference" "#PWR?"
-			(at 88.9 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "C+5V"
-			(at 82.55 73.66 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "ProPrj_Sat-easyedapro:"
-			(at 88.9 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 88.9 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power-5V"
-			(at 88.9 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c313e3f2-4071-4311-9aea-0e73388b5643")
-		)
-		(instances
-			(project ""
-				(path "/b3b3cc32-0348-4f06-bce4-46286ef022c1"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ProPrj_Sat-easyedapro:Power-VCC")
-		(at 180.34 95.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2f606a6a-e571-4854-a219-485d922dc75f")
-		(property "Reference" "#PWR?"
-			(at 180.34 95.25 0)
+		(fields_autoplaced yes)
+		(uuid "1a0da5a4-d253-45b0-b7eb-272836ba8e2d")
+		(property "Reference" "#PWR08"
+			(at 95.25 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4901,80 +4919,16 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 180.34 91.44 0)
+			(at 102.87 114.2999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "ProPrj_Sat-easyedapro:"
-			(at 180.34 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 180.34 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 180.34 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8f0deb65-f893-4ed9-bbb8-ae547ca1caaf")
-		)
-		(instances
-			(project ""
-				(path "/b3b3cc32-0348-4f06-bce4-46286ef022c1"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ProPrj_Sat-easyedapro:Power-5V")
-		(at 143.51 40.6146 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2f758237-5f37-4e8f-8981-924a9003cd00")
-		(property "Reference" "#PWR?"
-			(at 143.51 40.6146 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "C+5V"
-			(at 137.16 40.6146 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "ProPrj_Sat-easyedapro:"
-			(at 143.51 40.6146 0)
+		(property "Footprint" ""
+			(at 99.06 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4983,7 +4937,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 143.51 40.6146 0)
+			(at 99.06 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4991,73 +4945,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power-5V"
-			(at 143.51 40.6146 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f76ffd4b-0f3d-4fe0-a334-334fd06a272a")
-		)
-		(instances
-			(project ""
-				(path "/b3b3cc32-0348-4f06-bce4-46286ef022c1"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ProPrj_Sat-easyedapro:Power-VCC")
-		(at 99.06 53.34 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3747cfe9-7cc1-45a3-83bb-3ffdc6afcfc4")
-		(property "Reference" "#PWR?"
-			(at 99.06 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" ""
-			(at 104.14 53.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "ProPrj_Sat-easyedapro:"
-			(at 99.06 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 99.06 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 99.06 53.34 0)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 99.06 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5066,164 +4955,29 @@
 			)
 		)
 		(pin "1"
-			(uuid "e2b87cb8-a9ea-4aa4-9b39-cd371f54cc67")
+			(uuid "7059ca52-3549-41c3-b9f0-89af58ce0bea")
 		)
 		(instances
-			(project ""
+			(project "ProPrj_SaturnAdapter_2025-11-23"
 				(path "/b3b3cc32-0348-4f06-bce4-46286ef022c1"
-					(reference "#PWR?")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "ProPrj_Sat-easyedapro:Res")
-		(at 99.06 171.45 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "39e8d310-df06-407f-b80b-64a6c6a67c85")
-		(property "Reference" "R14"
-			(at 101.6 171.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10K"
-			(at 101.6 173.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "ProPrj_Sat-easyedapro:R0603"
-			(at 99.06 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 99.06 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 99.06 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e3eff519-1d47-4f16-ab6e-16a6ef1e7d05")
-		)
-		(pin "2"
-			(uuid "89e3c36b-8060-4a3f-8028-2dd280ac43cc")
-		)
-		(instances
-			(project ""
-				(path "/b3b3cc32-0348-4f06-bce4-46286ef022c1"
-					(reference "R14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ProPrj_Sat-easyedapro:Res")
-		(at 99.06 88.9 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3a4dc7a1-5748-4766-b2b0-a212115440ac")
-		(property "Reference" "R5"
-			(at 101.6 88.9 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10K"
-			(at 101.6 91.44 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "ProPrj_Sat-easyedapro:R0603"
-			(at 99.06 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 99.06 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 99.06 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "620f49f5-700c-47b1-b691-d0359c28d639")
-		)
-		(pin "2"
-			(uuid "d4073e8c-801a-42a9-bd91-93ed400bbae7")
-		)
-		(instances
-			(project ""
-				(path "/b3b3cc32-0348-4f06-bce4-46286ef022c1"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ProPrj_Sat-easyedapro:Power-VCC")
+		(lib_id "power:VCC")
 		(at 99.06 176.53 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "3c537e4e-5a95-4254-8145-cca8c9e79602")
-		(property "Reference" "#PWR?"
-			(at 99.06 176.53 0)
+		(fields_autoplaced yes)
+		(uuid "1a2660bb-5134-4b0c-bc91-ea4e1ae5409c")
+		(property "Reference" "#PWR02"
+			(at 95.25 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5231,15 +4985,16 @@
 				(hide yes)
 			)
 		)
-		(property "Value" ""
-			(at 104.14 176.53 90)
+		(property "Value" "VCC"
+			(at 102.87 176.5299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "ProPrj_Sat-easyedapro:"
+		(property "Footprint" ""
 			(at 99.06 176.53 0)
 			(effects
 				(font
@@ -5257,7 +5012,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 99.06 176.53 0)
 			(effects
 				(font
@@ -5267,54 +5022,46 @@
 			)
 		)
 		(pin "1"
-			(uuid "3f3c6fd9-ce06-423f-8f3d-11c59cd46c48")
+			(uuid "9a358e03-2d96-4ed9-9014-6b1870b44c92")
 		)
 		(instances
 			(project ""
 				(path "/b3b3cc32-0348-4f06-bce4-46286ef022c1"
-					(reference "#PWR?")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "ProPrj_Sat-easyedapro:Res")
-		(at 99.06 151.13 90)
+		(lib_id "Device:R")
+		(at 99.06 68.58 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "3e6d9fc1-b40a-4270-a22c-ba33fa930053")
-		(property "Reference" "R12"
-			(at 101.6 151.13 90)
+		(uuid "201f9327-62f7-48d8-a3fe-eaf72673f86d")
+		(property "Reference" "R3"
+			(at 103.124 70.358 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "10K"
-			(at 101.6 153.67 90)
+		(property "Value" "10k"
+			(at 104.14 67.056 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
-		(property "Footprint" "ProPrj_Sat-easyedapro:R0603"
-			(at 99.06 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 99.06 151.13 0)
+		(property "Footprint" "R0603"
+			(at 100.838 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5322,8 +5069,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 99.06 151.13 0)
+		(property "Datasheet" "~"
+			(at 99.06 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 99.06 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C25804"
+			(at 99.06 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5332,15 +5097,147 @@
 			)
 		)
 		(pin "1"
-			(uuid "a4c5dcfb-e36c-42c9-b0ff-4ceb360a7a35")
+			(uuid "6886ed2d-8620-4a28-9ee6-96a02f35b152")
 		)
 		(pin "2"
-			(uuid "16242156-9470-4c3f-8830-87dba49bd6e5")
+			(uuid "7101a478-27ef-4d0d-88a7-765ed046a6b4")
 		)
 		(instances
-			(project ""
+			(project "ProPrj_SaturnAdapter_2025-11-23"
 				(path "/b3b3cc32-0348-4f06-bce4-46286ef022c1"
-					(reference "R12")
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 31.75 20.32 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "35978d57-8c10-4ec2-96b7-a546f32270e4")
+		(property "Reference" "#PWR028"
+			(at 25.4 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 26.67 20.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 31.75 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 31.75 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5ae27ec5-8885-4dcc-ad9e-200e7f296868")
+		)
+		(instances
+			(project "ProPrj_SaturnAdapter_2025-11-23"
+				(path "/b3b3cc32-0348-4f06-bce4-46286ef022c1"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 99.06 53.34 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "378d0e24-c58a-4ef9-a798-1be4b0aafa13")
+		(property "Reference" "#PWR014"
+			(at 95.25 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 102.87 53.3399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 99.06 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e8f0b432-4d52-4364-8f2b-d056073a57aa")
+		)
+		(instances
+			(project "ProPrj_SaturnAdapter_2025-11-23"
+				(path "/b3b3cc32-0348-4f06-bce4-46286ef022c1"
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -5363,7 +5260,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "~"
 			(at 31.75 63.5 0)
 			(effects
 				(font
@@ -5435,24 +5332,17 @@
 		)
 	)
 	(symbol
-		(lib_id "ProPrj_Sat-easyedapro:Res")
-		(at 99.06 130.81 90)
+		(lib_id "power:VCC")
+		(at 99.06 93.98 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "4536453b-f7ec-47c0-9bb6-c36c347a8bcc")
-		(property "Reference" "R10"
-			(at 101.6 130.81 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10K"
-			(at 101.6 133.35 90)
+		(fields_autoplaced yes)
+		(uuid "41a64e5b-4159-4b95-bd27-2bc2461a1fbf")
+		(property "Reference" "#PWR010"
+			(at 95.25 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5460,8 +5350,17 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ProPrj_Sat-easyedapro:R0603"
-			(at 99.06 130.81 0)
+		(property "Value" "VCC"
+			(at 102.87 93.9799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5470,7 +5369,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 130.81 0)
+			(at 99.06 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5478,41 +5377,117 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 99.06 130.81 0)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 99.06 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(pin "1"
+			(uuid "ef915c97-6613-4e1e-a51a-5086d303dab8")
+		)
+		(instances
+			(project "ProPrj_SaturnAdapter_2025-11-23"
+				(path "/b3b3cc32-0348-4f06-bce4-46286ef022c1"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 205.74 62.23 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "438e1cb0-b680-48dd-8412-6cebfde51ac9")
+		(property "Reference" "R16"
+			(at 203.708 59.944 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5.1k"
+			(at 203.708 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "R0603"
+			(at 205.74 60.452 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 205.74 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 205.74 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C23186"
+			(at 205.74 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5432342a-474b-4960-aa87-042165868d1c")
 		)
 		(pin "2"
-			(uuid "5645178d-586b-4d0b-90c7-eff8cf58f863")
-		)
-		(pin "1"
-			(uuid "bb3b1d44-ee25-4093-9bce-c235ecb44bc0")
+			(uuid "b368a6be-6b75-49e1-990e-fd6bd2158b72")
 		)
 		(instances
-			(project ""
+			(project "ProPrj_SaturnAdapter_2025-11-23"
 				(path "/b3b3cc32-0348-4f06-bce4-46286ef022c1"
-					(reference "R10")
+					(reference "R16")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "ProPrj_Sat-easyedapro:Ground-GND")
-		(at 186.69 95.2754 180)
+		(lib_id "power:VCC")
+		(at 99.06 135.89 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "4818eaa6-9d03-43e7-84fe-1897e003ef21")
-		(property "Reference" "#PWR?"
-			(at 186.69 95.2754 0)
+		(fields_autoplaced yes)
+		(uuid "523887cf-429a-4ffe-a251-3322c13b6288")
+		(property "Reference" "#PWR06"
+			(at 95.25 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5520,16 +5495,17 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 186.69 88.9254 0)
+		(property "Value" "VCC"
+			(at 102.87 135.8899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "ProPrj_Sat-easyedapro:"
-			(at 186.69 95.2754 0)
+		(property "Footprint" ""
+			(at 99.06 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5538,7 +5514,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 186.69 95.2754 0)
+			(at 99.06 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5546,73 +5522,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 186.69 95.2754 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cd17b2b2-8999-4662-a7d1-831609668954")
-		)
-		(instances
-			(project ""
-				(path "/b3b3cc32-0348-4f06-bce4-46286ef022c1"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ProPrj_Sat-easyedapro:Power-5V")
-		(at 146.05 40.6146 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5009eb90-a16d-467c-9b7e-04c7c57c0a36")
-		(property "Reference" "#PWR?"
-			(at 146.05 40.6146 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "MINI+5V"
-			(at 146.05 44.4246 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "ProPrj_Sat-easyedapro:"
-			(at 146.05 40.6146 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 146.05 40.6146 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power-5V"
-			(at 146.05 40.6146 0)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 99.06 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5621,268 +5532,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "1c6af061-5509-417b-a6c7-c3c6bd3760f3")
+			(uuid "dc1100e9-b11f-42eb-9bfc-7eb9fa7853b0")
 		)
 		(instances
-			(project ""
+			(project "ProPrj_SaturnAdapter_2025-11-23"
 				(path "/b3b3cc32-0348-4f06-bce4-46286ef022c1"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ProPrj_Sat-easyedapro:Res")
-		(at 88.9 109.22 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "51206c15-e88d-4fb4-b6b5-c0e9a9f67d74")
-		(property "Reference" "R8"
-			(at 91.44 109.22 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10K"
-			(at 91.44 111.76 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "ProPrj_Sat-easyedapro:R0603"
-			(at 88.9 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 88.9 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 88.9 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d2f3710e-ba77-48aa-8643-ae9f461cc930")
-		)
-		(pin "2"
-			(uuid "3ca0a08d-e856-4015-aa86-f60851de7535")
-		)
-		(instances
-			(project ""
-				(path "/b3b3cc32-0348-4f06-bce4-46286ef022c1"
-					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ProPrj_Sat-easyedapro:Power-5V")
-		(at 88.9 93.98 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "56269933-5616-49c1-91a5-8779862cca4b")
-		(property "Reference" "#PWR?"
-			(at 88.9 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "C+5V"
-			(at 82.55 93.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "ProPrj_Sat-easyedapro:"
-			(at 88.9 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 88.9 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power-5V"
-			(at 88.9 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "382fa7a3-c4e0-43c6-ba67-0265e92db5ac")
-		)
-		(instances
-			(project ""
-				(path "/b3b3cc32-0348-4f06-bce4-46286ef022c1"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ProPrj_Sat-easyedapro:T491A106K006AT")
-		(at 38.1 48.26 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "57009421-3a7a-4070-8315-45c2823712dc")
-		(property "Reference" "C1"
-			(at 44.45 44.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10uF"
-			(at 39.37 43.18 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "ProPrj_Sat-easyedapro:CASE-A_3216"
-			(at 38.1 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/T491A106K006AT/123529.html"
-			(at 38.1 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Capacitance:10uF Tolerance:±10% Tolerance:±10% Voltage Rating:6.3V Equivalent Series Resistance(ESR):4Ω@100kHz Operating Temperature:-55°C~+125°C Operating Temperature:-55°C~+125°C"
-			(at 38.1 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" "T491A106K006AT"
-			(at 38.1 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "KEMET(基美)"
-			(at 38.1 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" "C122260"
-			(at 38.1 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 38.1 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Name" "10uF ±10% 6.3V"
-			(at 38.1 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "C122260"
-			(at 38.1 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1ed332a8-f6c6-47a2-b4d5-a5e7b41e8e39")
-		)
-		(pin "2"
-			(uuid "df05d8cd-10a1-4293-93d6-2ed9750ec265")
-		)
-		(instances
-			(project ""
-				(path "/b3b3cc32-0348-4f06-bce4-46286ef022c1"
-					(reference "C1")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -6064,24 +5719,16 @@
 		)
 	)
 	(symbol
-		(lib_id "ProPrj_Sat-easyedapro:Res")
-		(at 99.06 68.58 90)
+		(lib_id "power:GND")
+		(at 153.67 30.48 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "5b6a031c-d356-42ed-b2d8-85b717f7154b")
-		(property "Reference" "R3"
-			(at 101.6 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10K"
-			(at 101.6 71.12 90)
+		(uuid "59fbdc9b-e2cf-4e34-9501-c41f44b21e10")
+		(property "Reference" "#PWR019"
+			(at 160.02 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6089,8 +5736,17 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ProPrj_Sat-easyedapro:R0603"
-			(at 99.06 68.58 0)
+		(property "Value" "GND"
+			(at 153.67 32.766 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.67 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6099,7 +5755,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 68.58 0)
+			(at 153.67 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6107,76 +5763,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 99.06 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fb0887ab-8375-48c3-b216-275bf487a284")
-		)
-		(pin "2"
-			(uuid "f2465fb7-3553-410b-86d5-e67881058ee4")
-		)
-		(instances
-			(project ""
-				(path "/b3b3cc32-0348-4f06-bce4-46286ef022c1"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ProPrj_Sat-easyedapro:Power-VCC")
-		(at 99.06 93.98 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "60778d3e-547a-4516-b1ce-766be94b3517")
-		(property "Reference" "#PWR?"
-			(at 99.06 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" ""
-			(at 104.14 93.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "ProPrj_Sat-easyedapro:"
-			(at 99.06 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 99.06 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 99.06 93.98 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 153.67 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6185,12 +5773,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "99a0994e-407a-4bd5-b8ee-97ce8e2b92dd")
+			(uuid "65056f3d-de35-4fa4-80df-c1a6de15a4b4")
 		)
 		(instances
 			(project ""
 				(path "/b3b3cc32-0348-4f06-bce4-46286ef022c1"
-					(reference "#PWR?")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -6321,81 +5909,17 @@
 		)
 	)
 	(symbol
-		(lib_id "ProPrj_Sat-easyedapro:Power-VCC")
-		(at 99.06 114.3 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "69ccc476-72be-40ba-901c-90602a9f9ab0")
-		(property "Reference" "#PWR?"
-			(at 99.06 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" ""
-			(at 104.14 114.3 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "ProPrj_Sat-easyedapro:"
-			(at 99.06 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 99.06 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 99.06 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4ad7d82c-391d-46ef-b0ed-36ed210d694c")
-		)
-		(instances
-			(project ""
-				(path "/b3b3cc32-0348-4f06-bce4-46286ef022c1"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ProPrj_Sat-easyedapro:Power-VCC")
+		(lib_id "power:VCC")
 		(at 99.06 156.21 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "769ecc2e-9ae3-4901-ac4b-98014fdc1125")
-		(property "Reference" "#PWR?"
-			(at 99.06 156.21 0)
+		(fields_autoplaced yes)
+		(uuid "6509b78e-2b77-48e3-8506-ea28dd10608b")
+		(property "Reference" "#PWR04"
+			(at 95.25 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6403,15 +5927,16 @@
 				(hide yes)
 			)
 		)
-		(property "Value" ""
-			(at 104.14 156.21 90)
+		(property "Value" "VCC"
+			(at 102.87 156.2099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "ProPrj_Sat-easyedapro:"
+		(property "Footprint" ""
 			(at 99.06 156.21 0)
 			(effects
 				(font
@@ -6429,7 +5954,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 99.06 156.21 0)
 			(effects
 				(font
@@ -6439,28 +5964,29 @@
 			)
 		)
 		(pin "1"
-			(uuid "8c307cea-829b-4180-8310-bff9c7a9f70f")
+			(uuid "96fa7615-d4c9-4479-9faa-3ba5f21b4c37")
 		)
 		(instances
-			(project ""
+			(project "ProPrj_SaturnAdapter_2025-11-23"
 				(path "/b3b3cc32-0348-4f06-bce4-46286ef022c1"
-					(reference "#PWR?")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "ProPrj_Sat-easyedapro:Ground-GND")
-		(at 49.53 66.04 90)
+		(lib_id "power:GND")
+		(at 180.34 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "77ba255f-7d9a-4578-910f-e63114ebbfad")
-		(property "Reference" "#PWR?"
-			(at 49.53 66.04 0)
+		(fields_autoplaced yes)
+		(uuid "6eb84a44-6bf5-4264-b4b2-f4979a3a0ed7")
+		(property "Reference" "#PWR025"
+			(at 180.34 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6469,15 +5995,15 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 55.88 66.04 0)
+			(at 180.34 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "ProPrj_Sat-easyedapro:"
-			(at 49.53 66.04 0)
+		(property "Footprint" ""
+			(at 180.34 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6486,7 +6012,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 66.04 0)
+			(at 180.34 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6494,8 +6020,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 49.53 66.04 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 180.34 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6504,36 +6030,28 @@
 			)
 		)
 		(pin "1"
-			(uuid "473a0072-e97d-4c9b-8bc5-65b1031eecf9")
+			(uuid "0e91ab38-a9fd-4b23-8a34-64163a4c3780")
 		)
 		(instances
-			(project ""
+			(project "ProPrj_SaturnAdapter_2025-11-23"
 				(path "/b3b3cc32-0348-4f06-bce4-46286ef022c1"
-					(reference "#PWR?")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "ProPrj_Sat-easyedapro:FRC0603F5101TS")
-		(at 205.74 62.23 180)
+		(lib_id "power:VCC")
+		(at 180.34 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "7a59fe19-e836-4133-814a-3b3637229983")
-		(property "Reference" "R16"
-			(at 205.74 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "5.1kΩ"
-			(at 208.28 58.42 0)
+		(uuid "6f8f158a-6790-4c1f-b52b-fcbb8d8f41b4")
+		(property "Reference" "#PWR024"
+			(at 180.34 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6541,8 +6059,16 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ProPrj_Sat-easyedapro:R0603"
-			(at 205.74 62.23 0)
+		(property "Value" "VCC"
+			(at 180.34 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 180.34 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6551,7 +6077,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 205.74 62.23 0)
+			(at 180.34 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6559,8 +6085,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Type:Thick Film Resistor Resistance:5.1kΩ Tolerance:±1% Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±100ppm/°C Temperature Coefficient:±100ppm/°C Operating Temperature:-55°C~+155°C Operating Temperature:-55°C~+155°C"
-			(at 205.74 62.23 0)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 180.34 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6568,8 +6094,48 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "FRC0603F5101TS"
-			(at 205.74 62.23 0)
+		(pin "1"
+			(uuid "ce966b84-7756-405a-a899-78260e25e7ab")
+		)
+		(instances
+			(project "ProPrj_SaturnAdapter_2025-11-23"
+				(path "/b3b3cc32-0348-4f06-bce4-46286ef022c1"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 99.06 171.45 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7162644e-b167-446f-916e-809eff7fdbc2")
+		(property "Reference" "R13"
+			(at 104.394 169.926 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 104.14 172.974 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "R0603"
+			(at 100.838 171.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6577,8 +6143,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "FOJAN(富捷)"
-			(at 205.74 62.23 0)
+		(property "Datasheet" "~"
+			(at 99.06 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6586,8 +6152,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part" "C2907044"
-			(at 205.74 62.23 0)
+		(property "Description" "Resistor"
+			(at 99.06 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6595,8 +6161,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "LCSC"
-			(at 205.74 62.23 0)
+		(property "MPN" "C25804"
+			(at 99.06 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6604,58 +6170,209 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Name" "5.1kΩ ±1% 100mW 厚膜电阻"
-			(at 205.74 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "C2907044"
-			(at 205.74 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(pin "1"
+			(uuid "aa200efa-3b0b-4621-854f-5d18793f1826")
 		)
 		(pin "2"
-			(uuid "3634688f-c37e-4e42-b755-823cfa32f63d")
-		)
-		(pin "1"
-			(uuid "bbc05034-cccb-4f8f-84a9-605976c63118")
+			(uuid "37c71119-bd3b-4c76-8479-fc16543c437e")
 		)
 		(instances
-			(project ""
+			(project "ProPrj_SaturnAdapter_2025-11-23"
 				(path "/b3b3cc32-0348-4f06-bce4-46286ef022c1"
-					(reference "R16")
+					(reference "R13")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "ProPrj_Sat-easyedapro:Res")
-		(at 99.06 109.22 90)
+		(lib_id "Device:R")
+		(at 88.9 151.13 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "8098fdd8-d595-4a1f-b988-04c46ad2756e")
+		(fields_autoplaced yes)
+		(uuid "735b4211-2ecd-4b4f-b7b0-7e8e16fdcf5b")
+		(property "Reference" "R12"
+			(at 86.36 149.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 86.36 152.3999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "R0603"
+			(at 90.678 151.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 88.9 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C25804"
+			(at 88.9 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "71a7cc52-ccf4-41df-be65-00533611ce82")
+		)
+		(pin "2"
+			(uuid "ac848b67-39a5-48aa-ac8d-8440ce319ecb")
+		)
+		(instances
+			(project "ProPrj_SaturnAdapter_2025-11-23"
+				(path "/b3b3cc32-0348-4f06-bce4-46286ef022c1"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 88.9 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "78b70ae1-4811-409a-a5e6-0e4d156e6828")
+		(property "Reference" "R2"
+			(at 84.836 46.482 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 83.82 49.784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "R0603"
+			(at 87.122 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 88.9 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C25804"
+			(at 88.9 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "29413da1-c148-451c-a27f-b3038f6e02f4")
+		)
+		(pin "2"
+			(uuid "85abc3ce-e564-4716-b7b8-dae2a1f92748")
+		)
+		(instances
+			(project "ProPrj_SaturnAdapter_2025-11-23"
+				(path "/b3b3cc32-0348-4f06-bce4-46286ef022c1"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 99.06 109.22 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7912ead4-fcc9-455f-8ded-25bc760fb18c")
 		(property "Reference" "R7"
-			(at 101.6 109.22 90)
+			(at 103.124 107.442 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "10K"
-			(at 101.6 111.76 90)
+		(property "Value" "10k"
+			(at 104.14 110.744 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "R0603"
+			(at 100.838 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6663,7 +6380,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ProPrj_Sat-easyedapro:R0603"
+		(property "Datasheet" "~"
 			(at 99.06 109.22 0)
 			(effects
 				(font
@@ -6672,7 +6389,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Description" "Resistor"
 			(at 99.06 109.22 0)
 			(effects
 				(font
@@ -6681,7 +6398,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "MPN" "C25804"
 			(at 99.06 109.22 0)
 			(effects
 				(font
@@ -6691,15 +6408,95 @@
 			)
 		)
 		(pin "1"
-			(uuid "935fddea-6ff1-4894-9164-6e6d68466c01")
+			(uuid "890b2a16-7239-4b2a-98de-6d80d3b01521")
 		)
 		(pin "2"
-			(uuid "82302ec0-419c-48a6-bcc2-0c9f66d8b2e9")
+			(uuid "cf59c7cb-7f7a-4f29-9553-1cb9b93bbbc5")
 		)
 		(instances
-			(project ""
+			(project "ProPrj_SaturnAdapter_2025-11-23"
 				(path "/b3b3cc32-0348-4f06-bce4-46286ef022c1"
 					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 88.9 171.45 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7ac92d48-286b-42ac-99a7-1387a0dfd0b4")
+		(property "Reference" "R14"
+			(at 86.36 170.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 86.36 172.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "R0603"
+			(at 90.678 171.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 88.9 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C25804"
+			(at 88.9 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9f208551-7ddb-444e-9676-acb8db75b958")
+		)
+		(pin "2"
+			(uuid "a3cd172e-e6cc-4bd8-b89a-e6b67ef9e68f")
+		)
+		(instances
+			(project "ProPrj_SaturnAdapter_2025-11-23"
+				(path "/b3b3cc32-0348-4f06-bce4-46286ef022c1"
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -6830,24 +6627,16 @@
 		)
 	)
 	(symbol
-		(lib_id "ProPrj_Sat-easyedapro:Res")
-		(at 99.06 48.26 90)
+		(lib_id "power:GND")
+		(at 24.13 69.85 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "842337e7-4d00-4d80-a8b9-627cc0c5f0e9")
-		(property "Reference" "R1"
-			(at 101.6 48.26 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10K"
-			(at 101.6 50.8 90)
+		(uuid "82773bfe-d9e3-4e09-94f0-569103ec11cc")
+		(property "Reference" "#PWR030"
+			(at 24.13 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6855,8 +6644,16 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ProPrj_Sat-easyedapro:R0603"
-			(at 99.06 48.26 0)
+		(property "Value" "GND"
+			(at 24.13 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 24.13 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6865,7 +6662,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 48.26 0)
+			(at 24.13 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6873,25 +6670,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 99.06 48.26 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 24.13 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "2"
-			(uuid "f798b551-8955-4730-b254-b4fa488f7cfa")
 		)
 		(pin "1"
-			(uuid "c6ef0699-f447-4306-aca6-82741d7117b7")
+			(uuid "f51a9f8e-51f2-4024-9bc1-716310fffff3")
 		)
 		(instances
-			(project ""
+			(project "ProPrj_SaturnAdapter_2025-11-23"
 				(path "/b3b3cc32-0348-4f06-bce4-46286ef022c1"
-					(reference "R1")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -7022,16 +6816,16 @@
 		)
 	)
 	(symbol
-		(lib_id "ProPrj_Sat-easyedapro:Power-5V")
-		(at 148.59 40.6146 270)
+		(lib_id "power:GND")
+		(at 46.99 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "9808829e-c225-4db8-abb1-29c9166a52e1")
-		(property "Reference" "#PWR?"
-			(at 148.59 40.6146 0)
+		(uuid "9c64ac07-437f-411b-a9f2-e7c25b836592")
+		(property "Reference" "#PWR026"
+			(at 46.99 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7039,16 +6833,16 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "EXT+5V"
-			(at 156.21 40.6146 90)
+		(property "Value" "GND"
+			(at 46.99 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "ProPrj_Sat-easyedapro:"
-			(at 148.59 40.6146 0)
+		(property "Footprint" ""
+			(at 46.99 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7057,7 +6851,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 148.59 40.6146 0)
+			(at 46.99 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7065,8 +6859,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power-5V"
-			(at 148.59 40.6146 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 46.99 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7075,36 +6869,29 @@
 			)
 		)
 		(pin "1"
-			(uuid "715f1a46-2ff9-4750-b4d1-bce8eabd7078")
+			(uuid "49b2ad68-af51-4c01-ac5c-4f4f062cc974")
 		)
 		(instances
-			(project ""
+			(project "ProPrj_SaturnAdapter_2025-11-23"
 				(path "/b3b3cc32-0348-4f06-bce4-46286ef022c1"
-					(reference "#PWR?")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "ProPrj_Sat-easyedapro:Res")
-		(at 88.9 68.58 90)
+		(lib_id "power:GND")
+		(at 214.63 59.69 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "9b9ea78d-c249-48c0-9c3a-81d0034dae62")
-		(property "Reference" "R4"
-			(at 91.44 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10K"
-			(at 91.44 71.12 90)
+		(fields_autoplaced yes)
+		(uuid "a60eb09d-52cc-4a6a-b2b8-417f76c3201a")
+		(property "Reference" "#PWR020"
+			(at 220.98 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7112,8 +6899,17 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ProPrj_Sat-easyedapro:R0603"
-			(at 88.9 68.58 0)
+		(property "Value" "GND"
+			(at 218.44 59.6899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 214.63 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7122,6 +6918,73 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 214.63 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 214.63 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0dd6f055-4816-488b-a2a6-7c36c3cd8f19")
+		)
+		(instances
+			(project "ProPrj_SaturnAdapter_2025-11-23"
+				(path "/b3b3cc32-0348-4f06-bce4-46286ef022c1"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 88.9 68.58 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a7f19f8f-1284-4da5-a6ed-51a2b161d172")
+		(property "Reference" "R4"
+			(at 86.36 69.8501 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 86.36 67.3101 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "R0603"
+			(at 90.678 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
 			(at 88.9 68.58 0)
 			(effects
 				(font
@@ -7130,7 +6993,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
+			(at 88.9 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C25804"
 			(at 88.9 68.58 0)
 			(effects
 				(font
@@ -7140,13 +7012,13 @@
 			)
 		)
 		(pin "1"
-			(uuid "e08f2cfa-2877-4456-85cb-f9a30515ccbf")
+			(uuid "afb99556-91db-4489-a67f-b4f0ca1a97f2")
 		)
 		(pin "2"
-			(uuid "244c6018-e77d-4a0a-9413-3b65c1b8c1e7")
+			(uuid "3239e194-32c4-4192-b337-379ed040d4dc")
 		)
 		(instances
-			(project ""
+			(project "ProPrj_SaturnAdapter_2025-11-23"
 				(path "/b3b3cc32-0348-4f06-bce4-46286ef022c1"
 					(reference "R4")
 					(unit 1)
@@ -7155,16 +7027,16 @@
 		)
 	)
 	(symbol
-		(lib_id "ProPrj_Sat-easyedapro:Ground-GND")
-		(at 31.75 20.32 270)
+		(lib_id "power:GND")
+		(at 138.43 30.48 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "a8262744-c3ec-43b8-ad18-dc95cfcf4326")
-		(property "Reference" "#PWR?"
-			(at 31.75 20.32 0)
+		(uuid "af4bcb02-d44f-4785-8ef0-b42aa2c52e53")
+		(property "Reference" "#PWR021"
+			(at 132.08 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7173,80 +7045,16 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 25.4 20.32 0)
+			(at 138.43 32.766 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "ProPrj_Sat-easyedapro:"
-			(at 31.75 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 31.75 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 31.75 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9c15fa3b-6e35-4067-ab6d-c96bfc196b85")
-		)
-		(instances
-			(project ""
-				(path "/b3b3cc32-0348-4f06-bce4-46286ef022c1"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ProPrj_Sat-easyedapro:Power-VCC")
-		(at 99.06 73.66 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "abed31d6-ea59-43dc-a7b6-5e0deb87b212")
-		(property "Reference" "#PWR?"
-			(at 99.06 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" ""
-			(at 104.14 73.66 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "ProPrj_Sat-easyedapro:"
-			(at 99.06 73.66 0)
+		(property "Footprint" ""
+			(at 138.43 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7255,7 +7063,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 73.66 0)
+			(at 138.43 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7263,73 +7071,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 99.06 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "03c531b1-9c63-4632-80de-ac34ab0e2444")
-		)
-		(instances
-			(project ""
-				(path "/b3b3cc32-0348-4f06-bce4-46286ef022c1"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ProPrj_Sat-easyedapro:Ground-GND")
-		(at 177.8 41.91 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "acdf2eb5-fcc1-43ce-b122-2e8c323328bb")
-		(property "Reference" "#PWR?"
-			(at 177.8 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 171.45 41.91 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "ProPrj_Sat-easyedapro:"
-			(at 177.8 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 177.8 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 177.8 41.91 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 138.43 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7338,77 +7081,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "6d2bd059-2c35-449b-b9b2-a3d917a13b79")
+			(uuid "6fd5960c-9d6f-48b6-ae3a-fb4f559d2acd")
 		)
 		(instances
-			(project ""
+			(project "ProPrj_SaturnAdapter_2025-11-23"
 				(path "/b3b3cc32-0348-4f06-bce4-46286ef022c1"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ProPrj_Sat-easyedapro:Power-VCC")
-		(at 99.06 135.89 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "adef31bf-df9a-4083-9c1f-2095570861a2")
-		(property "Reference" "#PWR?"
-			(at 99.06 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" ""
-			(at 104.14 135.89 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "ProPrj_Sat-easyedapro:"
-			(at 99.06 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 99.06 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 99.06 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c135f152-cc60-4e99-8a2e-29652b159fcc")
-		)
-		(instances
-			(project ""
-				(path "/b3b3cc32-0348-4f06-bce4-46286ef022c1"
-					(reference "#PWR?")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -7533,272 +7211,6 @@
 			(project ""
 				(path "/b3b3cc32-0348-4f06-bce4-46286ef022c1"
 					(reference "Q7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ProPrj_Sat-easyedapro:Res")
-		(at 88.9 88.9 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b2752cb9-1db7-41e8-868e-3c34f1d77def")
-		(property "Reference" "R6"
-			(at 91.44 88.9 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10K"
-			(at 91.44 91.44 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "ProPrj_Sat-easyedapro:R0603"
-			(at 88.9 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 88.9 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 88.9 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d9000304-1bf9-4e2c-9f27-ed03442c3992")
-		)
-		(pin "2"
-			(uuid "bffe3c6e-6ce0-46a8-b940-4141353d32d0")
-		)
-		(instances
-			(project ""
-				(path "/b3b3cc32-0348-4f06-bce4-46286ef022c1"
-					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ProPrj_Sat-easyedapro:Ground-GND")
-		(at 153.67 30.4546 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b32e3302-04d1-4793-9696-ad75a284e8c7")
-		(property "Reference" "#PWR?"
-			(at 153.67 30.4546 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 160.02 30.4546 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "ProPrj_Sat-easyedapro:"
-			(at 153.67 30.4546 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 153.67 30.4546 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 153.67 30.4546 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c35516b8-7950-410d-8627-7aeec93ad87e")
-		)
-		(instances
-			(project ""
-				(path "/b3b3cc32-0348-4f06-bce4-46286ef022c1"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ProPrj_Sat-easyedapro:Res")
-		(at 88.9 48.26 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b457731b-9c70-4c45-8058-7a91648ec90f")
-		(property "Reference" "R2"
-			(at 91.44 48.26 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10K"
-			(at 91.44 50.8 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "ProPrj_Sat-easyedapro:R0603"
-			(at 88.9 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 88.9 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 88.9 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f96d5fcb-93ac-4910-8d29-93ef77113f96")
-		)
-		(pin "2"
-			(uuid "fcd7231c-a35a-4ce9-92d2-a1a3570e0f9e")
-		)
-		(instances
-			(project ""
-				(path "/b3b3cc32-0348-4f06-bce4-46286ef022c1"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ProPrj_Sat-easyedapro:Power-5V")
-		(at 88.9 176.53 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b585bff3-dd5e-4062-913e-da7055bdc8ca")
-		(property "Reference" "#PWR?"
-			(at 88.9 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "C+5V"
-			(at 82.55 176.53 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "ProPrj_Sat-easyedapro:"
-			(at 88.9 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 88.9 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power-5V"
-			(at 88.9 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "903eb329-420b-4140-ad6e-d7affbdd8070")
-		)
-		(instances
-			(project ""
-				(path "/b3b3cc32-0348-4f06-bce4-46286ef022c1"
-					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -8084,16 +7496,35 @@
 		)
 	)
 	(symbol
-		(lib_id "ProPrj_Sat-easyedapro:Ground-GND")
-		(at 205.74 41.91 90)
+		(lib_id "Device:R")
+		(at 99.06 88.9 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "c5897e41-1649-47cf-b90c-dbc7eb02b178")
-		(property "Reference" "#PWR?"
-			(at 205.74 41.91 0)
+		(uuid "cbbf62be-dfc7-4c4a-8de9-49d6694d7645")
+		(property "Reference" "R5"
+			(at 103.124 87.122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 104.14 90.424 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "R0603"
+			(at 100.838 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8101,16 +7532,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 212.09 41.91 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "ProPrj_Sat-easyedapro:"
-			(at 205.74 41.91 0)
+		(property "Datasheet" "~"
+			(at 99.06 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8118,8 +7541,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 205.74 41.91 0)
+		(property "Description" "Resistor"
+			(at 99.06 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8127,8 +7550,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 205.74 41.91 0)
+		(property "MPN" "C25804"
+			(at 99.06 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8137,28 +7560,51 @@
 			)
 		)
 		(pin "1"
-			(uuid "6f8d4309-6b46-4bf9-84cb-50ea4bedfce6")
+			(uuid "0fdd97c2-1d3b-4287-8ef5-3806f95c0e4c")
+		)
+		(pin "2"
+			(uuid "2db71302-a7db-47eb-8b57-fd6f38bf8e9f")
 		)
 		(instances
-			(project ""
+			(project "ProPrj_SaturnAdapter_2025-11-23"
 				(path "/b3b3cc32-0348-4f06-bce4-46286ef022c1"
-					(reference "#PWR?")
+					(reference "R5")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "ProPrj_Sat-easyedapro:Power-5V")
-		(at 88.9 156.21 90)
+		(lib_id "Device:R")
+		(at 88.9 109.22 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "cd4f6b1b-68d2-4d6c-8508-ec1b113b4bb5")
-		(property "Reference" "#PWR?"
-			(at 88.9 156.21 0)
+		(fields_autoplaced yes)
+		(uuid "d07c58de-552d-426e-9a1e-6c23d1f04ecd")
+		(property "Reference" "R8"
+			(at 86.36 107.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 86.36 110.4899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "R0603"
+			(at 90.678 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8166,16 +7612,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "C+5V"
-			(at 82.55 156.21 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "ProPrj_Sat-easyedapro:"
-			(at 88.9 156.21 0)
+		(property "Datasheet" "~"
+			(at 88.9 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8183,8 +7621,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 88.9 156.21 0)
+		(property "Description" "Resistor"
+			(at 88.9 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8192,8 +7630,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power-5V"
-			(at 88.9 156.21 0)
+		(property "MPN" "C25804"
+			(at 88.9 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8202,77 +7640,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "ac186bde-f4ac-45c7-b259-f851ad69b484")
+			(uuid "ac40a1b7-d4a9-4be2-af84-66509a85b2bb")
+		)
+		(pin "2"
+			(uuid "0b962c94-125f-4fd8-a7e4-9522f9d2f130")
 		)
 		(instances
-			(project ""
+			(project "ProPrj_SaturnAdapter_2025-11-23"
 				(path "/b3b3cc32-0348-4f06-bce4-46286ef022c1"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ProPrj_Sat-easyedapro:Ground-GND")
-		(at 138.43 30.4546 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cfc076a1-9b28-4a51-98bf-047718805aea")
-		(property "Reference" "#PWR?"
-			(at 138.43 30.4546 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 132.08 30.4546 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "ProPrj_Sat-easyedapro:"
-			(at 138.43 30.4546 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 138.43 30.4546 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 138.43 30.4546 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "989b9ae1-ca55-4175-8e30-1a59e3cf215f")
-		)
-		(instances
-			(project ""
-				(path "/b3b3cc32-0348-4f06-bce4-46286ef022c1"
-					(reference "#PWR?")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -8521,6 +7897,73 @@
 			(project ""
 				(path "/b3b3cc32-0348-4f06-bce4-46286ef022c1"
 					(reference "Q6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 99.06 73.66 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d4085e38-f5b6-4776-a53b-714ff36dcc04")
+		(property "Reference" "#PWR012"
+			(at 95.25 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 102.87 73.6599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 99.06 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3710f378-78ff-4aa2-8562-5d6c16f42830")
+		)
+		(instances
+			(project "ProPrj_SaturnAdapter_2025-11-23"
+				(path "/b3b3cc32-0348-4f06-bce4-46286ef022c1"
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -8814,16 +8257,36 @@
 		)
 	)
 	(symbol
-		(lib_id "ProPrj_Sat-easyedapro:Power-5V")
-		(at 88.9 135.89 90)
+		(lib_id "Device:R")
+		(at 88.9 130.81 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "e6d3f82b-7354-43c1-af82-c12378af9fed")
-		(property "Reference" "#PWR?"
-			(at 88.9 135.89 0)
+		(fields_autoplaced yes)
+		(uuid "e1de2921-8b38-41e3-9535-57e4b66ffe40")
+		(property "Reference" "R10"
+			(at 86.36 129.5399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 86.36 132.0799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "R0603"
+			(at 90.678 130.81 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8831,16 +8294,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "C+5V"
-			(at 82.55 135.89 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "ProPrj_Sat-easyedapro:"
-			(at 88.9 135.89 0)
+		(property "Datasheet" "~"
+			(at 88.9 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8848,8 +8303,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 88.9 135.89 0)
+		(property "Description" "Resistor"
+			(at 88.9 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8857,8 +8312,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power-5V"
-			(at 88.9 135.89 0)
+		(property "MPN" "C25804"
+			(at 88.9 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8867,28 +8322,51 @@
 			)
 		)
 		(pin "1"
-			(uuid "f9c4e01f-a1d5-462b-aa5a-2d62310ba064")
+			(uuid "9fb58fbc-b700-4265-98a0-0208f08c14d6")
+		)
+		(pin "2"
+			(uuid "336872c2-0ec7-4a3a-9533-fdec4da74421")
 		)
 		(instances
-			(project ""
+			(project "ProPrj_SaturnAdapter_2025-11-23"
 				(path "/b3b3cc32-0348-4f06-bce4-46286ef022c1"
-					(reference "#PWR?")
+					(reference "R10")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "ProPrj_Sat-easyedapro:Power-5V")
-		(at 88.9 114.3 90)
+		(lib_id "Device:R")
+		(at 88.9 88.9 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "ea0d9d14-b475-4b5f-a9d4-9e73682c1139")
-		(property "Reference" "#PWR?"
-			(at 88.9 114.3 0)
+		(fields_autoplaced yes)
+		(uuid "eac6cc46-cb27-47f4-8b2c-0713e336dd71")
+		(property "Reference" "R6"
+			(at 86.36 87.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 86.36 90.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "R0603"
+			(at 90.678 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8896,16 +8374,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "C+5V"
-			(at 82.55 114.3 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "ProPrj_Sat-easyedapro:"
-			(at 88.9 114.3 0)
+		(property "Datasheet" "~"
+			(at 88.9 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8913,8 +8383,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 88.9 114.3 0)
+		(property "Description" "Resistor"
+			(at 88.9 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8922,8 +8392,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power-5V"
-			(at 88.9 114.3 0)
+		(property "MPN" "C25804"
+			(at 88.9 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8932,28 +8402,49 @@
 			)
 		)
 		(pin "1"
-			(uuid "e4812bc7-e5e7-48b1-8092-be6f3e496716")
+			(uuid "8e78092d-8232-4278-8fc4-af1739841334")
+		)
+		(pin "2"
+			(uuid "b99cc4e6-2271-4658-95f1-4946a6dbe27f")
 		)
 		(instances
-			(project ""
+			(project "ProPrj_SaturnAdapter_2025-11-23"
 				(path "/b3b3cc32-0348-4f06-bce4-46286ef022c1"
-					(reference "#PWR?")
+					(reference "R6")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "ProPrj_Sat-easyedapro:Power-5V")
-		(at 33.02 48.26 180)
+		(lib_id "Device:R")
+		(at 205.74 57.15 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "f6770bc9-f026-43fe-b9da-aa31fb849824")
-		(property "Reference" "#PWR?"
-			(at 33.02 48.26 0)
+		(uuid "ead262a2-ca03-463a-920a-9362c1d29e27")
+		(property "Reference" "R15"
+			(at 203.708 54.864 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5.1k"
+			(at 203.708 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "R0603"
+			(at 205.74 55.372 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8961,16 +8452,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "C+5V"
-			(at 33.02 54.61 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "ProPrj_Sat-easyedapro:"
-			(at 33.02 48.26 0)
+		(property "Datasheet" "~"
+			(at 205.74 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8978,8 +8461,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 33.02 48.26 0)
+		(property "Description" "Resistor"
+			(at 205.74 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8987,8 +8470,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power-5V"
-			(at 33.02 48.26 0)
+		(property "MPN" "C23186"
+			(at 205.74 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8997,28 +8480,31 @@
 			)
 		)
 		(pin "1"
-			(uuid "c1f079d8-c176-4000-bce1-21e956698aa7")
+			(uuid "7db59c07-8cfa-4e6e-bda4-90da7df82abc")
+		)
+		(pin "2"
+			(uuid "52b26032-4ed4-4d5c-8fe8-f7db350b2505")
 		)
 		(instances
-			(project ""
+			(project "ProPrj_SaturnAdapter_2025-11-23"
 				(path "/b3b3cc32-0348-4f06-bce4-46286ef022c1"
-					(reference "#PWR?")
+					(reference "R15")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "ProPrj_Sat-easyedapro:Power-5V")
-		(at 88.9 53.34 90)
+		(lib_id "power:GND")
+		(at 49.53 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "f80d8157-0c6b-41e3-ab6d-c99c8dc632d9")
-		(property "Reference" "#PWR?"
-			(at 88.9 53.34 0)
+		(uuid "eba195ea-4ccd-4c1e-8c38-481afd413705")
+		(property "Reference" "#PWR027"
+			(at 49.53 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9026,16 +8512,16 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "C+5V"
-			(at 82.55 53.34 90)
+		(property "Value" "GND"
+			(at 49.53 71.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "ProPrj_Sat-easyedapro:"
-			(at 88.9 53.34 0)
+		(property "Footprint" ""
+			(at 49.53 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9044,7 +8530,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 53.34 0)
+			(at 49.53 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9052,8 +8538,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power-5V"
-			(at 88.9 53.34 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 49.53 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9062,28 +8548,28 @@
 			)
 		)
 		(pin "1"
-			(uuid "f532e6e6-8242-49fb-83e2-39c5ba32ccac")
+			(uuid "a242ffbc-8a5b-4793-9045-fb103d62e97b")
 		)
 		(instances
-			(project ""
+			(project "ProPrj_SaturnAdapter_2025-11-23"
 				(path "/b3b3cc32-0348-4f06-bce4-46286ef022c1"
-					(reference "#PWR?")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "ProPrj_Sat-easyedapro:Power-5V")
-		(at 191.77 95.25 0)
+		(lib_id "power:GND")
+		(at 186.69 95.25 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "fd1565c2-4a15-4ce9-9090-bde4773ffbcb")
-		(property "Reference" "#PWR?"
-			(at 191.77 95.25 0)
+		(uuid "ebfacdc0-c5ad-4005-9d92-03c1c3ac8f53")
+		(property "Reference" "#PWR022"
+			(at 186.69 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9091,16 +8577,16 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "MINI+5V"
-			(at 194.31 91.44 0)
+		(property "Value" "GND"
+			(at 186.69 89.662 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "ProPrj_Sat-easyedapro:"
-			(at 191.77 95.25 0)
+		(property "Footprint" ""
+			(at 186.69 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9109,7 +8595,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 191.77 95.25 0)
+			(at 186.69 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9117,8 +8603,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power-5V"
-			(at 191.77 95.25 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 186.69 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9127,28 +8613,47 @@
 			)
 		)
 		(pin "1"
-			(uuid "4a558e08-c80d-4b9d-91fa-ae3120e41c85")
+			(uuid "865ca67f-6204-4ff7-9b0a-34e72280f22f")
 		)
 		(instances
-			(project ""
+			(project "ProPrj_SaturnAdapter_2025-11-23"
 				(path "/b3b3cc32-0348-4f06-bce4-46286ef022c1"
-					(reference "#PWR?")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "ProPrj_Sat-easyedapro:Ground-GND")
-		(at 43.18 48.26 0)
+		(lib_id "Device:R")
+		(at 99.06 151.13 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "fdf51706-d3b2-4bee-9443-de5be8418415")
-		(property "Reference" "#PWR?"
-			(at 43.18 48.26 0)
+		(uuid "f59b28da-7cc3-41c2-85e4-b33d7846d221")
+		(property "Reference" "R11"
+			(at 104.394 149.606 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 104.14 152.654 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "R0603"
+			(at 100.838 151.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9156,16 +8661,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" ""
-			(at 43.18 55.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "ProPrj_Sat-easyedapro:"
-			(at 43.18 48.26 0)
+		(property "Datasheet" "~"
+			(at 99.06 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9173,8 +8670,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 43.18 48.26 0)
+		(property "Description" "Resistor"
+			(at 99.06 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9182,8 +8679,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 43.18 48.26 0)
+		(property "MPN" "C25804"
+			(at 99.06 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9192,12 +8689,189 @@
 			)
 		)
 		(pin "1"
-			(uuid "34cf0d55-b6b1-47ef-ad0d-f11d5becdc8b")
+			(uuid "87489158-08e6-476b-adf2-eef4c6fc9943")
+		)
+		(pin "2"
+			(uuid "0bfa8a15-3168-4b99-980d-f54244c8d86a")
+		)
+		(instances
+			(project "ProPrj_SaturnAdapter_2025-11-23"
+				(path "/b3b3cc32-0348-4f06-bce4-46286ef022c1"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized_Small_US")
+		(at 26.67 69.85 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f71354d4-02de-4e87-b1e9-3b8d41f4a0bb")
+		(property "Reference" "C2"
+			(at 23.114 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 20.828 66.548 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 26.67 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "CL31A106KBHNNNE"
+			(at 26.67 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor, small US symbol"
+			(at 26.67 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C13585"
+			(at 26.67 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "JLCPCB"
+			(at 26.67 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "af906071-8062-4421-8b3e-238c0e6e92e0")
+		)
+		(pin "2"
+			(uuid "ba06169d-667a-49e7-ac4f-1e79f5f1d90e")
+		)
+		(instances
+			(project "ProPrj_SaturnAdapter_2025-11-23"
+				(path "/b3b3cc32-0348-4f06-bce4-46286ef022c1"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized_Small_US")
+		(at 180.34 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f8d2720a-7204-4a27-8acc-4a1bda5e58ce")
+		(property "Reference" "C1"
+			(at 182.88 49.0981 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 175.006 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 180.34 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "CL31A106KBHNNNE"
+			(at 180.34 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor, small US symbol"
+			(at 180.34 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C13585"
+			(at 180.34 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "JLCPCB"
+			(at 180.34 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7b20717b-94b0-46fa-bc72-df17bc772893")
+		)
+		(pin "2"
+			(uuid "5130f411-832f-4d68-9f23-eaed9ba4d944")
 		)
 		(instances
 			(project ""
 				(path "/b3b3cc32-0348-4f06-bce4-46286ef022c1"
-					(reference "#PWR?")
+					(reference "C1")
 					(unit 1)
 				)
 			)
