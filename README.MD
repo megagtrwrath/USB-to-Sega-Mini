@@ -17,7 +17,7 @@ I have manually excluded the DB9 connector and Saturn connector as to freely all
 <ul>
 	<li>Support for various wired controllers (Original Xbox, 360, One, Series, PS3, PS4, PS5, Switch and any XINPUT capable device</li>
 	<li>Low latency conversion, under or around 1 frame</li>
-	<li>Emulation of various controllers (Model 2, 3D Pad, Arcade Racer/Steering Wheel, Mission Stick (3 axis mode), Shuttle mouse)</li>
+	<li>Emulation of various controllers (3D Pad [Digital and Analog modes], Arcade Racer/Steering Wheel, Mission Stick (3 axis mode), Shuttle mouse)</li>
 	<li>Plug and play! No console modification required!</li>
 	<li>Optional external USB power for power hungry controllers!</li>
 </ul>
